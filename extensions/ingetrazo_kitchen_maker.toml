@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-ext
 sha256 = "eb2ccb24e0d73da31c8fe2c8e17bd2f2762f0f36bc1f8c330466a4bc52e882e0"
 ingetrazo = "0.5.7"
 tags = ["architecture", "productivity"]
+screenshot = "ingetrazo_kitchen_maker.png"
 
 [name]
 en = "IngeTrazo Kitchen Maker"
