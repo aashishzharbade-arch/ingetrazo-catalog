@@ -1,0 +1,16 @@
+id = "ingetrazo_bevel"
+version = "1.0.2"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_bevel-v1.0.2/repository-upload/ingetrazo_bevel/ingetrazo_bevel.py"
+sha256 = "bf0a1b7d0160673f5a1891ba62318102eae18cd59eb9c17741dc30e59ca8dee3"
+ingetrazo = "0.5.7"
+tags = ["drawing", "productivity"]
+
+[name]
+en = "IngeTrazo Bevel"
+
+[summary]
+en = "Chamfer or round selected edges and closed polygon mesh solids, with a preview and Undo/Redo."
