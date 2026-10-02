@@ -1,0 +1,16 @@
+id = "make_stair"
+version = "1.1.0"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/make_stair-v1.1.0/repository-upload/make_stair/make_stair.py"
+sha256 = "202f96b75c1fd28ae8212e0b0d2409f2c5432fd9f3f53120dc1f5fce71f2d0f2"
+ingetrazo = "0.5.7"
+tags = ["architecture", "productivity"]
+
+[name]
+en = "IngeTrazo Stair Maker with Railings"
+
+[summary]
+en = "Create editable straight, L-shaped and U-shaped stairs with optional glass or steel railings."
