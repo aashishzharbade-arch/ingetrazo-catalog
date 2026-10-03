@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-ext
 sha256 = "c648dee055222d936ca38dffe106832ea4baf32796b75bc32deef553eb2b5bb2"
 ingetrazo = "0.5.7"
 tags = ["drawing", "productivity"]
+screenshot = "ingetrazo_curve_tool.png"
 
 [name]
 en = "IngeTrazo Curve Tools"
