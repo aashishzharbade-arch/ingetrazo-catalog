@@ -1,0 +1,16 @@
+id = "ingetrazo_curve_tools"
+version = "1.0.0"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_curve_tools-v1.0.0/repository-upload/ingetrazo_curve_tools/ingetrazo_curve_tools.py"
+sha256 = "c648dee055222d936ca38dffe106832ea4baf32796b75bc32deef553eb2b5bb2"
+ingetrazo = "0.5.7"
+tags = ["drawing", "productivity"]
+
+[name]
+en = "IngeTrazo Curve Tools"
+
+[summary]
+en = "Create and edit Bézier curves, chains and splines with coordinate, sampling, and closed-loop controls."
