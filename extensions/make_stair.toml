@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-ext
 sha256 = "202f96b75c1fd28ae8212e0b0d2409f2c5432fd9f3f53120dc1f5fce71f2d0f2"
 ingetrazo = "0.5.7"
 tags = ["architecture", "productivity"]
+screenshot = "ingetrazo_Stair_maker.png"
 
 [name]
 en = "IngeTrazo Stair Maker with Railings"
