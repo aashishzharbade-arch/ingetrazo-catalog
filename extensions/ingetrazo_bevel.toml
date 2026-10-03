@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-ext
 sha256 = "bf0a1b7d0160673f5a1891ba62318102eae18cd59eb9c17741dc30e59ca8dee3"
 ingetrazo = "0.5.7"
 tags = ["drawing", "productivity"]
+screenshot = "ingetrazo_Bevel.png"
 
 [name]
 en = "IngeTrazo Bevel"
