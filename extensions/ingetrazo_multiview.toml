@@ -11,7 +11,7 @@ tags = ["productivity", "drawing"]
 screenshot = "ingetrazo_multiview.png"
 
 [name]
-en = "IngeTrazo MultiView"
+en = "MultiView for IngeTrazo"
 
 [summary]
 en = "Synchronized Top, Perspective, Front and Right viewports in a dockable 2×2 layout with two-view mode and enlarge/restore controls."
