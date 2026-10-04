@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-ext
 sha256 = "9fda5ba66fd942cdcc45554ce488eca53cb837b757c7d342a8ac8c02c2c81862"
 ingetrazo = "0.5.7"
 tags = ["drawing", "productivity"]
+screenshot = "ingetrazo_taper.png"
 
 [name]
 en = "Taper Tool for IngeTrazo"
