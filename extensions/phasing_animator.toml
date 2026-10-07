@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-ext
 sha256 = "72678ac606bcb5476cfb34bcc058098b9c97788016ff7fcd3983ebdc879ec30d"
 ingetrazo = "0.5.7"
 tags = ["architecture", "rendering", "productivity"]
+screenshot = "phasing_animator.png"
 
 [name]
 en = "Phasing Animator for IngeTrazo"
