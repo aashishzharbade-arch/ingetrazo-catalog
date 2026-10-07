@@ -1,0 +1,16 @@
+id = "phasing_animator"
+version = "1.0.0"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/phasing_animator-v1.0.0/repository-upload/phasing_animator/release-files/phasing_animator-v1.0.0.zip"
+sha256 = "72678ac606bcb5476cfb34bcc058098b9c97788016ff7fcd3983ebdc879ec30d"
+ingetrazo = "0.5.7"
+tags = ["architecture", "rendering", "productivity"]
+
+[name]
+en = "Phasing Animator for IngeTrazo"
+
+[summary]
+en = "Animate construction phases by layer, record object and camera keyframes, and export PNG sequences or videos using optional FFmpeg."
