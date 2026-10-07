@@ -1,0 +1,21 @@
+id = "topology_tool"
+version = "1.1"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-topology"
+download = "https://github.com/PESI3D/ingetrazo-topology/releases/download/v1.1/topology_tool.py"
+sha256 = "438991aa2f34ada246f15ed4ca7d632cfd0f7398f65f01c041bdc1ae8d97706d"
+ingetrazo = "0.5.7"
+tags = ["terrain", "architecture"]
+screenshot = "topology_tool.png"
+
+[name]
+es = "Topología (terreno)"
+en = "Topology (terrain)"
+pt = "Topologia (terreno)"
+
+[summary]
+es = "Terreno a partir de curvas de nivel o puntos: malla suave o TIN de Delaunay, editor de cotas, limpieza de líneas, zócalo con base cerrada y vista previa en vivo."
+en = "Terrain from contour lines or points: smooth grid or Delaunay TIN, altitude editor, line clean-up, skirt with closed base and live preview."
+pt = "Terreno a partir de curvas de nível ou pontos: malha suave ou TIN de Delaunay, editor de cotas, limpeza de linhas, saia com base fechada e prévia ao vivo."

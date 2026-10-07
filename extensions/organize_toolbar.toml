@@ -1,0 +1,24 @@
+id = "organize_toolbar"
+version = "1.2"
+author = "seghier"
+author_url = "https://github.com/seghier"
+
+license = "GPL-3.0-or-later"
+repository = "https://github.com/seghier/ingetrazo-organize-toolbar"
+
+download = "https://github.com/seghier/ingetrazo-organize-toolbar/releases/download/v1.2/organize_toolbar.zip"
+sha256 = "788fa173cc39e2f6e42c63531ced07b23af6f7627575044992127c51cfab20f2"
+
+ingetrazo = "0.5.7"
+tags = ["productivity", "drawing"]
+screenshot = "organize_toolbar.png"
+
+[name]
+en = "Organize Toolbar"
+es = "Barra de Organización"
+pt = "Barra de Organização"
+
+[summary]
+en = "Dedicated toolbar for Hide, Unhide Last/All, Reverse Faces, Make Group, and Explode Group."
+es = "Barra dedicada para Ocultar, Mostrar Último/Todo, Invertir Caras, Crear Grupo y Desagrupar."
+pt = "Barra dedicada para Ocultar, Exibir Último/Tudo, Inverter Faces, Criar Grupo e Desagrupar."

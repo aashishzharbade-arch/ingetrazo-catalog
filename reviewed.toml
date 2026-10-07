@@ -12,3 +12,38 @@ date = 2026-10-02
 sha256 = "99c021dea07956dce73af39ba9cdc74eb0063797e689c39015c2f5d202cd6782"
 by = "tuxiasumari"
 date = 2026-10-02
+
+[vertex_editor]
+sha256 = "2d65e8c4fa0e27a5f5468eb46c8657cd64ecf3da6b73e096604bfb431c6bd9f7"
+by = "tuxiasumari"
+date = 2026-10-02
+
+[loop_cut]
+sha256 = "117cd7527b9f05249b9b3b5dd2ea9e71e1b39718dfca29a9374936a0147ee3df"
+by = "tuxiasumari"
+date = 2026-10-02
+
+[ingetrazo_kitchen_maker]
+sha256 = "eb2ccb24e0d73da31c8fe2c8e17bd2f2762f0f36bc1f8c330466a4bc52e882e0"
+by = "tuxiasumari"
+date = 2026-10-02
+
+[make_stair]
+sha256 = "202f96b75c1fd28ae8212e0b0d2409f2c5432fd9f3f53120dc1f5fce71f2d0f2"
+by = "tuxiasumari"
+date = 2026-10-02
+
+[ingetrazo_bevel]
+sha256 = "bf0a1b7d0160673f5a1891ba62318102eae18cd59eb9c17741dc30e59ca8dee3"
+by = "tuxiasumari"
+date = 2026-10-02
+
+[ingetrazo_taper]
+sha256 = "9fda5ba66fd942cdcc45554ce488eca53cb837b757c7d342a8ac8c02c2c81862"
+by = "tuxiasumari"
+date = 2026-10-04
+
+[planarq]
+sha256 = "e1073d8c42d45921fc4ab626aff40c7f3f8c7a592878e9c55e3b4aa25dcad01b"
+by = "tuxiasumari"
+date = 2026-10-05

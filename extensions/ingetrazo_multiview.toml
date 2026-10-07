@@ -1,0 +1,17 @@
+id = "ingetrazo_multiview"
+version = "1.0.5"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_multiview-v1.0.5-fixed/repository-upload/ingetrazo-multiview/ingetrazo_multiview.py"
+sha256 = "568025f64f7ee34bc114cba9545de69a40774538a402a4dce32a7853983402a8"
+ingetrazo = "0.5.7"
+tags = ["productivity", "drawing"]
+screenshot = "ingetrazo_multiview.png"
+
+[name]
+en = "MultiView for IngeTrazo"
+
+[summary]
+en = "Synchronized Top, Perspective, Front and Right viewports in a dockable 2×2 layout with two-view mode and enlarge/restore controls."

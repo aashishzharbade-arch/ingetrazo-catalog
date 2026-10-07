@@ -1,0 +1,21 @@
+id = "grading_tool"
+version = "1.1"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-grading"
+download = "https://github.com/PESI3D/ingetrazo-grading/releases/download/v1.1/grading_tool.py"
+sha256 = "14f3d76f4791b65584d0272aff740e9ea62ce0164f1cc3646b59d2b1f63b9191"
+ingetrazo = "0.5.7"
+tags = ["terrain", "architecture"]
+screenshot = "grading_tool.webp"
+
+[name]
+es = "Nivelación de terreno (Grading)"
+en = "Grading"
+pt = "Terraplenagem (Grading)"
+
+[summary]
+es = "Rellena el terreno libre entre aristas (camino, terraza, rampa, plaza rebajada) con un terreno suave y orgánico que toca cada arista. Vista previa en vivo y un solo paso de deshacer."
+en = "Fills the open ground between edges (path, terrace, ramp, sunken plaza) with smooth, organic terrain that meets every edge. Live preview and one undo step."
+pt = "Preenche o terreno livre entre arestas (caminho, terraço, rampa, praça rebaixada) com um terreno suave e orgânico que toca cada aresta. Prévia ao vivo e um só passo de desfazer."

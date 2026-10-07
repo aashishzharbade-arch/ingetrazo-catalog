@@ -17,6 +17,135 @@
  ],
  "extensions": [
   {
+   "id": "loop_cut",
+   "version": "1.0",
+   "author": "Daniel Wagner",
+   "author_url": "https://github.com/42craft3d-oss",
+   "license": "MIT",
+   "repository": "https://github.com/42craft3d-oss/ingetrazo-loop-cut",
+   "download": "https://raw.githubusercontent.com/42craft3d-oss/ingetrazo-loop-cut/v1.0/loop_cut.py",
+   "sha256": "117cd7527b9f05249b9b3b5dd2ea9e71e1b39718dfca29a9374936a0147ee3df",
+   "ingetrazo": "0.5.5",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "loop_cut.png",
+   "name": {
+    "es": "Corte en bucle",
+    "en": "Loop Cut",
+    "pt": "Corte em loop"
+   },
+   "summary": {
+    "es": "Inserta un anillo de aristas con vista previa rosa en una banda cerrada de cuadriláteros o en una sección plana compatible de caras mixtas. Rechaza recorridos abiertos o ambiguos y admite deshacer.",
+    "en": "Insert an edge ring with a pink preview through a closed quad strip or a suitable planar cross-section of mixed faces. Open or ambiguous paths are rejected; the cut supports undo.",
+    "pt": "Insere um anel de arestas com prévia rosa numa faixa fechada de quadriláteros ou numa seção plana compatível de faces mistas. Recusa percursos abertos ou ambíguos e permite desfazer."
+   },
+   "reviewed": true
+  },
+  {
+   "id": "vertex_editor",
+   "version": "1.1",
+   "author": "Daniel Wagner",
+   "author_url": "https://github.com/42craft3d-oss",
+   "license": "MIT",
+   "repository": "https://github.com/42craft3d-oss/ingetrazo-vertex-editor",
+   "download": "https://raw.githubusercontent.com/42craft3d-oss/ingetrazo-vertex-editor/v1.1/vertex_editor.py",
+   "sha256": "2d65e8c4fa0e27a5f5468eb46c8657cd64ecf3da6b73e096604bfb431c6bd9f7",
+   "ingetrazo": "0.5.5",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "vertex_editor.png",
+   "name": {
+    "es": "Editor de vértices",
+    "en": "Vertex Editor",
+    "pt": "Editor de vértices"
+   },
+   "summary": {
+    "es": "Mueve un vértice de la malla activa con vista previa, bloqueo de ejes y distancia exacta. Al coincidir con otro, intenta unirlos y revierte la operación si detecta nuevos defectos topológicos.",
+    "en": "Move one vertex of the active mesh with a live preview, axis locking and exact distance entry. Coincident vertices can be welded; the edit is reverted if basic topology checks find new defects.",
+    "pt": "Move um vértice da malha ativa com prévia, trava de eixos e medida exata. Pode unir vértices coincidentes e reverte a edição se a verificação básica detectar novos defeitos topológicos."
+   },
+   "reviewed": true
+  },
+  {
+   "id": "ingetrazo_bevel",
+   "version": "1.0.2",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_bevel-v1.0.2/repository-upload/ingetrazo_bevel/ingetrazo_bevel.py",
+   "sha256": "bf0a1b7d0160673f5a1891ba62318102eae18cd59eb9c17741dc30e59ca8dee3",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "ingetrazo_bevel.webp",
+   "name": {
+    "en": "IngeTrazo Bevel"
+   },
+   "summary": {
+    "en": "Chamfer or round selected edges and closed polygon mesh solids, with a preview and Undo/Redo.",
+    "es": "Chaflana o redondea las aristas seleccionadas y sólidos cerrados de malla poligonal, con vista previa y deshacer/rehacer.",
+    "pt": "Chanfra ou arredonda as arestas selecionadas e sólidos fechados de malha poligonal, com prévia e desfazer/refazer."
+   },
+   "reviewed": true
+  },
+  {
+   "id": "ingetrazo_kitchen_maker",
+   "version": "1.0.2",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_kitchen_maker-v1.0.2/repository-upload/ingetrazo_kitchen_maker/ingetrazo_kitchen_maker.py",
+   "sha256": "eb2ccb24e0d73da31c8fe2c8e17bd2f2762f0f36bc1f8c330466a4bc52e882e0",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "productivity"
+   ],
+   "screenshot": "ingetrazo_kitchen_maker.png",
+   "name": {
+    "en": "IngeTrazo Kitchen Maker"
+   },
+   "summary": {
+    "en": "Create and edit parametric kitchen cabinets, arrange cabinet runs, and export CSV cost reports.",
+    "es": "Crea y edita muebles de cocina paramétricos, organiza filas de muebles y exporta informes de costos en CSV.",
+    "pt": "Cria e edita armários de cozinha paramétricos, organiza fileiras de armários e exporta relatórios de custos em CSV."
+   },
+   "reviewed": true
+  },
+  {
+   "id": "make_stair",
+   "version": "1.1.0",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/make_stair-v1.1.0/repository-upload/make_stair/make_stair.py",
+   "sha256": "202f96b75c1fd28ae8212e0b0d2409f2c5432fd9f3f53120dc1f5fce71f2d0f2",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "productivity"
+   ],
+   "screenshot": "make_stair.webp",
+   "name": {
+    "en": "IngeTrazo Stair Maker with Railings"
+   },
+   "summary": {
+    "en": "Create editable straight, L-shaped and U-shaped stairs with optional glass or steel railings.",
+    "es": "Crea escaleras editables rectas, en L y en U, con barandas opcionales de vidrio o acero.",
+    "pt": "Cria escadas editáveis retas, em L e em U, com guarda-corpos opcionais de vidro ou aço."
+   },
+   "reviewed": true
+  },
+  {
    "id": "niveles",
    "version": "0.5.7",
    "author": "José Castro Basso (FADU–UDELAR)",
@@ -30,6 +159,7 @@
     "drawing",
     "education"
    ],
+   "screenshot": "niveles.webp",
    "name": {
     "es": "Niveles",
     "en": "Levels",
@@ -39,6 +169,33 @@
     "es": "Niveles del edificio (PB, PA, azotea…) con su altura: líneas guía en alzados y cortes, y el cursor se engancha a cada nivel.",
     "en": "Building levels (ground floor, upper floor, roof…) with their height: guide lines in elevations and sections, and the cursor snaps to each level.",
     "pt": "Níveis do edifício (térreo, pavimento superior, cobertura…) com sua altura: linhas-guia em elevações e cortes, e o cursor se prende a cada nível."
+   },
+   "reviewed": true
+  },
+  {
+   "id": "planarq",
+   "version": "1.0",
+   "author": "José Castro Basso (FADU – UDELAR)",
+   "author_url": "https://github.com/castrobasso",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/castrobasso/ingetrazo/tree/planArq",
+   "download": "https://raw.githubusercontent.com/castrobasso/ingetrazo/b1a7edf5ea516c3ced02fcd8c570faa41da88e12/planArq-v1.zip",
+   "sha256": "e1073d8c42d45921fc4ab626aff40c7f3f8c7a592878e9c55e3b4aa25dcad01b",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "structures",
+    "education"
+   ],
+   "name": {
+    "es": "planArq",
+    "en": "planArq",
+    "pt": "planArq"
+   },
+   "summary": {
+    "es": "Muros, tuberías y perfiles (IPE, UPN, tubos, madera, steel framing) que siguen un recorrido editable: el eje y los parámetros se conservan para volver a editarlos. Esquemático, para precálculo orientativo.",
+    "en": "Walls, pipes and profiles (IPE, UPN, tubes, timber, steel framing) that follow an editable path: the axis and parameters are kept so you can edit them again. Schematic, for rough pre-sizing.",
+    "pt": "Paredes, tubulações e perfis (IPE, UPN, tubos, madeira, steel framing) que seguem um percurso editável: o eixo e os parâmetros são mantidos para editar depois. Esquemático, para pré-cálculo orientativo."
    },
    "reviewed": true
   },
@@ -55,6 +212,7 @@
     "structures",
     "analysis"
    ],
+   "screenshot": "propiedades_poligono.webp",
    "name": {
     "es": "Propiedades del polígono",
     "en": "Polygon properties",
@@ -68,7 +226,11 @@
    "reviewed": true
   },
   {
+main
    "id": "phasing_animator",
+=======
+   "id": "ingetrazo_taper",
+main
    "version": "1.0.0",
    "author": "aashishzharbade-arch",
    "author_url": "https://github.com/aashishzharbade-arch",

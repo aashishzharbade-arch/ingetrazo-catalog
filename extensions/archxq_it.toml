@@ -1,0 +1,27 @@
+id = "archxq_it"
+version = "0.9.3"
+author = "Orlando Souza · XQ"
+author_url = "https://github.com/equipexq"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/equipexq/archxq-it-lite"
+
+download = "https://github.com/equipexq/archxq-it-lite/releases/download/v0.9.3/archxq_it_lite-v0.9.3.zip"
+sha256 = "835211ce1320060c539c641e059acfca4150c209e5117252cc743746e368eacb"
+
+ingetrazo = "0.5.7"
+
+tags = ["architecture", "terrain", "structures", "drawing"]
+
+screenshot = "archxq_it.jpg"
+
+[name]
+es = "ArchXQ IT Lite · Arquitectura por fases"
+en = "ArchXQ IT Lite · Architecture by phases"
+pt = "ArchXQ IT Lite · Arquitetura por fases"
+
+[summary]
+es = "Proyecto por fases sobre niveles reales: terreno con excavaciones y rellenos en rampa, muros rectos y curvos, y pilares en fila o en malla que se ajustan a las caras de los muros."
+en = "A project by phases on real levels: the plot with excavations and fills on ramps, straight and curved walls, and columns in rows or grids that snap to the wall faces."
+pt = "Projeto por fases sobre níveis reais: terreno com escavações e aterros em rampa, paredes retas e curvas, e pilares em fila ou em grelha que se alinham às faces das paredes."

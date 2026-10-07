@@ -1,0 +1,84 @@
+# A new version from an author already in the catalog goes in by itself.
+#
+# tools/automerge.py decides which pull requests qualify: they only update
+# an entry that is already here, sent by the GitHub account its author_url
+# names, touching nothing but that entry and its screenshot. Then the usual
+# check reads the new file, and the merge happens only if the check is
+# clean AND its report has nothing for a reviewer to read (network,
+# programs, deleting files…). Anything else waits for a person, as before.
+#
+# SAFETY: pull_request_target runs with write access, so this workflow
+# never runs code from the pull request. It checks out main, runs main's
+# tools, and copies in from the pull request only the entry's TOML and its
+# screenshot — data, read by tomllib and checked as an image. The extension
+# itself is downloaded and read with ast by tools/catalog.py, never run.
+name: automerge
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: automerge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  automerge:
+    if: ${{ !github.event.pull_request.draft }}
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      PR: ${{ github.event.pull_request.number }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+      AUTHOR: ${{ github.event.pull_request.user.login }}
+    steps:
+      - uses: actions/checkout@v4          # main — never the pull request's tree
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Does it qualify?
+        id: decide
+        run: |
+          gh api "repos/$REPO/pulls/$PR/files" --paginate \
+            --jq '.[] | "\(.status)\t\(.filename)"' > "$RUNNER_TEMP/files.tsv"
+          python tools/automerge.py decide "$AUTHOR" "$RUNNER_TEMP/files.tsv" \
+            >> "$GITHUB_OUTPUT"
+
+      - name: Bring in the entry (data only) and check it
+        id: check
+        if: steps.decide.outputs.id
+        env:
+          ID: ${{ steps.decide.outputs.id }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$HEAD_SHA"
+          cut -f2 "$RUNNER_TEMP/files.tsv" | while read -r path; do
+            git show "$HEAD_SHA:$path" > "$path"
+          done
+          set +e
+          python tools/catalog.py check "$ID" > "$RUNNER_TEMP/check.txt" 2>&1
+          code=$?
+          set -e
+          cat "$RUNNER_TEMP/check.txt"
+          if [ "$code" -eq 0 ] && ! grep -q "for the reviewer to read" "$RUNNER_TEMP/check.txt"; then
+            echo "clean=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Merge and publish
+        if: steps.check.outputs.clean == 'true'
+        env:
+          ID: ${{ steps.decide.outputs.id }}
+        run: |
+          gh pr comment "$PR" -R "$REPO" --body "New version of \`$ID\` from its author, and the automatic check is clean: merged automatically. It shows as «Community» until a maintainer reads the new file. / Nueva versión de \`$ID\` de su autor y la revisión automática no encontró nada: fusionada sola. Sale como «Comunidad» hasta que alguien lea el archivo nuevo."
+          gh pr merge "$PR" -R "$REPO" --squash --match-head-commit "$HEAD_SHA"
+          # A merge made with this token does not start other workflows;
+          # publish.yml is started by hand.
+          gh workflow run publish.yml -R "$REPO" --ref main

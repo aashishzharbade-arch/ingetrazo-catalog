@@ -1,0 +1,19 @@
+id = "ingetrazo_kitchen_maker"
+version = "1.0.2"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_kitchen_maker-v1.0.2/repository-upload/ingetrazo_kitchen_maker/ingetrazo_kitchen_maker.py"
+sha256 = "eb2ccb24e0d73da31c8fe2c8e17bd2f2762f0f36bc1f8c330466a4bc52e882e0"
+ingetrazo = "0.5.7"
+tags = ["architecture", "productivity"]
+screenshot = "ingetrazo_kitchen_maker.png"
+
+[name]
+en = "IngeTrazo Kitchen Maker"
+
+[summary]
+en = "Create and edit parametric kitchen cabinets, arrange cabinet runs, and export CSV cost reports."
+es = "Crea y edita muebles de cocina paramétricos, organiza filas de muebles y exporta informes de costos en CSV."
+pt = "Cria e edita armários de cozinha paramétricos, organiza fileiras de armários e exporta relatórios de custos em CSV."

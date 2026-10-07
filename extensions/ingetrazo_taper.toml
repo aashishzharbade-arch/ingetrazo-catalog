@@ -1,0 +1,17 @@
+id = "ingetrazo_taper"
+version = "1.0.0"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_taper-v1.0.0-fixed/repository-upload/taper_tool_ingetrazo/ingetrazo_taper.py"
+sha256 = "9fda5ba66fd942cdcc45554ce488eca53cb837b757c7d342a8ac8c02c2c81862"
+ingetrazo = "0.5.7"
+tags = ["drawing", "productivity"]
+screenshot = "ingetrazo_taper.png"
+
+[name]
+en = "Taper Tool for IngeTrazo"
+
+[summary]
+en = "Taper selected mesh groups or loose meshes along a 3D axis with preview, numeric distances, copy mode, and Undo/Redo."

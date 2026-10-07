@@ -1,0 +1,21 @@
+id = "ja_lineastyle"
+version = "0.1.4"
+author = "Julio Angulo"
+author_url = "https://github.com/wrc86"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/wrc86/ja-lineastyle-ingetrazo"
+download = "https://raw.githubusercontent.com/wrc86/ja-lineastyle-ingetrazo/v0.1.4/dist/ja_lineastyle-0.1.4-plugin.zip"
+sha256 = "63f6255879f4bcb2afff58df9edf030b41335fc9553e8801a9e459fca7742b84"
+ingetrazo = "0.5.7"
+tags = ["drawing", "architecture"]
+screenshot = "ja_lineastyle.png"
+
+[name]
+es = "JA LineaStyle"
+en = "JA LineaStyle"
+pt = "JA LineaStyle"
+
+[summary]
+es = "Dibuja líneas 3D con color, grosor y estilo (continua, punteada, interrumpida…) en una sola malla; los contornos cerrados coplanares forman caras."
+en = "Draw 3D lines with colour, weight and style (solid, dotted, dashed…) in a single mesh; closed coplanar outlines become faces."
+pt = "Desenha linhas 3D com cor, espessura e estilo (contínua, pontilhada, tracejada…) numa única malha; contornos fechados coplanares formam faces."

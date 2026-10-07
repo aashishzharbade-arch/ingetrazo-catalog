@@ -1,0 +1,21 @@
+id = "vertex_editor"
+version = "1.1"
+author = "Daniel Wagner"
+author_url = "https://github.com/42craft3d-oss"
+license = "MIT"
+repository = "https://github.com/42craft3d-oss/ingetrazo-vertex-editor"
+download = "https://raw.githubusercontent.com/42craft3d-oss/ingetrazo-vertex-editor/v1.1/vertex_editor.py"
+sha256 = "2d65e8c4fa0e27a5f5468eb46c8657cd64ecf3da6b73e096604bfb431c6bd9f7"
+ingetrazo = "0.5.5"
+tags = ["drawing", "productivity"]
+screenshot = "vertex_editor.png"
+
+[name]
+es = "Editor de vértices"
+en = "Vertex Editor"
+pt = "Editor de vértices"
+
+[summary]
+es = "Mueve un vértice de la malla activa con vista previa, bloqueo de ejes y distancia exacta. Al coincidir con otro, intenta unirlos y revierte la operación si detecta nuevos defectos topológicos."
+en = "Move one vertex of the active mesh with a live preview, axis locking and exact distance entry. Coincident vertices can be welded; the edit is reverted if basic topology checks find new defects."
+pt = "Move um vértice da malha ativa com prévia, trava de eixos e medida exata. Pode unir vértices coincidentes e reverte a edição se a verificação básica detectar novos defeitos topológicos."

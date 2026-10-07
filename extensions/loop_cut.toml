@@ -1,0 +1,21 @@
+id = "loop_cut"
+version = "1.0"
+author = "Daniel Wagner"
+author_url = "https://github.com/42craft3d-oss"
+license = "MIT"
+repository = "https://github.com/42craft3d-oss/ingetrazo-loop-cut"
+download = "https://raw.githubusercontent.com/42craft3d-oss/ingetrazo-loop-cut/v1.0/loop_cut.py"
+sha256 = "117cd7527b9f05249b9b3b5dd2ea9e71e1b39718dfca29a9374936a0147ee3df"
+ingetrazo = "0.5.5"
+tags = ["drawing", "productivity"]
+screenshot = "loop_cut.png"
+
+[name]
+es = "Corte en bucle"
+en = "Loop Cut"
+pt = "Corte em loop"
+
+[summary]
+es = "Inserta un anillo de aristas con vista previa rosa en una banda cerrada de cuadriláteros o en una sección plana compatible de caras mixtas. Rechaza recorridos abiertos o ambiguos y admite deshacer."
+en = "Insert an edge ring with a pink preview through a closed quad strip or a suitable planar cross-section of mixed faces. Open or ambiguous paths are rejected; the cut supports undo."
+pt = "Insere um anel de arestas com prévia rosa numa faixa fechada de quadriláteros ou numa seção plana compatível de faces mistas. Recusa percursos abertos ou ambíguos e permite desfazer."

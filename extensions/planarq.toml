@@ -1,0 +1,20 @@
+id = "planarq"
+version = "1.0"
+author = "José Castro Basso (FADU – UDELAR)"
+author_url = "https://github.com/castrobasso"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/castrobasso/ingetrazo/tree/planArq"
+download = "https://raw.githubusercontent.com/castrobasso/ingetrazo/b1a7edf5ea516c3ced02fcd8c570faa41da88e12/planArq-v1.zip"
+sha256 = "e1073d8c42d45921fc4ab626aff40c7f3f8c7a592878e9c55e3b4aa25dcad01b"
+ingetrazo = "0.5.7"
+tags = ["architecture", "structures", "education"]
+
+[name]
+es = "planArq"
+en = "planArq"
+pt = "planArq"
+
+[summary]
+es = "Muros, tuberías y perfiles (IPE, UPN, tubos, madera, steel framing) que siguen un recorrido editable: el eje y los parámetros se conservan para volver a editarlos. Esquemático, para precálculo orientativo."
+en = "Walls, pipes and profiles (IPE, UPN, tubes, timber, steel framing) that follow an editable path: the axis and parameters are kept so you can edit them again. Schematic, for rough pre-sizing."
+pt = "Paredes, tubulações e perfis (IPE, UPN, tubos, madeira, steel framing) que seguem um percurso editável: o eixo e os parâmetros são mantidos para editar depois. Esquemático, para pré-cálculo orientativo."
