@@ -250,13 +250,13 @@
   },
   {
    "id": "perspective_matcher",
-   "version": "1.2",
+   "version": "1.5",
    "author": "seghier",
    "author_url": "https://github.com/seghier",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/seghier/IngeTrazoPerspectiveMatcher",
-   "download": "https://github.com/seghier/IngeTrazoPerspectiveMatcher/releases/download/v1.2/perspective_matcher.zip",
-   "sha256": "64f4f171a83ffe71e9711d07cd222f9da3edd0d4a066007bfc6592204b3ef5c5",
+   "download": "https://github.com/seghier/IngeTrazoPerspectiveMatcher/releases/download/v1.5/perspective_matcher.zip",
+   "sha256": "68179ce4b1e7f3be4a79b1e3cb09caa40ddb067383f1938c020067e221ca200c",
    "ingetrazo": "0.5.7",
    "tags": [
     "architecture",
@@ -268,8 +268,8 @@
     "es": "Ajuste de Perspectiva"
    },
    "summary": {
-    "en": "Match 3D viewport camera to architectural photographs with interactive vanishing lines.",
-    "es": "Ajusta la cámara 3D a fotografías arquitectónicas con líneas de fuga interactivas."
+    "en": "Match 3D viewport camera to architectural photographs with interactive vanishing lines and project textures onto faces.",
+    "es": "Ajusta la cámara 3D a fotografías arquitectónicas con líneas de fuga interactivas y proyecta texturas en las caras."
    },
    "reviewed": false
   },
