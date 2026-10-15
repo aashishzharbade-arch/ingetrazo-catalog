@@ -1,0 +1,36 @@
+# Entry for the IngeTrazo extension catalog
+# (https://github.com/ingelibre/ingetrazo-extensions).
+#
+# Copy this file to that repository as `extensions/igz_solids.toml` and open a
+# pull request. The `sha256` below is the fingerprint of the exact archive built
+# by `packaging/build_extension.ps1` / `packaging/build_extension.py` and
+# uploaded as the `v1.0.0` GitHub Release asset named `igz_solids.zip`.
+# If you rebuild the archive, replace `sha256` with the new value the build
+# script prints (or let the automatic check tell you the right one).
+
+id = "igz_solids"
+version = "1.0.0"
+author = "Ezequiel M. Rezende"
+author_url = "https://github.com/em-rezende"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/em-rezende/Ingetrazo-igz-solids"
+download = "https://github.com/em-rezende/Ingetrazo-igz-solids/releases/download/v1.0.0/igz_solids.zip"
+sha256 = "9bc82a17b203d43aa770a19d573bdb197797cdeb3ab49cc11e2c2f5a7ac7a4c8"
+ingetrazo = "0.5.7"
+tags = ["drawing", "structures", "productivity"]
+screenshot = "igz-solids.png"
+
+[name]
+es = "Sólidos paramétricos"
+en = "Parametric solids"
+pt = "Sólidos paramétricos"
+
+[summary]
+es = "14 sólidos paramétricos: caja, cápsula, cilindro/tubo, esfera, cono/pirámide, esfera geodésica (con balón), hélice, prisma y toro. Cada uno entra como su propio grupo estanco, en un solo paso de deshacer."
+en = "14 parametric solids: box, capsule, cylinder/tube, sphere, cone/pyramid, geodesic sphere (football included), helix, prism and torus. Each one is inserted as its own watertight group, in a single undo step."
+pt = "14 sólidos paramétricos: caixa, cápsula, cilindro/tubo, esfera, cone/pirâmide, esfera geodésica (com bola), hélice, prisma e toro. Cada um entra como o seu próprio grupo watertight, num único passo de undo."
+
+[description]
+es = "Una barra de herramientas y un submenú (Extensiones ▸ Sólidos) con 14 sólidos paramétricos. Cada botón abre un diálogo en metros y luego se coloca con un clic sobre el cursor (con vista previa de alambre) o en el origen. El sólido se crea como su propio grupo, con malla cerrada y costuras curvas suavizadas: nunca se suelda al modelo y se selecciona, mueve y edita como un objeto. Incluye la esfera geodésica (tetraedro, octaedro o icosaedro subdividido) y, además, un balón de fútbol: el icosaedro truncado exacto, con 12 pentágonos y 20 hexágonos. Los iconos siguen el tema oscuro o claro y la interfaz habla inglés, español, portugués de Brasil e italiano."
+en = "A toolbar and a submenu (Extensions ▸ Solids) with 14 parametric solids. Each button opens a dialog in metres and then places the solid with a click on the cursor (with a live wireframe preview) or at the origin. The solid is created as its own group, with a closed mesh and softened curved seams: it never welds to the model, so it selects, moves and edits as one object. It includes the geodesic sphere (a subdivided tetrahedron, octahedron or icosahedron) and, on top of that, a football: the exact truncated icosahedron, 12 pentagons and 20 hexagons. The icons follow the dark or light theme and the interface speaks English, Spanish, Brazilian Portuguese and Italian."
+pt = "Uma barra de ferramentas e um submenu (Extensões ▸ Sólidos) com 14 sólidos paramétricos. Cada botão abre um diálogo em metros e depois coloca o sólido com um clique no cursor (com pré-visualização em aramado) ou na origem. O sólido é criado como o seu próprio grupo, com malha fechada e costuras curvas suavizadas: nunca se solda ao modelo, pelo que se seleciona, move e edita como um único objeto. Inclui a esfera geodésica (tetraedro, octaedro ou icosaedro subdividido) e, além disso, uma bola de futebol: o icosaedro truncado exato, com 12 pentágonos e 20 hexágonos. Os ícones seguem o tema escuro ou claro e a interface fala inglês, espanhol, português do Brasil e italiano."

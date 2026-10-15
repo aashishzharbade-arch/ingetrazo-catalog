@@ -1,0 +1,26 @@
+id = "angle_dimension"
+version = "1.0.0"
+author = "Ryszard Jurdeczka"
+author_url = "https://github.com/jurdeczkarichard-sketch"
+
+license = "MIT"
+
+repository = "https://github.com/jurdeczkarichard-sketch/angle-dimension"
+
+download = "https://raw.githubusercontent.com/jurdeczkarichard-sketch/angle-dimension/v1.0.0/Angle_Dimension.py"
+sha256 = "162a726e245c08eeaf70e8d3f00dbffcb76341c59320555ea285977ee0ddcc63"
+
+ingetrazo = "0.5.8"
+
+tags = ["drawing", "analysis"]
+screenshot = "angle_dimension.webp"
+
+[name]
+en = "Angle Dimension"
+es = "Cota angular"
+pt = "Cota angular"
+
+[summary]
+en = "Measure the angle between two lines with three clicks and keep a labelled angle dimension (arms, arc and degrees) saved in the drawing."
+es = "Mide el ángulo entre dos líneas con tres clics y deja una cota angular con etiqueta (brazos, arco y grados) guardada en el dibujo."
+pt = "Mede o ângulo entre duas linhas com três cliques e deixa uma cota angular com rótulo (braços, arco e graus) salva no desenho."

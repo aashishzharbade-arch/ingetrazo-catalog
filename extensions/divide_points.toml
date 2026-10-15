@@ -1,0 +1,26 @@
+id = "divide_points"
+version = "0.2.1"
+author = "G. Andreotti"
+author_url = "https://github.com/joejivaros"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/joejivaros/Plugin"
+screenshot = "divide_points.png"
+
+download = "https://github.com/joejivaros/Plugin/releases/download/v0.2.1/divide_points-v0.2.1.zip"
+sha256 = "f565e0f94207a46f84a6dcf09408d949fded035664ebe70bb082c01da31abf2c"
+
+ingetrazo = "0.5.7"
+
+tags = ["drawing", "productivity"]
+
+[name]
+en = "Divide Points"
+es = "Dividir con puntos"
+pt = "Dividir com pontos"
+
+[summary]
+en = "Places guide points along the selected lines and curves, by number of points or by distance, starting from both ends or from the middle. Live preview, one undo step."
+es = "Coloca puntos guía a lo largo de las líneas y curvas seleccionadas, por número de puntos o por distancia, desde ambos extremos o desde el centro. Vista previa y un solo paso de deshacer."
+pt = "Coloca pontos-guia ao longo das linhas e curvas selecionadas, por número de pontos ou por distância, a partir das duas pontas ou do meio. Prévia e um só passo de desfazer."

@@ -1,0 +1,32 @@
+id = "cad2ingetrazo"
+version = "3.11"
+author = "M. Tariq"
+author_url = "https://github.com/mtak35"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/mtak35/cad2ingetrazo"
+
+download = "https://raw.githubusercontent.com/mtak35/cad2ingetrazo/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/release/cad2ingetrazo-v3.11.zip"
+sha256 = "f6ec3f3b3e96c5ee271fdcbed662e7a08237cf7c25417f508c0acb44c3490c14"
+
+ingetrazo = "0.5.7"
+
+tags = ["architecture", "bim", "import-export", "structures"]
+
+screenshot = "cad2ingetrazo.jpg"
+
+[name]
+es = "CAD2IngeTrazo · De planos CAD a BIM"
+en = "CAD2IngeTrazo · CAD plans to BIM"
+pt = "CAD2IngeTrazo · De plantas CAD a BIM"
+
+[summary]
+es = "Convierte plantas de AutoCAD (DWG/DXF) en un modelo BIM editable, nivel por nivel: muros, puertas, ventanas, pilares, losas, núcleos, escaleras, rampas, estacionamiento y excavación."
+en = "Turns AutoCAD floor plans (DWG/DXF) into an editable BIM model, level by level: walls, doors, windows, columns, slabs, lift cores, stairs, ramps, parking and excavation."
+pt = "Converte plantas do AutoCAD (DWG/DXF) em um modelo BIM editável, nível por nível: paredes, portas, janelas, pilares, lajes, núcleos, escadas, rampas, estacionamento e escavação."
+
+[description]
+es = "Lee cada planta por sus capas y apila los pisos a su altura real. Cada elemento es un tipo de componente con nombre (D-01, W-03, C-02…) que se selecciona, edita o reemplaza por un componente de la biblioteca de IngeTrazo. Muros cortina con puertas, barandas, terrazas, balcones, acabados de piso por ambiente, parcela con retiros, muro perimetral y excavaciones con volúmenes. Plantas, alzados, cortes y láminas a PDF, DXF y SketchUp. Manual de usuario (inglés): https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md"
+en = "Reads each plan by its layers and stacks the floors at their true heights. Every element is a named component type (D-01, W-03, C-02…) you can select, edit as a whole, or replace with an IngeTrazo library component. Curtain walls with doors, railings, terraces, balconies, floor finishes per room, the plot with setbacks, a boundary wall, and excavations with volumes. Plans, elevations, sections and sheets to PDF, DXF and SketchUp. User manual: https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md"
+pt = "Lê cada planta pelas suas camadas e empilha os pisos na altura real. Cada elemento é um tipo de componente com nome (D-01, W-03, C-02…) que se seleciona, edita ou substitui por um componente da biblioteca do IngeTrazo. Fachadas-cortina com portas, guarda-corpos, terraços, varandas, acabamentos de piso por ambiente, lote com recuos, muro de divisa e escavações com volumes. Plantas, elevações, cortes e pranchas em PDF, DXF e SketchUp. Manual do usuário (inglês): https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md"

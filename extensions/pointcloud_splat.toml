@@ -1,0 +1,27 @@
+id = "pointcloud_splat"
+version = "1.0.0"
+author = "archimades27"
+author_url = "https://github.com/archimades27"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/archimades27/ingetrazo-pointcloud-splat"
+
+download = "https://github.com/archimades27/ingetrazo-pointcloud-splat/releases/download/v1.0.0/pointcloud_splat.zip"
+sha256 = "ae95b72a90c06bf8ea894083db9f4a6ae24cd5ffe42de4415fb2d44921c22422"
+
+ingetrazo = "0.5.7"
+
+tags = ["bim", "productivity", "drawing"]
+
+screenshot = "pointcloud_splat.png"
+
+[name]
+en = "Point Cloud & 3D Gaussian Splatting"
+es = "Nube de Puntos y Gaussian Splatting 3D"
+pt = "Nuvem de Pontos e Gaussian Splatting 3D"
+
+[summary]
+en = "Import, inspect, and snap to LiDAR/photogrammetry point clouds (.ply, .las, .laz, .xyz) and 3D Gaussian Splats (.splat) with accelerated viewport rendering, section box clipping, and Scan-to-BIM tools."
+es = "Importación, inspección y ajuste (snap) a nubes de puntos LiDAR/fotogrametría (.ply, .las, .laz, .xyz) y Gaussian Splats 3D (.splat) con renderizado acelerado, caja de sección y herramientas Scan-to-BIM."
+pt = "Importação, inspeção e snap em nuvens de pontos LiDAR/fotogrametria (.ply, .las, .laz, .xyz) e Gaussian Splats 3D (.splat) com renderização acelerada, caixa de corte e ferramentas Scan-to-BIM."

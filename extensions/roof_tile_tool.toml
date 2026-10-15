@@ -1,0 +1,21 @@
+id = "roof_tile_tool"
+version = "1.2.1"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-roof-tiles"
+download = "https://github.com/PESI3D/ingetrazo-roof-tiles/releases/download/v1.2.1/roof_tile_tool.py"
+sha256 = "f87b1cacebbc314303dde45dfb445c2455cfd5a476a54d547e4f9ec7c57a25c6"
+ingetrazo = "0.5.7"
+tags = ["architecture"]
+screenshot = "roof_tile_tool.webp"
+
+[name]
+es = "Tejados y tejas (Roof Tiles)"
+en = "Roof Tiles"
+pt = "Telhados e telhas (Roof Tiles)"
+
+[summary]
+es = "Crea tejados sobre cualquier planta (20 formas: a dos y cuatro aguas, mansarda, mariposa, cúpula…) y los cubre con tejas 3D reales: remates laterales, cumbrera, limatesas y piezas de cierre. 10 tejas clásicas o una propia."
+en = "Builds roofs on any footprint (20 shapes: gable, hip, mansard, butterfly, dome …) and covers them with real 3D tiles: verge tiles, ridge and hip tiles, end pieces. 10 classic tiles or your own. Live preview."
+pt = "Cria telhados sobre qualquer planta (20 formas: duas e quatro águas, mansarda, borboleta, cúpula…) e os cobre com telhas 3D reais: beirada, cumeeira, espigões e peças de remate. 10 telhas clássicas ou uma própria."

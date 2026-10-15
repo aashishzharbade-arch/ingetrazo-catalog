@@ -35,9 +35,19 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add catalog.json
           # The timestamp alone is not a change worth a commit.
-          if git diff --cached -I '"generated"' --quiet; then
-            echo "catalog.json unchanged"
-          else
+          # Two merges seconds apart: the other run may push first. Then
+          # rebuild on top of the new main instead of rebasing (both runs
+          # touch catalog.json, a rebase would conflict).
+          for attempt in 1 2 3; do
+            if git diff --cached -I '"generated"' --quiet; then
+              echo "catalog.json unchanged"
+              exit 0
+            fi
             git commit -m "catalog.json: rebuild"
-            git push
-          fi
+            git push && exit 0
+            git fetch origin main
+            git reset --hard origin/main
+            python tools/catalog.py build
+            git add catalog.json
+          done
+          exit 1
