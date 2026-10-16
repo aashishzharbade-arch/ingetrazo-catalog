@@ -1,14 +1,14 @@
 id = "ingetrazo_curve_tools"
-version = "1.0.0"
+version = "1.1.0"
 author = "aashishzharbade-arch"
 author_url = "https://github.com/aashishzharbade-arch"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
 download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_curve_tools-v1.0.0/repository-upload/ingetrazo_curve_tools/ingetrazo_curve_tools.py"
-sha256 = "617d9bcaa8c8343eaabd8ca9276a4aa08d600451c30b7e5503313229281d1eb0"
+sha256 = "1fcee40ce8a3d4e794fc6cdc9554dcabbf59d732010b416a4813486f84f8fb8b"
 ingetrazo = "0.5.7"
 tags = ["drawing", "productivity"]
-screenshot = "ingetrazo_curve_tool.png"
+screenshot = "curve_tool.png"
 
 [name]
 en = "IngeTrazo Curve Tools"
