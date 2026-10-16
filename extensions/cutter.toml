@@ -1,0 +1,18 @@
+id = "cutter"
+version = "1.0.0"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/cutter-v1.0.0/repository-upload/cutter/cutter.py"
+sha256 = "121619033afa935ac4d275fe48ee985ed8977cf9c176777783da468fed79c7c9"
+ingetrazo = "0.5.8"
+tags = ["drawing", "productivity"]
+
+screenshot = "cutter.png"
+
+[name]
+en = "Cutter for IngeTrazo"
+
+[summary]
+en = "Slice model geometry with a two-point cutting line or an active section plane. Includes slice-and-remove commands and a dockable toolbar."
