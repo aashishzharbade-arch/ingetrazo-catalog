@@ -1,0 +1,21 @@
+id = "path_select_tool"
+version = "1.1"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-path-select"
+download = "https://github.com/PESI3D/ingetrazo-path-select/releases/download/v1.1/path_select_tool.py"
+sha256 = "d48a621b9f95cd26581842ea51e71d1e989a223d036ae13e8611a9f03348f285"
+ingetrazo = "0.5.7"
+tags = ["drawing", "productivity"]
+screenshot = "path_select_tool.webp"
+
+[name]
+es = "Selección de recorrido (Path Select)"
+en = "Path Select"
+pt = "Seleção de caminho (Path Select)"
+
+[summary]
+es = "Haz clic en algunos puntos a lo largo de un contorno: el camino más corto por las aristas se completa y se selecciona. Ideal para curvas de nivel y planos importados de DXF, DWG o PDF."
+en = "Click a few points along a contour and the shortest way along the edges is filled in and selected. Ideal for contour lines and plans imported from DXF, DWG or PDF."
+pt = "Clique em alguns pontos ao longo de um contorno e o caminho mais curto pelas arestas é completado e selecionado. Ideal para curvas de nível e plantas importadas de DXF, DWG ou PDF."

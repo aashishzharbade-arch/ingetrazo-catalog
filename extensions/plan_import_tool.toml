@@ -1,0 +1,21 @@
+id = "plan_import_tool"
+version = "1.1"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-plan-import"
+download = "https://github.com/PESI3D/ingetrazo-plan-import/releases/download/v1.1/plan_import_tool_1.1.zip"
+sha256 = "12055cfa923a282ffcba945b947034010a98dfebddc74607688a57a6907fb413"
+ingetrazo = "0.5.7"
+tags = ["architecture", "import-export"]
+screenshot = "plan_import_tool.webp"
+
+[name]
+es = "Importar planos PDF (Plan Import)"
+en = "Plan Import (PDF floor plans)"
+pt = "Importar plantas PDF (Plan Import)"
+
+[summary]
+es = "Importa planos y juegos de planos desde PDF vectorial a escala: plantas apiladas, alzados y cortes de pie, recorte automático, filtros (tramas, colores, piezas pequeñas), limpieza, punto de referencia, niveles y capas."
+en = "Imports floor plans and whole plan sets from vector PDFs at scale: storeys stacked, elevations and sections upright, auto crop, filters (hatches, colours, small parts), clean up, reference point, levels and layers. Live preview."
+pt = "Importa plantas e conjuntos de pranchas de PDF vetorial em escala: plantas empilhadas, fachadas e cortes em pé, recorte automático, filtros (hachuras, cores, peças pequenas), limpeza, ponto de referência, níveis e camadas."

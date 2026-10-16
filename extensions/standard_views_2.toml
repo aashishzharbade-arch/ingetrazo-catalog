@@ -1,0 +1,19 @@
+id = "standard_views_2"
+version = "1.0.0"
+author = "TB"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/tboy-123/Alternative-Standard-views-toolbar"
+download = "https://raw.githubusercontent.com/tboy-123/Alternative-Standard-views-toolbar/v1.0.0/standard_views_2.py"
+sha256 = "59b97e68ea57add7834813a1384d4483e502db68c00be108086963d1646402ea"
+ingetrazo = "0.5.7"
+tags = ["productivity"]
+
+[name]
+es = "Vistas estándar alternativas 2"
+en = "Standard Views 2"
+pt = "Vistas padrão alternativas 2"
+
+[summary]
+es = "Barra de herramientas con vistas estándar de 48px, ciclo de proyecciones, zoom inteligente y cambio de tema."
+en = "Toolbar with alternative 48px standard views, camera projection cycle, smart selection zoom, and native theme toggler."
+pt = "Barra de ferramentas com vistas padrão de 48px, ciclo de projeções, zoom inteligente e alternador de tema."

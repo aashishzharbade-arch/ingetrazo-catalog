@@ -8,6 +8,8 @@ sha256 = "99c021dea07956dce73af39ba9cdc74eb0063797e689c39015c2f5d202cd6782"
 ingetrazo = "0.5.7"
 tags = ["structures", "analysis"]
 
+screenshot = "propiedades_poligono.webp"
+
 [name]
 es = "Propiedades del polígono"
 en = "Polygon properties"

@@ -1,0 +1,21 @@
+id = "proxy_tool"
+version = "1.0"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-proxies"
+download = "https://github.com/PESI3D/ingetrazo-proxies/releases/download/v1.0/proxy_tool.py"
+sha256 = "ab5981e1b506bb2336aa88ef5282dfc14b5c7c24fb016f2c66353ead5f96f35a"
+ingetrazo = "0.5.7"
+tags = ["productivity", "rendering"]
+screenshot = "proxy_tool.webp"
+
+[name]
+es = "Proxies"
+en = "Proxies"
+pt = "Proxies"
+
+[summary]
+es = "Sustituye objetos pesados (árboles, muebles, coches) por proxies livianos: caja, envolvente convexa, nube de vértices o el original reducido. Los originales se guardan en archivos .igz y vuelven con un clic. Vista previa en vivo."
+en = "Swaps heavy objects (trees, furniture, cars) for light proxies: box, convex hull, vertex cloud or the reduced original. Originals go to .igz files and come back with one click. Shared instances, live preview."
+pt = "Substitui objetos pesados (árvores, móveis, carros) por proxies leves: caixa, envoltória convexa, nuvem de vértices ou o original reduzido. Os originais vão para arquivos .igz e voltam com um clique. Instâncias compartilhadas."

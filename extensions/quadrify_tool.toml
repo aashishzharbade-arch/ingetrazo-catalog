@@ -1,0 +1,21 @@
+id = "quadrify_tool"
+version = "1.1"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-quadrify"
+download = "https://github.com/PESI3D/ingetrazo-quadrify/releases/download/v1.1/quadrify_tool.py"
+sha256 = "3bde7be3d52ee9a685d3bfed8bf3829750e3315ea9fbff66c0fd8fd75977c728"
+ingetrazo = "0.5.7"
+tags = ["import-export", "terrain", "productivity"]
+screenshot = "quadrify_tool.webp"
+
+[name]
+es = "Cuadrangular (Quadrify)"
+en = "Quadrify"
+pt = "Quadrangular (Quadrify)"
+
+[summary]
+es = "Convierte mallas trianguladas en caras de cuatro lados (pares planos en caras reales, curvos con diagonal suavizada) y rehace terrenos como cuadrícula de cuadriláteros. Vista previa."
+en = "Turns triangulated meshes into four-sided faces (flat pairs become real quads, curved ones get a soft diagonal) and rebuilds terrain as a clean grid of quads. Live preview."
+pt = "Converte malhas trianguladas em faces de quatro lados (pares planos viram faces reais, curvos ganham diagonal suavizada) e refaz terrenos como grade de quadriláteros. Prévia."

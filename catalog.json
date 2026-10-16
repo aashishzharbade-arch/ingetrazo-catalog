@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-02T14:39Z",
+ "generated": "2026-10-16T19:37Z",
  "tags": [
   "analysis",
   "architecture",
@@ -17,6 +17,145 @@
  ],
  "extensions": [
   {
+   "id": "loop_cut",
+   "version": "1.0",
+   "author": "Daniel Wagner",
+   "author_url": "https://github.com/42craft3d-oss",
+   "license": "MIT",
+   "repository": "https://github.com/42craft3d-oss/ingetrazo-loop-cut",
+   "download": "https://raw.githubusercontent.com/42craft3d-oss/ingetrazo-loop-cut/v1.0/loop_cut.py",
+   "sha256": "117cd7527b9f05249b9b3b5dd2ea9e71e1b39718dfca29a9374936a0147ee3df",
+   "ingetrazo": "0.5.5",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "loop_cut.png",
+   "name": {
+    "es": "Corte en bucle",
+    "en": "Loop Cut",
+    "pt": "Corte em loop"
+   },
+   "summary": {
+    "es": "Inserta un anillo de aristas con vista previa rosa en una banda cerrada de cuadriláteros o en una sección plana compatible de caras mixtas. Rechaza recorridos abiertos o ambiguos y admite deshacer.",
+    "en": "Insert an edge ring with a pink preview through a closed quad strip or a suitable planar cross-section of mixed faces. Open or ambiguous paths are rejected; the cut supports undo.",
+    "pt": "Insere um anel de arestas com prévia rosa numa faixa fechada de quadriláteros ou numa seção plana compatível de faces mistas. Recusa percursos abertos ou ambíguos e permite desfazer."
+   },
+   "reviewed": true,
+   "added_at": "2026-10-02T21:47Z",
+   "updated_at": "2026-10-02T21:47Z"
+  },
+  {
+   "id": "vertex_editor",
+   "version": "1.1",
+   "author": "Daniel Wagner",
+   "author_url": "https://github.com/42craft3d-oss",
+   "license": "MIT",
+   "repository": "https://github.com/42craft3d-oss/ingetrazo-vertex-editor",
+   "download": "https://raw.githubusercontent.com/42craft3d-oss/ingetrazo-vertex-editor/v1.1/vertex_editor.py",
+   "sha256": "2d65e8c4fa0e27a5f5468eb46c8657cd64ecf3da6b73e096604bfb431c6bd9f7",
+   "ingetrazo": "0.5.5",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "vertex_editor.png",
+   "name": {
+    "es": "Editor de vértices",
+    "en": "Vertex Editor",
+    "pt": "Editor de vértices"
+   },
+   "summary": {
+    "es": "Mueve un vértice de la malla activa con vista previa, bloqueo de ejes y distancia exacta. Al coincidir con otro, intenta unirlos y revierte la operación si detecta nuevos defectos topológicos.",
+    "en": "Move one vertex of the active mesh with a live preview, axis locking and exact distance entry. Coincident vertices can be welded; the edit is reverted if basic topology checks find new defects.",
+    "pt": "Move um vértice da malha ativa com prévia, trava de eixos e medida exata. Pode unir vértices coincidentes e reverte a edição se a verificação básica detectar novos defeitos topológicos."
+   },
+   "reviewed": true,
+   "added_at": "2026-10-02T21:47Z",
+   "updated_at": "2026-10-02T21:47Z"
+  },
+  {
+   "id": "ingetrazo_bevel",
+   "version": "1.0.2",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_bevel-v1.0.2/repository-upload/ingetrazo_bevel/ingetrazo_bevel.py",
+   "sha256": "bf0a1b7d0160673f5a1891ba62318102eae18cd59eb9c17741dc30e59ca8dee3",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "ingetrazo_bevel.webp",
+   "name": {
+    "en": "IngeTrazo Bevel"
+   },
+   "summary": {
+    "en": "Chamfer or round selected edges and closed polygon mesh solids, with a preview and Undo/Redo.",
+    "es": "Chaflana o redondea las aristas seleccionadas y sólidos cerrados de malla poligonal, con vista previa y deshacer/rehacer.",
+    "pt": "Chanfra ou arredonda as arestas selecionadas e sólidos fechados de malha poligonal, com prévia e desfazer/refazer."
+   },
+   "reviewed": true,
+   "added_at": "2026-10-02T21:47Z",
+   "updated_at": "2026-10-02T21:47Z"
+  },
+  {
+   "id": "ingetrazo_kitchen_maker",
+   "version": "1.0.2",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_kitchen_maker-v1.0.2/repository-upload/ingetrazo_kitchen_maker/ingetrazo_kitchen_maker.py",
+   "sha256": "eb2ccb24e0d73da31c8fe2c8e17bd2f2762f0f36bc1f8c330466a4bc52e882e0",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "productivity"
+   ],
+   "screenshot": "ingetrazo_kitchen_maker.png",
+   "name": {
+    "en": "IngeTrazo Kitchen Maker"
+   },
+   "summary": {
+    "en": "Create and edit parametric kitchen cabinets, arrange cabinet runs, and export CSV cost reports.",
+    "es": "Crea y edita muebles de cocina paramétricos, organiza filas de muebles y exporta informes de costos en CSV.",
+    "pt": "Cria e edita armários de cozinha paramétricos, organiza fileiras de armários e exporta relatórios de custos em CSV."
+   },
+   "reviewed": true,
+   "added_at": "2026-10-02T21:47Z",
+   "updated_at": "2026-10-02T21:47Z"
+  },
+  {
+   "id": "make_stair",
+   "version": "1.1.0",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/make_stair-v1.1.0/repository-upload/make_stair/make_stair.py",
+   "sha256": "202f96b75c1fd28ae8212e0b0d2409f2c5432fd9f3f53120dc1f5fce71f2d0f2",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "productivity"
+   ],
+   "screenshot": "make_stair.webp",
+   "name": {
+    "en": "IngeTrazo Stair Maker with Railings"
+   },
+   "summary": {
+    "en": "Create editable straight, L-shaped and U-shaped stairs with optional glass or steel railings.",
+    "es": "Crea escaleras editables rectas, en L y en U, con barandas opcionales de vidrio o acero.",
+    "pt": "Cria escadas editáveis retas, em L e em U, com guarda-corpos opcionais de vidro ou aço."
+   },
+   "reviewed": true,
+   "added_at": "2026-10-02T21:47Z",
+   "updated_at": "2026-10-02T21:47Z"
+  },
+  {
    "id": "niveles",
    "version": "0.5.7",
    "author": "José Castro Basso (FADU–UDELAR)",
@@ -30,6 +169,7 @@
     "drawing",
     "education"
    ],
+   "screenshot": "niveles.webp",
    "name": {
     "es": "Niveles",
     "en": "Levels",
@@ -40,7 +180,9 @@
     "en": "Building levels (ground floor, upper floor, roof…) with their height: guide lines in elevations and sections, and the cursor snaps to each level.",
     "pt": "Níveis do edifício (térreo, pavimento superior, cobertura…) com sua altura: linhas-guia em elevações e cortes, e o cursor se prende a cada nível."
    },
-   "reviewed": true
+   "reviewed": true,
+   "added_at": "2026-10-02T14:40Z",
+   "updated_at": "2026-10-02T14:40Z"
   },
   {
    "id": "propiedades_poligono",
@@ -55,6 +197,7 @@
     "structures",
     "analysis"
    ],
+   "screenshot": "propiedades_poligono.webp",
    "name": {
     "es": "Propiedades del polígono",
     "en": "Polygon properties",
@@ -65,7 +208,1274 @@
     "en": "Area, perimeter, centroid and second moments of the selected faces, holes and composite sections included.",
     "pt": "Área, perímetro, centroide e momentos de segunda ordem das faces selecionadas, com furos e seções compostas."
    },
-   "reviewed": true
+   "reviewed": true,
+   "added_at": "2026-10-02T14:40Z",
+   "updated_at": "2026-10-02T14:40Z"
+  },
+  {
+   "id": "ingetrazo_taper",
+   "version": "1.0.0",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_taper-v1.0.0-fixed/repository-upload/taper_tool_ingetrazo/ingetrazo_taper.py",
+   "sha256": "9fda5ba66fd942cdcc45554ce488eca53cb837b757c7d342a8ac8c02c2c81862",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "ingetrazo_taper.png",
+   "name": {
+    "en": "Taper Tool for IngeTrazo"
+   },
+   "summary": {
+    "en": "Taper selected mesh groups or loose meshes along a 3D axis with preview, numeric distances, copy mode, and Undo/Redo."
+   },
+   "reviewed": true,
+   "added_at": "2026-10-04T15:26Z",
+   "updated_at": "2026-10-04T15:26Z"
+  },
+  {
+   "id": "perspective_matcher",
+   "version": "1.5",
+   "author": "seghier",
+   "author_url": "https://github.com/seghier",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/seghier/IngeTrazoPerspectiveMatcher",
+   "download": "https://github.com/seghier/IngeTrazoPerspectiveMatcher/releases/download/v1.5/perspective_matcher.zip",
+   "sha256": "68179ce4b1e7f3be4a79b1e3cb09caa40ddb067383f1938c020067e221ca200c",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "drawing",
+    "productivity"
+   ],
+   "name": {
+    "en": "Perspective Matcher",
+    "es": "Ajuste de Perspectiva"
+   },
+   "summary": {
+    "en": "Match 3D viewport camera to architectural photographs with interactive vanishing lines and project textures onto faces.",
+    "es": "Ajusta la cámara 3D a fotografías arquitectónicas con líneas de fuga interactivas y proyecta texturas en las caras."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-05T20:58Z",
+   "updated_at": "2026-10-08T08:40Z"
+  },
+  {
+   "id": "archxq_it_lite",
+   "version": "0.10.2",
+   "author": "Orlando Souza · XQ",
+   "author_url": "https://github.com/equipexq",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/equipexq/archxq-it-lite",
+   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.10.2/archxq_it_lite-v0.10.2.zip",
+   "sha256": "9b2caf7ea8fe0eb683a592162637315336de5d9a1ff51da31860d48c58de6af7",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "terrain",
+    "structures",
+    "drawing"
+   ],
+   "screenshot": "archxq_it.jpg",
+   "name": {
+    "es": "ArchXQ IT Lite · Arquitectura por fases",
+    "en": "ArchXQ IT Lite · Architecture by phases",
+    "pt": "ArchXQ IT Lite · Arquitetura por fases"
+   },
+   "summary": {
+    "es": "Proyecto por fases sobre niveles reales: terreno con excavaciones y rellenos en rampa, muros rectos y curvos, y pilares en fila o en malla que se ajustan a las caras de los muros.",
+    "en": "A project by phases on real levels: the plot with excavations and fills on ramps, straight and curved walls, and columns in rows or grids that snap to the wall faces.",
+    "pt": "Projeto por fases sobre níveis reais: terreno com escavações e aterros em rampa, paredes retas e curvas, e pilares em fila ou em grelha que se alinham às faces das paredes."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T22:30Z",
+   "updated_at": "2026-10-15T15:48Z"
+  },
+  {
+   "id": "scenes_play",
+   "version": "0.2.1",
+   "author": "G. Andreotti",
+   "author_url": "https://github.com/joejivaros",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/joejivaros/Plugin",
+   "download": "https://github.com/joejivaros/Plugin/releases/download/scenes_play-v0.2.1/scenes_play-v0.2.1.zip",
+   "sha256": "ea4e52579dc1ccdaf5b3f25ad264cd6fdd3daf457b2b4927f73eb36e7cb81cdb",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "rendering",
+    "architecture",
+    "productivity"
+   ],
+   "name": {
+    "en": "Scene Automation",
+    "es": "Automatización de escenas",
+    "pt": "Automação de cenas"
+   },
+   "summary": {
+    "en": "Plays the model's scenes in a sequence with smooth, cinematic camera moves, optional sounds, full screen and MP4 export.",
+    "es": "Reproduce las escenas del modelo en secuencia con movimientos de cámara suaves y cinematográficos, sonidos opcionales, pantalla completa y exportación a MP4.",
+    "pt": "Reproduz as cenas do modelo em sequência com movimentos de câmera suaves e cinematográficos, sons opcionais, tela cheia e exportação para MP4."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-16T19:37Z",
+   "updated_at": "2026-10-16T19:37Z"
+  },
+  {
+   "id": "organize_toolbar",
+   "version": "1.2",
+   "author": "seghier",
+   "author_url": "https://github.com/seghier",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/seghier/ingetrazo-organize-toolbar",
+   "download": "https://github.com/seghier/ingetrazo-organize-toolbar/releases/download/v1.2/organize_toolbar.zip",
+   "sha256": "788fa173cc39e2f6e42c63531ced07b23af6f7627575044992127c51cfab20f2",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "screenshot": "organize_toolbar.png",
+   "name": {
+    "en": "Organize Toolbar",
+    "es": "Barra de Organización",
+    "pt": "Barra de Organização"
+   },
+   "summary": {
+    "en": "Dedicated toolbar for Hide, Unhide Last/All, Reverse Faces, Make Group, and Explode Group.",
+    "es": "Barra dedicada para Ocultar, Mostrar Último/Todo, Invertir Caras, Crear Grupo y Desagrupar.",
+    "pt": "Barra dedicada para Ocultar, Exibir Último/Tudo, Inverter Faces, Criar Grupo e Desagrupar."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-05T20:50Z",
+   "updated_at": "2026-10-07T15:17Z"
+  },
+  {
+   "id": "igz_toolbars",
+   "version": "1.5.2",
+   "author": "Ezequiel M. Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-toolbars",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-toolbars/releases/download/v1.5.2/igz_tb_toolbar.zip",
+   "sha256": "bdd84b5c98bf500ac2bf2612764c0f729405bd232a1f81dc25e279e3ce49ed42",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "rendering",
+    "drawing",
+    "terrain",
+    "productivity"
+   ],
+   "screenshot": "igz_toolbars.png",
+   "name": {
+    "es": "Barras de estilos, sombras y mapa",
+    "en": "Styles, Shadows and Map toolbars",
+    "pt": "Barras de estilos, sombras e mapa"
+   },
+   "summary": {
+    "es": "Tres barras inspiradas en SketchUp: estilos replica el menú Cámara ▸ Estilo con 13 botones; sombras añade un interruptor y deslizadores de fecha, hora e intensidad; mapa reúne la fuente de tiles, la ubicación y la carga del mapa.",
+    "en": "Three SketchUp-inspired toolbars: Styles mirrors the Camera ▸ Style menu with 13 buttons; Shadows adds a toggle and date, time and intensity sliders; Map gathers the tile source and loads the map.",
+    "pt": "Três barras inspiradas no SketchUp: estilos espelha o menu Câmera ▸ Estilo com 13 botões; sombras traz um botão e sliders de data, hora e intensidade; mapa reúne a fonte de tiles e carrega o mapa."
+   },
+   "description": {
+    "es": "Tres barras de la ventana principal, inspiradas en SketchUp, para trabajar con los estilos de visualización, las sombras y el terreno sin recorrer el menú Cámara: la de estilos replica Cámara ▸ Estilo con 13 botones (los estilos de visualización y el interruptor de rayos X), la de sombras añade un interruptor general y deslizadores de fecha, hora e intensidad, y la de mapa reúne la fuente de tiles, la localización del proyecto y la carga del mapa del panel Terreno.",
+    "en": "Three main-window toolbars, inspired by SketchUp, for working with display styles, shadows and terrain without walking the Camera menu: the Styles one mirrors Camera ▸ Style with 13 buttons (the display styles and the X-ray toggle), the Shadows one adds a master switch plus date, time and intensity sliders, and the Map one gathers the tile source, the project location and the map loading of the Terreno panel.",
+    "pt": "Três barras da janela principal, inspiradas no SketchUp, para trabalhar com os estilos de visualização, as sombras e o terreno sem percorrer o menu Câmera: a de estilos espelha Câmera ▸ Estilo com 13 botões (os estilos de visualização e o botão de raios X), a de sombras traz um interruptor geral e sliders de data, hora e intensidade, e a de mapa reúne a fonte de tiles, a localização do projeto e o carregamento do mapa do painel Terreno."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-05T20:50Z",
+   "updated_at": "2026-10-08T15:41Z"
+  },
+  {
+   "id": "cad2ingetrazo",
+   "version": "3.11",
+   "author": "M. Tariq",
+   "author_url": "https://github.com/mtak35",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/mtak35/cad2ingetrazo",
+   "download": "https://raw.githubusercontent.com/mtak35/cad2ingetrazo/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/release/cad2ingetrazo-v3.11.zip",
+   "sha256": "f6ec3f3b3e96c5ee271fdcbed662e7a08237cf7c25417f508c0acb44c3490c14",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "bim",
+    "import-export",
+    "structures"
+   ],
+   "screenshot": "cad2ingetrazo.jpg",
+   "name": {
+    "es": "CAD2IngeTrazo · De planos CAD a BIM",
+    "en": "CAD2IngeTrazo · CAD plans to BIM",
+    "pt": "CAD2IngeTrazo · De plantas CAD a BIM"
+   },
+   "summary": {
+    "es": "Convierte plantas de AutoCAD (DWG/DXF) en un modelo BIM editable, nivel por nivel: muros, puertas, ventanas, pilares, losas, núcleos, escaleras, rampas, estacionamiento y excavación.",
+    "en": "Turns AutoCAD floor plans (DWG/DXF) into an editable BIM model, level by level: walls, doors, windows, columns, slabs, lift cores, stairs, ramps, parking and excavation.",
+    "pt": "Converte plantas do AutoCAD (DWG/DXF) em um modelo BIM editável, nível por nível: paredes, portas, janelas, pilares, lajes, núcleos, escadas, rampas, estacionamento e escavação."
+   },
+   "description": {
+    "es": "Lee cada planta por sus capas y apila los pisos a su altura real. Cada elemento es un tipo de componente con nombre (D-01, W-03, C-02…) que se selecciona, edita o reemplaza por un componente de la biblioteca de IngeTrazo. Muros cortina con puertas, barandas, terrazas, balcones, acabados de piso por ambiente, parcela con retiros, muro perimetral y excavaciones con volúmenes. Plantas, alzados, cortes y láminas a PDF, DXF y SketchUp. Manual de usuario (inglés): https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md",
+    "en": "Reads each plan by its layers and stacks the floors at their true heights. Every element is a named component type (D-01, W-03, C-02…) you can select, edit as a whole, or replace with an IngeTrazo library component. Curtain walls with doors, railings, terraces, balconies, floor finishes per room, the plot with setbacks, a boundary wall, and excavations with volumes. Plans, elevations, sections and sheets to PDF, DXF and SketchUp. User manual: https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md",
+    "pt": "Lê cada planta pelas suas camadas e empilha os pisos na altura real. Cada elemento é um tipo de componente com nome (D-01, W-03, C-02…) que se seleciona, edita ou substitui por um componente da biblioteca do IngeTrazo. Fachadas-cortina com portas, guarda-corpos, terraços, varandas, acabamentos de piso por ambiente, lote com recuos, muro de divisa e escavações com volumes. Plantas, elevações, cortes e pranchas em PDF, DXF e SketchUp. Manual do usuário (inglês): https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md"
+   },
+   "reviewed": false,
+   "added_at": "2026-10-08T21:49Z",
+   "updated_at": "2026-10-08T21:49Z"
+  },
+  {
+   "id": "angle_dimension",
+   "version": "1.0.0",
+   "author": "Ryszard Jurdeczka",
+   "author_url": "https://github.com/jurdeczkarichard-sketch",
+   "license": "MIT",
+   "repository": "https://github.com/jurdeczkarichard-sketch/angle-dimension",
+   "download": "https://raw.githubusercontent.com/jurdeczkarichard-sketch/angle-dimension/v1.0.0/Angle_Dimension.py",
+   "sha256": "162a726e245c08eeaf70e8d3f00dbffcb76341c59320555ea285977ee0ddcc63",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "drawing",
+    "analysis"
+   ],
+   "screenshot": "angle_dimension.webp",
+   "name": {
+    "en": "Angle Dimension",
+    "es": "Cota angular",
+    "pt": "Cota angular"
+   },
+   "summary": {
+    "en": "Measure the angle between two lines with three clicks and keep a labelled angle dimension (arms, arc and degrees) saved in the drawing.",
+    "es": "Mide el ángulo entre dos líneas con tres clics y deja una cota angular con etiqueta (brazos, arco y grados) guardada en el dibujo.",
+    "pt": "Mede o ângulo entre duas linhas com três cliques e deixa uma cota angular com rótulo (braços, arco e graus) salva no desenho."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-10T13:14Z",
+   "updated_at": "2026-10-10T13:14Z"
+  },
+  {
+   "id": "quadrify_tool",
+   "version": "1.1",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-quadrify",
+   "download": "https://github.com/PESI3D/ingetrazo-quadrify/releases/download/v1.1/quadrify_tool.py",
+   "sha256": "3bde7be3d52ee9a685d3bfed8bf3829750e3315ea9fbff66c0fd8fd75977c728",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "import-export",
+    "terrain",
+    "productivity"
+   ],
+   "screenshot": "quadrify_tool.webp",
+   "name": {
+    "es": "Cuadrangular (Quadrify)",
+    "en": "Quadrify",
+    "pt": "Quadrangular (Quadrify)"
+   },
+   "summary": {
+    "es": "Convierte mallas trianguladas en caras de cuatro lados (pares planos en caras reales, curvos con diagonal suavizada) y rehace terrenos como cuadrícula de cuadriláteros. Vista previa.",
+    "en": "Turns triangulated meshes into four-sided faces (flat pairs become real quads, curved ones get a soft diagonal) and rebuilds terrain as a clean grid of quads. Live preview.",
+    "pt": "Converte malhas trianguladas em faces de quatro lados (pares planos viram faces reais, curvos ganham diagonal suavizada) e refaz terrenos como grade de quadriláteros. Prévia."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T22:35Z",
+   "updated_at": "2026-10-05T17:45Z"
+  },
+  {
+   "id": "display_scale",
+   "version": "1.2.0",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/display_scale-v1.2.0/repository-upload/display_scale/display_scale.py",
+   "sha256": "326dff53270a08a3a7edc2224c6c841e7ce953972086fa68e381397a420238ff",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "productivity"
+   ],
+   "screenshot": "display_scale.png",
+   "name": {
+    "en": "Display Scale for IngeTrazo"
+   },
+   "summary": {
+    "en": "Adjust interface, icon and text sizes with workspace presets, live scaling, an optional restart at true Qt scale, and a focus mode that hides side panels."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-15T15:47Z",
+   "updated_at": "2026-10-15T15:47Z"
+  },
+  {
+   "id": "divide_points",
+   "version": "0.2.1",
+   "author": "G. Andreotti",
+   "author_url": "https://github.com/joejivaros",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/joejivaros/Plugin",
+   "screenshot": "divide_points.png",
+   "download": "https://github.com/joejivaros/Plugin/releases/download/v0.2.1/divide_points-v0.2.1.zip",
+   "sha256": "f565e0f94207a46f84a6dcf09408d949fded035664ebe70bb082c01da31abf2c",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "name": {
+    "en": "Divide Points",
+    "es": "Dividir con puntos",
+    "pt": "Dividir com pontos"
+   },
+   "summary": {
+    "en": "Places guide points along the selected lines and curves, by number of points or by distance, starting from both ends or from the middle. Live preview, one undo step.",
+    "es": "Coloca puntos guía a lo largo de las líneas y curvas seleccionadas, por número de puntos o por distancia, desde ambos extremos o desde el centro. Vista previa y un solo paso de deshacer.",
+    "pt": "Coloca pontos-guia ao longo das linhas e curvas selecionadas, por número de pontos ou por distância, a partir das duas pontas ou do meio. Prévia e um só passo de desfazer."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-13T22:15Z",
+   "updated_at": "2026-10-13T22:15Z"
+  },
+  {
+   "id": "node_editor",
+   "version": "1.1",
+   "author": "seghier",
+   "author_url": "https://github.com/seghier",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/seghier/IngeTrazoNodeEditor",
+   "download": "https://github.com/seghier/IngeTrazoNodeEditor/releases/download/v1.1/node_editor.zip",
+   "sha256": "655289704b9f16b76324ccb3d92b5b6d220bfc1184c095fb3d837207ccb57907",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "architecture"
+   ],
+   "screenshot": "node_editor.png",
+   "name": {
+    "es": "Editor de Nodos Paramétrico",
+    "en": "Parametric Node Editor",
+    "pt": "Editor de Nós Paramétrico"
+   },
+   "summary": {
+    "es": "Entorno de modelado paramétrico visual por nodos (tipo Grasshopper) para generar geometría 3D procedural, curvas, mallas y análisis.",
+    "en": "Visual parametric node programming environment (Grasshopper-style) for procedural 3D modeling, curves, meshes, and analysis.",
+    "pt": "Ambiente visual de modelagem paramétrica por nós (estilo Grasshopper) para gerar geometria 3D procedural, curvas e malhas."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T22:30Z",
+   "updated_at": "2026-10-05T14:28Z"
+  },
+  {
+   "id": "igz_tb_scenes",
+   "version": "1.0.0",
+   "author": "Ezequiel M. Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-scenes",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-scenes/releases/download/v1.0.0/igz_tb_scenes.zip",
+   "sha256": "20923ef00c7e55b9a15b8de7ba41c5596f1ad8497f513dd0cbb6adbd4459f901",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "rendering",
+    "productivity"
+   ],
+   "screenshot": "igz_tb_scenes.png",
+   "name": {
+    "es": "Escenas (gestor de escenas)",
+    "en": "Scenes (scene manager)",
+    "pt": "Cenas (gerenciador de cenas)"
+   },
+   "summary": {
+    "es": "Barra y panel lateral para guardar la cámara como «escenas», reproducirlas como una animación suave y exportarlas a PNG o MP4 (FFmpeg opcional).",
+    "en": "Toolbar and side panel to save the camera as \"scenes\", play them back as a smooth animation and export them to PNG or MP4 (FFmpeg optional).",
+    "pt": "Barra e painel lateral para salvar a câmera como \"cenas\", reproduzi-las como uma animação suave e exportá-las em PNG ou MP4 (FFmpeg opcional)."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-08T21:49Z",
+   "updated_at": "2026-10-08T21:49Z"
+  },
+  {
+   "id": "igz_pdf3d",
+   "version": "1.0.1",
+   "author": "David Songer",
+   "author_url": "https://github.com/dns-0",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/dns-0/igz_pdf3d",
+   "download": "https://github.com/dns-0/igz_pdf3d/releases/download/v1.0.1/igz_pdf3d.zip",
+   "sha256": "4331e1eebc67103392fe74909a979fb9124696b262815c8c5158149c5c6c2d40",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "import-export",
+    "bim",
+    "productivity"
+   ],
+   "screenshot": "igz_pdf3d.png",
+   "name": {
+    "es": "Exportar PDF 3D",
+    "en": "3D PDF export",
+    "pt": "Exportar PDF 3D"
+   },
+   "summary": {
+    "es": "Exporta la selección o el modelo visible como PDF 3D interactivo (U3D) para Acrobat Reader y Bluebeam Revu: árbol por capas y objetos, materiales y texturas, vistas con nombre, imagen de respaldo. Sin dependencias.",
+    "en": "Exports the selection or the visible model as an interactive 3D PDF (U3D) for Acrobat Reader and Bluebeam Revu: model tree by layer and object, materials and textures, named views, snapshot fallback. No dependencies.",
+    "pt": "Exporta a seleção ou o modelo visível como PDF 3D interativo (U3D) para Acrobat Reader e Bluebeam Revu: árvore por camadas e objetos, materiais e texturas, vistas nomeadas, imagem de reserva. Sem dependências."
+   },
+   "description": {
+    "es": "Un botón en la barra de herramientas (PDF 3D) y una entrada en Extensiones ▸ Exportar PDF 3D… Seleccione lo que quiera compartir, o nada para todo el modelo visible, escriba un título y una nota y guarde. El PDF de una página se abre en Adobe Acrobat Reader y Bluebeam Revu como modelo 3D interactivo: árbol de modelo por capas y objetos (con la clase IFC), materiales y texturas del documento, vista exportada más Iso, Planta, Frente, Fondo, Izquierda y Derecha, y la captura de la vista como imagen para los visores sin 3D. Unidades: pulgadas (una unidad U3D = una pulgada) o metros; ajuste la herramienta de medir del visor a la misma unidad. Escrito en Python puro, sin dependencias; el codificador U3D es una adaptación de la biblioteca de referencia U3D (Apache-2.0).",
+    "en": "A toolbar button (3D PDF) and an Extensions ▸ Export 3D PDF… entry. Select what you want to share, or nothing for the whole visible model, type a title and a note, and save. The one-page PDF opens in Adobe Acrobat Reader and Bluebeam Revu as an interactive 3D model: a model tree by layer and object (with the IFC class), the document's materials and textures, the exported view plus Iso, Top, Front, Back, Left and Right, and the viewport snapshot as the image shown by viewers without 3D. Units: inches (one U3D unit = one inch) or metres; set the viewer's measure tool to the same unit. Pure Python, no dependencies; the U3D encoder is a port of the U3D reference library (Apache-2.0).",
+    "pt": "Um botão na barra de ferramentas (PDF 3D) e uma entrada em Extensões ▸ Exportar PDF 3D… Selecione o que quer partilhar, ou nada para todo o modelo visível, escreva um título e uma nota e guarde. O PDF de uma página abre no Adobe Acrobat Reader e no Bluebeam Revu como modelo 3D interativo: árvore do modelo por camadas e objetos (com a classe IFC), materiais e texturas do documento, a vista exportada mais Iso, Topo, Frente, Trás, Esquerda e Direita, e a captura da vista como imagem para visualizadores sem 3D. Unidades: polegadas (uma unidade U3D = uma polegada) ou metros; ajuste a ferramenta de medição do visualizador à mesma unidade. Python puro, sem dependências; o codificador U3D é uma adaptação da biblioteca de referência U3D (Apache-2.0)."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-15T15:47Z",
+   "updated_at": "2026-10-15T15:47Z"
+  },
+  {
+   "id": "plan_import_tool",
+   "version": "1.1",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-plan-import",
+   "download": "https://github.com/PESI3D/ingetrazo-plan-import/releases/download/v1.1/plan_import_tool_1.1.zip",
+   "sha256": "12055cfa923a282ffcba945b947034010a98dfebddc74607688a57a6907fb413",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "import-export"
+   ],
+   "screenshot": "plan_import_tool.webp",
+   "name": {
+    "es": "Importar planos PDF (Plan Import)",
+    "en": "Plan Import (PDF floor plans)",
+    "pt": "Importar plantas PDF (Plan Import)"
+   },
+   "summary": {
+    "es": "Importa planos y juegos de planos desde PDF vectorial a escala: plantas apiladas, alzados y cortes de pie, recorte automático, filtros (tramas, colores, piezas pequeñas), limpieza, punto de referencia, niveles y capas.",
+    "en": "Imports floor plans and whole plan sets from vector PDFs at scale: storeys stacked, elevations and sections upright, auto crop, filters (hatches, colours, small parts), clean up, reference point, levels and layers. Live preview.",
+    "pt": "Importa plantas e conjuntos de pranchas de PDF vetorial em escala: plantas empilhadas, fachadas e cortes em pé, recorte automático, filtros (hachuras, cores, peças pequenas), limpeza, ponto de referência, níveis e camadas."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-15T15:47Z",
+   "updated_at": "2026-10-15T15:47Z"
+  },
+  {
+   "id": "ingefloor",
+   "version": "1.0",
+   "author": "Hris (Krzysztof)",
+   "author_url": "https://github.com/hrisek",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/hrisek/IngeFloor",
+   "download": "https://raw.githubusercontent.com/hrisek/IngeFloor/1.0/floor_generator.py",
+   "sha256": "c9be9a7a2fc99434ca96024c7defa3f0745de95ea1808f82aa28b5bba025e682",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "fabrication"
+   ],
+   "screenshot": "ingefloor.jpg",
+   "name": {
+    "en": "IngeFloor · Wood floors",
+    "es": "IngeFloor · Pisos de madera",
+    "pt": "IngeFloor · Pisos de madeira"
+   },
+   "summary": {
+    "en": "Parametric wood flooring, decking and parquet for any room outline, with a material report: planks, cuts, skirting and waste.",
+    "es": "Pisos de madera, deck y parquet paramétricos para cualquier contorno de habitación, con informe de material: tablas, cortes, zócalos y desperdicio.",
+    "pt": "Pisos de madeira, deck e parquet paramétricos para qualquer contorno de cômodo, com relatório de material: tábuas, cortes, rodapés e desperdício."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-05T14:35Z",
+   "updated_at": "2026-10-05T14:35Z"
+  },
+  {
+   "id": "ingetrazo_curve_tools",
+   "version": "1.0.0",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_curve_tools-v1.0.0/repository-upload/ingetrazo_curve_tools/ingetrazo_curve_tools.py",
+   "sha256": "617d9bcaa8c8343eaabd8ca9276a4aa08d600451c30b7e5503313229281d1eb0",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "ingetrazo_curve_tool.png",
+   "name": {
+    "en": "IngeTrazo Curve Tools"
+   },
+   "summary": {
+    "en": "Create and edit Bézier curves, chains and splines with coordinate, sampling, and closed-loop controls."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T05:08Z",
+   "updated_at": "2026-10-04T05:08Z"
+  },
+  {
+   "id": "ja_lineastyle",
+   "version": "0.1.4",
+   "author": "Julio Angulo",
+   "author_url": "https://github.com/wrc86",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/wrc86/ja-lineastyle-ingetrazo",
+   "download": "https://raw.githubusercontent.com/wrc86/ja-lineastyle-ingetrazo/v0.1.4/dist/ja_lineastyle-0.1.4-plugin.zip",
+   "sha256": "63f6255879f4bcb2afff58df9edf030b41335fc9553e8801a9e459fca7742b84",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "architecture"
+   ],
+   "screenshot": "ja_lineastyle.png",
+   "name": {
+    "es": "JA LineaStyle",
+    "en": "JA LineaStyle",
+    "pt": "JA LineaStyle"
+   },
+   "summary": {
+    "es": "Dibuja líneas 3D con color, grosor y estilo (continua, punteada, interrumpida…) en una sola malla; los contornos cerrados coplanares forman caras.",
+    "en": "Draw 3D lines with colour, weight and style (solid, dotted, dashed…) in a single mesh; closed coplanar outlines become faces.",
+    "pt": "Desenha linhas 3D com cor, espessura e estilo (contínua, pontilhada, tracejada…) numa única malha; contornos fechados coplanares formam faces."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T05:08Z",
+   "updated_at": "2026-10-04T13:03Z"
+  },
+  {
+   "id": "ja_sun",
+   "version": "0.1.0",
+   "author": "Julio Angulo",
+   "author_url": "https://github.com/wrc86",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/wrc86/ja-sun-ingetrazo",
+   "download": "https://raw.githubusercontent.com/wrc86/ja-sun-ingetrazo/v0.1.0/dist/ja_sun-0.1.0.zip",
+   "sha256": "63a3a41a0ac2948c30a72e44c62c2e4a9134d06e7001c41f9ad3a76686bfc4f3",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "analysis",
+    "rendering"
+   ],
+   "screenshot": "ja_sun.webp",
+   "name": {
+    "es": "JA Sun · Sol y sombras",
+    "en": "JA Sun · Sun and shadows",
+    "pt": "JA Sun · Sol e sombras"
+   },
+   "summary": {
+    "es": "Panel de estudio solar: fecha, hora, ubicación, norte, intensidad de sombra, recorrido solar interactivo y animación del día, con ajustes guardados en el modelo.",
+    "en": "Solar study panel: date, time, location, north, shadow intensity, interactive sun path and day animation, with settings saved in the model.",
+    "pt": "Painel de estudo solar: data, hora, localização, norte, intensidade da sombra, trajetória solar interativa e animação do dia, com ajustes salvos no modelo."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T05:08Z",
+   "updated_at": "2026-10-04T05:08Z"
+  },
+  {
+   "id": "ja_tree",
+   "version": "0.1.0",
+   "author": "Julio Angulo",
+   "author_url": "https://github.com/wrc86",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/wrc86/ja-tree-ingetrazo",
+   "download": "https://raw.githubusercontent.com/wrc86/ja-tree-ingetrazo/v0.1.0/dist/ja_tree-0.1.0.zip",
+   "sha256": "9d8cb4af83c946ffb6b7fbe16c3b5f73b26df442792005665785cf0e757c2dc7",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "productivity",
+    "bim"
+   ],
+   "screenshot": "ja_tree.webp",
+   "name": {
+    "es": "JA Tree · Árbol del modelo",
+    "en": "JA Tree · Model outliner",
+    "pt": "JA Tree · Árvore do modelo"
+   },
+   "summary": {
+    "es": "Árbol de grupos, componentes y planos de sección con búsqueda, visibilidad, bloqueo y organización por arrastre. Interfaz en español, inglés y francés.",
+    "en": "Outliner of groups, components and section planes with search, visibility, locking and drag-and-drop organisation. Spanish, English and French UI.",
+    "pt": "Árvore de grupos, componentes e planos de corte com busca, visibilidade, bloqueio e organização por arrastar. Interface em espanhol, inglês e francês."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T05:08Z",
+   "updated_at": "2026-10-04T05:08Z"
+  },
+  {
+   "id": "ja_units",
+   "version": "0.1.0",
+   "author": "Julio Angulo",
+   "author_url": "https://github.com/wrc86",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/wrc86/ja-units-ingetrazo",
+   "download": "https://raw.githubusercontent.com/wrc86/ja-units-ingetrazo/v0.1.0/dist/ja_units-0.1.0.zip",
+   "sha256": "e5c008fcf0376be03f195a2483a09dad38a9e8824aa24be5036b87943981d504",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "architecture",
+    "drawing"
+   ],
+   "screenshot": "ja_units_v2.webp",
+   "name": {
+    "es": "JA Units · Unidades",
+    "en": "JA Units · Units",
+    "pt": "JA Units · Unidades"
+   },
+   "summary": {
+    "es": "Cambia en un clic la unidad y la precisión del modelo (mm, cm, m, pulgadas, pies y fraccionales) desde un panel y una barra, con presets propios y sin escalar la geometría.",
+    "en": "Switch the model's unit and precision in one click (mm, cm, m, inches, feet and fractional) from a panel and toolbar, with custom presets and no geometry scaling.",
+    "pt": "Muda num clique a unidade e a precisão do modelo (mm, cm, m, polegadas, pés e frações) a partir de um painel e uma barra, com presets próprios e sem escalar a geometria."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T05:08Z",
+   "updated_at": "2026-10-04T05:08Z"
+  },
+  {
+   "id": "lista_corte_marcenaria",
+   "version": "1.0.0",
+   "author": "Victor Jardim",
+   "author_url": "https://github.com/vemcjardim",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/vemcjardim/lista-de-corte-plugin-ingetrazo",
+   "download": "https://raw.githubusercontent.com/vemcjardim/lista-de-corte-plugin-ingetrazo/8f9f6ff8488c42af6a7089bab076ff0b076f15c6/lista_corte.py",
+   "sha256": "4708814422c42cb375b78644a275210f6afd6fb3f120a7dd0d6dcecf4afb9670",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "fabrication",
+    "productivity"
+   ],
+   "name": {
+    "es": "Lista de corte para carpintería",
+    "en": "Woodworking Cut List",
+    "pt": "Lista de corte para marcenaria"
+   },
+   "summary": {
+    "es": "Extrae las dimensiones de grupos y componentes, agrupa las piezas idénticas y exporta un CSV con medidas en milímetros y cantos configurables.",
+    "en": "Extracts panel dimensions from groups and components, groups identical parts and exports a CSV cut list with millimetre sizes and configurable edge banding.",
+    "pt": "Extrai dimensões de grupos e componentes, agrupa peças iguais e exporta CSV com medidas em milímetros e fitas de borda configuráveis."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-13T22:15Z",
+   "updated_at": "2026-10-13T22:15Z"
+  },
+  {
+   "id": "array_tool",
+   "version": "1.2",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-array",
+   "download": "https://github.com/PESI3D/ingetrazo-array/releases/download/v1.2/array_tool.py",
+   "sha256": "cf4cdb79ab0a3402d0f6f565886cdf3641fbcf9137b058c07b69c22bb8456a51",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "screenshot": "array_tool.png",
+   "name": {
+    "es": "Matriz (Array)",
+    "en": "Array",
+    "pt": "Matriz (Array)"
+   },
+   "summary": {
+    "es": "Copias de la selección en 1D, 2D o 3D con mover, rotar y escalar por copia, como el diálogo Array de 3ds Max. Copia o instancia, vista previa y un solo paso de deshacer.",
+    "en": "Copies of the selection in 1D, 2D or 3D with move, rotate and scale per copy, like the 3ds Max Array dialog. Copy or instance, live preview, one undo step.",
+    "pt": "Cópias da seleção em 1D, 2D ou 3D com mover, girar e escalar por cópia, como o diálogo Array do 3ds Max. Cópia ou instância, prévia e um só passo de desfazer."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T05:08Z",
+   "updated_at": "2026-10-05T17:41Z"
+  },
+  {
+   "id": "membrane_tool",
+   "version": "1.1",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-membrane",
+   "download": "https://github.com/PESI3D/ingetrazo-membrane/releases/download/v1.1/membrane_tool.py",
+   "sha256": "27a2c4b6ccabd9aa2719d4721ccc84b8d28af08faba48574b331f724e046b074",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "structures"
+   ],
+   "screenshot": "membrane_tool.webp",
+   "name": {
+    "es": "Membrana (Membrane)",
+    "en": "Membrane",
+    "pt": "Membrana (Membrane)"
+   },
+   "summary": {
+    "es": "Superficies mínimas tensadas desde un contorno de aristas: carpas, velas y cojines con presión, anillos de mástil, cables y puntos fijos. Vista previa en vivo y editable después.",
+    "en": "Tensile minimal surfaces from a loop of edges: tents, sails and pressurised cushions, with mast rings, cables and fixed points. Live preview, editable afterwards.",
+    "pt": "Superfícies mínimas tensionadas a partir de um contorno de arestas: tendas, velas e almofadas com pressão, anéis de mastro, cabos e pontos fixos. Prévia ao vivo e editável depois."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T22:35Z",
+   "updated_at": "2026-10-05T17:46Z"
+  },
+  {
+   "id": "igz_modify3d",
+   "version": "1.0.1",
+   "author": "Ezequiel M Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-modify-3d",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-modify-3d/releases/download/v1.0.1/igz_modify3d.zip",
+   "sha256": "d469be60a0a20266ca29579a48249c434f12d939a22cebfc94e8f1532b3c9118",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "architecture"
+   ],
+   "screenshot": "igz_modify3d.png",
+   "name": {
+    "es": "Modificadores 3D",
+    "en": "3D Modifiers",
+    "pt": "Modificadores 3D"
+   },
+   "summary": {
+    "es": "Seis herramientas de edición 3D guiadas por puntos en una sola barra: Espejo, Escala, Rotación, Alineación, Matriz y Matriz polar, con previsualización en vivo, ajuste por snap y deshacer/rehacer.",
+    "en": "Six point-driven 3D editing tools in one toolbar: Mirror, Scale, Rotate, Align, Array and Polar Array, each with live preview, snapping and undo/redo.",
+    "pt": "Seis ferramentas de edição 3D guiadas por pontos numa única barra: Espelhar, Escalar, Rotacionar, Alinhar, Matriz e Matriz polar, com prévia ao vivo, snap e desfazer/refazer."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-06T14:35Z",
+   "updated_at": "2026-10-06T14:35Z"
+  },
+  {
+   "id": "ingetrazo_multiview",
+   "version": "1.0.5",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_multiview-v1.0.5-fixed/repository-upload/ingetrazo-multiview/ingetrazo_multiview.py",
+   "sha256": "568025f64f7ee34bc114cba9545de69a40774538a402a4dce32a7853983402a8",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "screenshot": "ingetrazo_multiview.png",
+   "name": {
+    "en": "MultiView for IngeTrazo"
+   },
+   "summary": {
+    "en": "Synchronized Top, Perspective, Front and Right viewports in a dockable 2×2 layout with two-view mode and enlarge/restore controls."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T13:28Z",
+   "updated_at": "2026-10-04T13:28Z"
+  },
+  {
+   "id": "grading_tool",
+   "version": "1.1",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-grading",
+   "download": "https://github.com/PESI3D/ingetrazo-grading/releases/download/v1.1/grading_tool.py",
+   "sha256": "14f3d76f4791b65584d0272aff740e9ea62ce0164f1cc3646b59d2b1f63b9191",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "terrain",
+    "architecture"
+   ],
+   "screenshot": "grading_tool.webp",
+   "name": {
+    "es": "Nivelación de terreno (Grading)",
+    "en": "Grading",
+    "pt": "Terraplenagem (Grading)"
+   },
+   "summary": {
+    "es": "Rellena el terreno libre entre aristas (camino, terraza, rampa, plaza rebajada) con un terreno suave y orgánico que toca cada arista. Vista previa en vivo y un solo paso de deshacer.",
+    "en": "Fills the open ground between edges (path, terrace, ramp, sunken plaza) with smooth, organic terrain that meets every edge. Live preview and one undo step.",
+    "pt": "Preenche o terreno livre entre arestas (caminho, terraço, rampa, praça rebaixada) com um terreno suave e orgânico que toca cada aresta. Prévia ao vivo e um só passo de desfazer."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-05T14:28Z",
+   "updated_at": "2026-10-05T17:47Z"
+  },
+  {
+   "id": "pointcloud_splat",
+   "version": "1.0.0",
+   "author": "archimades27",
+   "author_url": "https://github.com/archimades27",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/archimades27/ingetrazo-pointcloud-splat",
+   "download": "https://github.com/archimades27/ingetrazo-pointcloud-splat/releases/download/v1.0.0/pointcloud_splat.zip",
+   "sha256": "ae95b72a90c06bf8ea894083db9f4a6ae24cd5ffe42de4415fb2d44921c22422",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "bim",
+    "productivity",
+    "drawing"
+   ],
+   "screenshot": "pointcloud_splat.png",
+   "name": {
+    "en": "Point Cloud & 3D Gaussian Splatting",
+    "es": "Nube de Puntos y Gaussian Splatting 3D",
+    "pt": "Nuvem de Pontos e Gaussian Splatting 3D"
+   },
+   "summary": {
+    "en": "Import, inspect, and snap to LiDAR/photogrammetry point clouds (.ply, .las, .laz, .xyz) and 3D Gaussian Splats (.splat) with accelerated viewport rendering, section box clipping, and Scan-to-BIM tools.",
+    "es": "Importación, inspección y ajuste (snap) a nubes de puntos LiDAR/fotogrametría (.ply, .las, .laz, .xyz) y Gaussian Splats 3D (.splat) con renderizado acelerado, caja de sección y herramientas Scan-to-BIM.",
+    "pt": "Importação, inspeção e snap em nuvens de pontos LiDAR/fotogrametria (.ply, .las, .laz, .xyz) e Gaussian Splats 3D (.splat) com renderização acelerada, caixa de corte e ferramentas Scan-to-BIM."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-08T22:33Z",
+   "updated_at": "2026-10-08T22:33Z"
+  },
+  {
+   "id": "opentrace_bim",
+   "version": "0.12.9",
+   "author": "Leandro Lopes",
+   "author_url": "https://github.com/lelopes05",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/lelopes05/opentrace-bim",
+   "download": "https://github.com/lelopes05/opentrace-bim/releases/download/v0.12.9/OpenTrace_BIM_0.12.9_CATALOG.zip",
+   "sha256": "5a9a3c67d0653efb912eef0cdd6309bb8ccbc8daa655a1c75e58a01349956607",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "bim",
+    "structures",
+    "productivity"
+   ],
+   "screenshot": "opentrace_bim.webp",
+   "name": {
+    "es": "OpenTrace BIM",
+    "en": "OpenTrace BIM",
+    "pt": "OpenTrace BIM"
+   },
+   "summary": {
+    "es": "BIM paramétrico para arquitectura: muros multicapa rectos y curvos, losas, pilares, vigas y huecos. Ahora con botón para actualizarse y combinaciones de capas con plantillas.",
+    "en": "Parametric BIM for architecture: straight and curved multilayer walls, slabs, columns, beams and openings. Now with an update button and layer combinations with templates.",
+    "pt": "BIM paramétrico para arquitetura: paredes multicamadas retas e curvas, lajes, pilares, vigas e aberturas. Agora com botão de atualização e combinações de camadas com modelos."
+   },
+   "description": {
+    "es": "BIM paramétrico para arquitectura en IngeTrazo: muros rectos y curvos multicapa, losas, pilares, vigas, huecos, perfiles complejos, presets, materiales nativos y edición gráfica persistente.",
+    "en": "Parametric BIM for architecture in IngeTrazo: straight and curved multilayer walls, slabs, columns, beams, openings, complex profiles, presets, native materials and persistent graphical editing.",
+    "pt": "BIM paramétrico para arquitetura no IngeTrazo: paredes retas e curvas multicamadas, lajes, pilares, vigas, aberturas, perfis complexos, presets, materiais nativos e edição gráfica persistente."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-06T14:39Z",
+   "updated_at": "2026-10-08T21:49Z"
+  },
+  {
+   "id": "igz_steel",
+   "version": "1.1.0",
+   "author": "David Songer",
+   "author_url": "https://github.com/dns-0",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/dns-0/igz_steel",
+   "download": "https://github.com/dns-0/igz_steel/releases/download/v1.1.0/igz_steel.zip",
+   "sha256": "503de7972ddfb829b5f97ebd118b5163cc9586432f39952f115d46fce416faf3",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "structures",
+    "bim",
+    "fabrication"
+   ],
+   "screenshot": "igz_steel.png",
+   "name": {
+    "es": "Perfiles de acero AISC",
+    "en": "AISC steel members",
+    "pt": "Perfis de aço AISC"
+   },
+   "summary": {
+    "es": "Coloca perfiles de acero AISC v16 (W, C, L, HSS, tubo y más), los estira por cualquier eje o longitud escrita, los etiqueta en BIM, asigna capas, genera una lista de materiales y crea ejes de replanteo con burbujas.",
+    "en": "Places AISC v16 steel shapes (W, C, L, HSS, pipe and more), stretches them along any axis or typed length, tags them for BIM, assigns layers, builds a bill of materials and lays out grids that members snap to.",
+    "pt": "Insere perfis de aço AISC v16 (W, C, L, HSS, tubo e mais), estica-os em qualquer eixo ou comprimento digitado, etiqueta para BIM, atribui camadas, gera uma lista de materiais e cria eixos de implantação com balões."
+   },
+   "description": {
+    "es": "Una barra de herramientas y un submenú (Extensiones ▸ Steel) para modelar estructura metálica con las dimensiones exactas de la AISC Shapes Database v16.0: las 13 familias (W, M, S, HP, C, MC, L, WT, MT, ST, 2L, HSS y PIPE, 2.299 perfiles) con etiquetas imperiales o métricas. Se elige el perfil y el punto de inserción sobre la sección (centroide, cara superior, cualquier esquina o punto medio), se hace clic en el inicio y se estira por cualquier eje con la inferencia de IngeTrazo, o se escribe la longitud en el cuadro de medidas. Cada miembro es un grupo paramétrico con radios de acuerdo: se puede estirar de nuevo desde cualquier extremo, editar en sitio (perfil, giro, inserción, capa, longitud), y conserva su posición aunque se mueva o gire con las herramientas de IngeTrazo. Etiqueta automáticamente IfcColumn, IfcBeam o IfcMember según la orientación, asigna capas (creándolas si no existen) y genera una lista de materiales con marca, perfil, longitud, peso y totales por perfil, exportable a CSV, en las unidades del documento. Sin dependencias; los datos AISC se incluyen con su aviso legal. Los ejes de replanteo (rectangulares o radiales, con niveles) se dibujan sobre la vista con burbujas de letras y números y el cursor se ajusta a sus intersecciones en cada nivel.",
+    "en": "A toolbar and a submenu (Extensions ▸ Steel) for modelling structural steel with the exact dimensions of the AISC Shapes Database v16.0: all 13 families (W, M, S, HP, C, MC, L, WT, MT, ST, 2L, HSS and PIPE, 2,299 shapes) with imperial or metric labels. Pick the shape and an insertion point on the section (centroid, top of steel, any corner or edge midpoint), click the start and stretch along any axis with IngeTrazo's inference, or type the length in the Measurements box. Each member is a parametric group with rounded fillets: it can be stretched again from either end, edited in place (shape, roll, insertion, layer, length), and keeps its position even after it is moved or rotated with IngeTrazo's own tools. Members are tagged IfcColumn, IfcBeam or IfcMember by orientation, assigned to layers (created on demand), and listed in a Bill of Materials with mark, shape, length, weight and per-shape totals, exportable to CSV, in the document's units. No dependencies; the AISC data ships with its disclaimer. Layout grids (rectangular or radial, with levels) draw over the viewport with lettered and numbered bubbles, and the cursor snaps to their intersections on every level.",
+    "pt": "Uma barra de ferramentas e um submenu (Extensões ▸ Steel) para modelar estrutura metálica com as dimensões exatas da AISC Shapes Database v16.0: as 13 famílias (W, M, S, HP, C, MC, L, WT, MT, ST, 2L, HSS e PIPE, 2.299 perfis) com rótulos imperiais ou métricos. Escolhe-se o perfil e o ponto de inserção na seção (centroide, face superior, qualquer canto ou ponto médio), clica-se no início e estica-se em qualquer eixo com a inferência do IngeTrazo, ou digita-se o comprimento na caixa de medidas. Cada membro é um grupo paramétrico com raios de concordância: pode ser esticado de novo por qualquer extremo, editado no lugar (perfil, giro, inserção, camada, comprimento) e mantém a posição mesmo depois de movido ou girado com as ferramentas do IngeTrazo. Os membros recebem IfcColumn, IfcBeam ou IfcMember conforme a orientação, são atribuídos a camadas (criadas quando necessário) e listados numa lista de materiais com marca, perfil, comprimento, peso e totais por perfil, exportável para CSV, nas unidades do documento. Sem dependências; os dados AISC acompanham o seu aviso legal. Os eixos de implantação (retangulares ou radiais, com níveis) são desenhados sobre a vista com balões de letras e números e o cursor ajusta-se às suas interseções em cada nível."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-13T22:15Z",
+   "updated_at": "2026-10-14T14:59Z"
+  },
+  {
+   "id": "phasing_animator",
+   "version": "1.0.0",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/phasing_animator-v1.0.0/repository-upload/phasing_animator/release-files/phasing_animator-v1.0.0.zip",
+   "sha256": "72678ac606bcb5476cfb34bcc058098b9c97788016ff7fcd3983ebdc879ec30d",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "rendering",
+    "productivity"
+   ],
+   "screenshot": "phasing_animator.png",
+   "name": {
+    "en": "Phasing Animator for IngeTrazo"
+   },
+   "summary": {
+    "en": "Animate construction phases by layer, record object and camera keyframes, and export PNG sequences or videos using optional FFmpeg."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-08T21:48Z",
+   "updated_at": "2026-10-08T21:48Z"
+  },
+  {
+   "id": "planarq",
+   "version": "1.0.1",
+   "author": "José Castro Basso (FADU – UDELAR)",
+   "author_url": "https://github.com/castrobasso",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/castrobasso/ingetrazo/tree/planArq",
+   "download": "https://raw.githubusercontent.com/castrobasso/ingetrazo/d18ab1238c2a415ca7074d2a98d2a685ae2dc146/planArq-v1.zip",
+   "sha256": "090895d6c70ce628125192bd47656eb47df82a95378f3268d85668a0bc6cf380",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "structures",
+    "education"
+   ],
+   "name": {
+    "es": "planArq",
+    "en": "planArq",
+    "pt": "planArq"
+   },
+   "summary": {
+    "es": "Muros, tuberías y perfiles (IPE, UPN, tubos, madera, steel framing) que siguen un recorrido editable: el eje y los parámetros se conservan para volver a editarlos. Esquemático, para precálculo orientativo.",
+    "en": "Walls, pipes and profiles (IPE, UPN, tubes, timber, steel framing) that follow an editable path: the axis and parameters are kept so you can edit them again. Schematic, for rough pre-sizing.",
+    "pt": "Paredes, tubulações e perfis (IPE, UPN, tubos, madeira, steel framing) que seguem um percurso editável: o eixo e os parâmetros são mantidos para editar depois. Esquemático, para pré-cálculo orientativo."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-05T21:19Z",
+   "updated_at": "2026-10-15T21:28Z"
+  },
+  {
+   "id": "proxy_tool",
+   "version": "1.0",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-proxies",
+   "download": "https://github.com/PESI3D/ingetrazo-proxies/releases/download/v1.0/proxy_tool.py",
+   "sha256": "ab5981e1b506bb2336aa88ef5282dfc14b5c7c24fb016f2c66353ead5f96f35a",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "rendering"
+   ],
+   "screenshot": "proxy_tool.webp",
+   "name": {
+    "es": "Proxies",
+    "en": "Proxies",
+    "pt": "Proxies"
+   },
+   "summary": {
+    "es": "Sustituye objetos pesados (árboles, muebles, coches) por proxies livianos: caja, envolvente convexa, nube de vértices o el original reducido. Los originales se guardan en archivos .igz y vuelven con un clic. Vista previa en vivo.",
+    "en": "Swaps heavy objects (trees, furniture, cars) for light proxies: box, convex hull, vertex cloud or the reduced original. Originals go to .igz files and come back with one click. Shared instances, live preview.",
+    "pt": "Substitui objetos pesados (árvores, móveis, carros) por proxies leves: caixa, envoltória convexa, nuvem de vértices ou o original reduzido. Os originais vão para arquivos .igz e voltam com um clique. Instâncias compartilhadas."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-15T15:47Z",
+   "updated_at": "2026-10-15T15:47Z"
+  },
+  {
+   "id": "comfyui_renderer",
+   "version": "1.0",
+   "author": "seghier",
+   "author_url": "https://github.com/seghier",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/seghier/IngeTrazoComfyUIRenderer",
+   "download": "https://github.com/seghier/IngeTrazoComfyUIRenderer/releases/download/v1.0/comfyui_renderer.zip",
+   "sha256": "1869318cd0f2760bc1c41d8f4271ddf5c146e5016a68547bb0ffae28963a7c84",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "rendering",
+    "productivity"
+   ],
+   "screenshot": "comfyui_renderer.png",
+   "name": {
+    "es": "Renderizador ComfyUI de Ventana Gráfica",
+    "en": "ComfyUI Viewport Renderer",
+    "pt": "Renderizador ComfyUI de Viewport"
+   },
+   "summary": {
+    "es": "Renderiza la ventana gráfica 3D con flujos de trabajo de ComfyUI y superpone el resultado en tiempo real con control de opacidad.",
+    "en": "Renders the 3D viewport using ComfyUI workflows and displays real-time AI viewport overlays with opacity blending.",
+    "pt": "Renderiza a viewport 3D usando fluxos ComfyUI e exibe sobreposições de IA em tempo real com controle de opacidade."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T05:08Z",
+   "updated_at": "2026-10-04T05:08Z"
+  },
+  {
+   "id": "path_select_tool",
+   "version": "1.1",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-path-select",
+   "download": "https://github.com/PESI3D/ingetrazo-path-select/releases/download/v1.1/path_select_tool.py",
+   "sha256": "d48a621b9f95cd26581842ea51e71d1e989a223d036ae13e8611a9f03348f285",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "path_select_tool.webp",
+   "name": {
+    "es": "Selección de recorrido (Path Select)",
+    "en": "Path Select",
+    "pt": "Seleção de caminho (Path Select)"
+   },
+   "summary": {
+    "es": "Haz clic en algunos puntos a lo largo de un contorno: el camino más corto por las aristas se completa y se selecciona. Ideal para curvas de nivel y planos importados de DXF, DWG o PDF.",
+    "en": "Click a few points along a contour and the shortest way along the edges is filled in and selected. Ideal for contour lines and plans imported from DXF, DWG or PDF.",
+    "pt": "Clique em alguns pontos ao longo de um contorno e o caminho mais curto pelas arestas é completado e selecionado. Ideal para curvas de nível e plantas importadas de DXF, DWG ou PDF."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-05T14:28Z",
+   "updated_at": "2026-10-05T17:48Z"
+  },
+  {
+   "id": "weld_tool",
+   "version": "1.1",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-weld",
+   "download": "https://github.com/PESI3D/ingetrazo-weld/releases/download/v1.1/weld_tool.py",
+   "sha256": "32c78e0d8e57bc7b9d8671ef9db45f2601f4d3694d7168498b15b4833aafc7ce",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "import-export",
+    "productivity"
+   ],
+   "screenshot": "weld_tool.webp",
+   "name": {
+    "es": "Soldar (Weld)",
+    "en": "Weld",
+    "pt": "Soldar (Weld)"
+   },
+   "summary": {
+    "es": "Une aristas sueltas en curvas que se seleccionan con un clic y cierra pequeños huecos: ideal para planos importados de DXF, DWG o PDF. Vista previa y un solo paso de deshacer.",
+    "en": "Joins loose edges into curves that select with one click and closes small gaps — ideal for plans imported from DXF, DWG or PDF. Preview and one undo step.",
+    "pt": "Une arestas soltas em curvas que se selecionam com um clique e fecha pequenas lacunas — ideal para plantas importadas de DXF, DWG ou PDF. Prévia e um só passo de desfazer."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T22:35Z",
+   "updated_at": "2026-10-05T17:45Z"
+  },
+  {
+   "id": "subdiv",
+   "version": "1.0",
+   "author": "Nicolas Marc",
+   "author_url": "https://github.com/nicolasmarc",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/nicolasmarc/ingetrazo-subdiv",
+   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-subdiv/v1.0/dist/subdiv-1.0.zip",
+   "sha256": "4c721282bfbbcc691793d77c870109539b6848c0bf3c146a16676003ff3c625a",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "drawing"
+   ],
+   "screenshot": "subdiv.png",
+   "name": {
+    "es": "SubD (modelado por subdivisión)",
+    "en": "SubD (subdivision modelling)",
+    "pt": "SubD (modelagem por subdivisão)"
+   },
+   "summary": {
+    "es": "Modela superficies lisas Catmull-Clark desde una jaula de control: crear, pliegues, dividir, puentear, simetría y convertir grupos. Al terminar queda un grupo ordinario o sólido.",
+    "en": "Model smooth Catmull-Clark surfaces from a control cage: create, creases, divide, bridge, symmetry and group conversion. Finish gives an ordinary group or a solid.",
+    "pt": "Modele superfícies lisas Catmull-Clark a partir de uma gaiola de controle: criar, vincos, dividir, ponte, simetria e conversão de grupos. Ao terminar, vira um grupo comum ou sólido."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-11T14:25Z",
+   "updated_at": "2026-10-11T14:25Z"
+  },
+  {
+   "id": "igz_solids",
+   "version": "1.0.0",
+   "author": "Ezequiel M. Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-solids",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-solids/releases/download/v1.0.0/igz_solids.zip",
+   "sha256": "9bc82a17b203d43aa770a19d573bdb197797cdeb3ab49cc11e2c2f5a7ac7a4c8",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "drawing",
+    "structures",
+    "productivity"
+   ],
+   "screenshot": "igz-solids.png",
+   "name": {
+    "es": "Sólidos paramétricos",
+    "en": "Parametric solids",
+    "pt": "Sólidos paramétricos"
+   },
+   "summary": {
+    "es": "14 sólidos paramétricos: caja, cápsula, cilindro/tubo, esfera, cono/pirámide, esfera geodésica (con balón), hélice, prisma y toro. Cada uno entra como su propio grupo estanco, en un solo paso de deshacer.",
+    "en": "14 parametric solids: box, capsule, cylinder/tube, sphere, cone/pyramid, geodesic sphere (football included), helix, prism and torus. Each one is inserted as its own watertight group, in a single undo step.",
+    "pt": "14 sólidos paramétricos: caixa, cápsula, cilindro/tubo, esfera, cone/pirâmide, esfera geodésica (com bola), hélice, prisma e toro. Cada um entra como o seu próprio grupo watertight, num único passo de undo."
+   },
+   "description": {
+    "es": "Una barra de herramientas y un submenú (Extensiones ▸ Sólidos) con 14 sólidos paramétricos. Cada botón abre un diálogo en metros y luego se coloca con un clic sobre el cursor (con vista previa de alambre) o en el origen. El sólido se crea como su propio grupo, con malla cerrada y costuras curvas suavizadas: nunca se suelda al modelo y se selecciona, mueve y edita como un objeto. Incluye la esfera geodésica (tetraedro, octaedro o icosaedro subdividido) y, además, un balón de fútbol: el icosaedro truncado exacto, con 12 pentágonos y 20 hexágonos. Los iconos siguen el tema oscuro o claro y la interfaz habla inglés, español, portugués de Brasil e italiano.",
+    "en": "A toolbar and a submenu (Extensions ▸ Solids) with 14 parametric solids. Each button opens a dialog in metres and then places the solid with a click on the cursor (with a live wireframe preview) or at the origin. The solid is created as its own group, with a closed mesh and softened curved seams: it never welds to the model, so it selects, moves and edits as one object. It includes the geodesic sphere (a subdivided tetrahedron, octahedron or icosahedron) and, on top of that, a football: the exact truncated icosahedron, 12 pentagons and 20 hexagons. The icons follow the dark or light theme and the interface speaks English, Spanish, Brazilian Portuguese and Italian.",
+    "pt": "Uma barra de ferramentas e um submenu (Extensões ▸ Sólidos) com 14 sólidos paramétricos. Cada botão abre um diálogo em metros e depois coloca o sólido com um clique no cursor (com pré-visualização em aramado) ou na origem. O sólido é criado como o seu próprio grupo, com malha fechada e costuras curvas suavizadas: nunca se solda ao modelo, pelo que se seleciona, move e edita como um único objeto. Inclui a esfera geodésica (tetraedro, octaedro ou icosaedro subdividido) e, além disso, uma bola de futebol: o icosaedro truncado exato, com 12 pentágonos e 20 hexágonos. Os ícones seguem o tema escuro ou claro e a interface fala inglês, espanhol, português do Brasil e italiano."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-11T14:25Z",
+   "updated_at": "2026-10-11T14:25Z"
+  },
+  {
+   "id": "roof_tile_tool",
+   "version": "1.2.1",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-roof-tiles",
+   "download": "https://github.com/PESI3D/ingetrazo-roof-tiles/releases/download/v1.2.1/roof_tile_tool.py",
+   "sha256": "f87b1cacebbc314303dde45dfb445c2455cfd5a476a54d547e4f9ec7c57a25c6",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture"
+   ],
+   "screenshot": "roof_tile_tool.webp",
+   "name": {
+    "es": "Tejados y tejas (Roof Tiles)",
+    "en": "Roof Tiles",
+    "pt": "Telhados e telhas (Roof Tiles)"
+   },
+   "summary": {
+    "es": "Crea tejados sobre cualquier planta (20 formas: a dos y cuatro aguas, mansarda, mariposa, cúpula…) y los cubre con tejas 3D reales: remates laterales, cumbrera, limatesas y piezas de cierre. 10 tejas clásicas o una propia.",
+    "en": "Builds roofs on any footprint (20 shapes: gable, hip, mansard, butterfly, dome …) and covers them with real 3D tiles: verge tiles, ridge and hip tiles, end pieces. 10 classic tiles or your own. Live preview.",
+    "pt": "Cria telhados sobre qualquer planta (20 formas: duas e quatro águas, mansarda, borboleta, cúpula…) e os cobre com telhas 3D reais: beirada, cumeeira, espigões e peças de remate. 10 telhas clássicas ou uma própria."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-08T22:33Z",
+   "updated_at": "2026-10-15T14:57Z"
+  },
+  {
+   "id": "topology_tool",
+   "version": "1.2",
+   "author": "Pesi (pesi3d.de)",
+   "author_url": "https://github.com/PESI3D",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/PESI3D/ingetrazo-topology",
+   "download": "https://github.com/PESI3D/ingetrazo-topology/releases/download/v1.2/topology_tool_1.2.zip",
+   "sha256": "84b29d09c2c6384e3b85cc9069cfd835159080b49debc52f8acc0a6bb76bcc40",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "terrain",
+    "architecture",
+    "import-export"
+   ],
+   "screenshot": "topology_tool.png",
+   "name": {
+    "es": "Topología (terreno)",
+    "en": "Topology (terrain)",
+    "pt": "Topologia (terreno)"
+   },
+   "summary": {
+    "es": "Terreno a partir de curvas de nivel, puntos o las cotas de un plano (PDF): malla suave o TIN de Delaunay, editor de cotas, limpieza de líneas, zócalo con base cerrada y vista previa en vivo.",
+    "en": "Terrain from contour lines, points or the spot heights of a site plan (PDF): smooth grid or Delaunay TIN, altitude editor, line clean-up, skirt with closed base and live preview.",
+    "pt": "Terreno a partir de curvas de nível, pontos ou as cotas de uma planta (PDF): malha suave ou TIN de Delaunay, editor de cotas, limpeza de linhas, saia com base fechada e prévia ao vivo."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-04T05:08Z",
+   "updated_at": "2026-10-15T15:46Z"
+  },
+  {
+   "id": "ui_colores_space",
+   "version": "0.1.0",
+   "author": "sanask24",
+   "author_url": "https://github.com/sanask24",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/sanask24/ui-colores-space",
+   "download": "https://raw.githubusercontent.com/sanask24/ui-colores-space/165c6652370f6489a0435b327faa87e88d9f690b/dist/UI-Colores-Space-0.1.0.zip",
+   "sha256": "4082aa3e8826f3e093a8d252b57151b3a63e2bbacb77609a94b2453087317978",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "name": {
+    "es": "UI Colores + Space",
+    "en": "Coloured Tools + Space"
+   },
+   "summary": {
+    "es": "Iconos de herramientas con colores por familia, adaptados a los temas claro y oscuro. Espacio abre el buscador nativo de comandos; ambas funciones se pueden desactivar.",
+    "en": "Category-coloured toolbar icons for light and dark themes. Space opens native command search; both features can be disabled independently."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-11T14:25Z",
+   "updated_at": "2026-10-11T14:25Z"
+  },
+  {
+   "id": "igz_uv",
+   "version": "1.0.0",
+   "author": "Ezequiel M. Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-uv",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-uv/releases/download/v1.0.0/igz-uv.zip",
+   "sha256": "bd7c2a98204b94f97ced039c57f2a21d098d4fb74ec3e6ec1b0c140e8612cb25",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "rendering",
+    "productivity"
+   ],
+   "screenshot": "igz_uv.png",
+   "name": {
+    "es": "UV (herramientas de mapeo UV)",
+    "en": "UV (UV mapping tools)",
+    "pt": "UV (ferramentas de mapeamento UV)"
+   },
+   "summary": {
+    "es": "Seis proyecciones UV (planar, esférica, cilíndrica, caja, quad y tube), transformación interactiva por teclado, panel con desplazamiento U/V, rotación y escala anisotrópica, triangulación y rejilla UV automática.",
+    "en": "Six UV projections (planar, spherical, cylindrical, box, quad, tube), an interactive keyboard transform, a panel with U/V offset, rotation and anisotropic scale, triangulation and an automatic UV grid.",
+    "pt": "Seis projeções UV (planar, esférica, cilíndrica, caixa, quad e tube), transformação interativa por teclado, painel com deslocamento U/V, rotação e escala anisotrópica, triangulação e grade UV automática."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-13T22:15Z",
+   "updated_at": "2026-10-13T22:15Z"
+  },
+  {
+   "id": "standard_views_2",
+   "version": "1.0.0",
+   "author": "TB",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/tboy-123/Alternative-Standard-views-toolbar",
+   "download": "https://raw.githubusercontent.com/tboy-123/Alternative-Standard-views-toolbar/v1.0.0/standard_views_2.py",
+   "sha256": "59b97e68ea57add7834813a1384d4483e502db68c00be108086963d1646402ea",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "es": "Vistas estándar alternativas 2",
+    "en": "Standard Views 2",
+    "pt": "Vistas padrão alternativas 2"
+   },
+   "summary": {
+    "es": "Barra de herramientas con vistas estándar de 48px, ciclo de proyecciones, zoom inteligente y cambio de tema.",
+    "en": "Toolbar with alternative 48px standard views, camera projection cycle, smart selection zoom, and native theme toggler.",
+    "pt": "Barra de ferramentas com vistas padrão de 48px, ciclo de projeções, zoom inteligente e alternador de tema."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-11T14:25Z",
+   "updated_at": "2026-10-11T14:25Z"
   }
  ]
 }

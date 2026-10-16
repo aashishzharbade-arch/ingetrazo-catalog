@@ -1,0 +1,21 @@
+id = "membrane_tool"
+version = "1.1"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-membrane"
+download = "https://github.com/PESI3D/ingetrazo-membrane/releases/download/v1.1/membrane_tool.py"
+sha256 = "27a2c4b6ccabd9aa2719d4721ccc84b8d28af08faba48574b331f724e046b074"
+ingetrazo = "0.5.7"
+tags = ["architecture", "structures"]
+screenshot = "membrane_tool.webp"
+
+[name]
+es = "Membrana (Membrane)"
+en = "Membrane"
+pt = "Membrana (Membrane)"
+
+[summary]
+es = "Superficies mínimas tensadas desde un contorno de aristas: carpas, velas y cojines con presión, anillos de mástil, cables y puntos fijos. Vista previa en vivo y editable después."
+en = "Tensile minimal surfaces from a loop of edges: tents, sails and pressurised cushions, with mast rings, cables and fixed points. Live preview, editable afterwards."
+pt = "Superfícies mínimas tensionadas a partir de um contorno de arestas: tendas, velas e almofadas com pressão, anéis de mastro, cabos e pontos fixos. Prévia ao vivo e editável depois."

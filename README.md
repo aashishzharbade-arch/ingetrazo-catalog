@@ -38,7 +38,10 @@ corregir. Después la aprueba una persona que mantiene IngeTrazo y la página
 se actualiza sola en unos minutos.
 
 **Nueva versión:** otra pull request cambiando `version`, `download` y
-`sha256`.
+`sha256`. Si la envía la misma cuenta de GitHub que figura en `author_url`,
+toca solo tu ficha (y su captura) y la revisión automática no encuentra nada
+que leer, **se publica sola**, sin esperar a nadie. Sale como «Comunidad»
+hasta que alguien lea el archivo nuevo.
 
 ¿Cómo se escribe una extensión? Mira la
 [guía de complementos](https://github.com/ingelibre/ingetrazo/blob/main/docs/plugins.md)
@@ -91,7 +94,10 @@ A bot checks the entry within a minute: complete fields, free licence,
 matching fingerprint, and a `setup(app)` or a tool in the file. **It reads
 the code and never runs it.** Then a maintainer approves it and the page
 updates by itself within minutes. A new version is a new pull request
-changing `version`, `download` and `sha256`.
+changing `version`, `download` and `sha256`; when it comes from the GitHub
+account in `author_url`, touches only your entry (and its screenshot) and
+the check finds nothing to read, **it is published by itself** — as
+«Community» until a maintainer reads the new file.
 
 Writing an extension: see the
 [plugin guide](https://github.com/ingelibre/ingetrazo/blob/main/docs/plugins.md).
@@ -111,7 +117,9 @@ publicar, copie [`TEMPLATE.toml`](TEMPLATE.toml) para `extensions/<id>.toml`
 pelo navegador (**Add file ▸ Create new file**), preencha e abra um pull
 request. Um robô verifica a ficha (sem executar o código) e um mantenedor a
 aprova. **Revisada** = um mantenedor leu esse arquivo exato; **Comunidade** =
-passou na verificação automática.
+passou na verificação automática. Uma **nova versão** enviada pela conta do
+GitHub que está em `author_url`, que só altera a sua ficha e passa limpa na
+verificação, **é publicada sozinha**, como «Comunidade».
 
 ---
 

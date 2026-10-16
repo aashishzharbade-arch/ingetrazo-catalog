@@ -1,0 +1,35 @@
+# Entry for the IngeTrazo extension catalog
+# (https://github.com/ingelibre/ingetrazo-extensions).
+#
+# Copy this file to that repository as `extensions/igz_uv.toml` and open a
+# pull request. The `sha256` below is the fingerprint of the exact archive
+# built by `packaging/build_extension.ps1` (the Windows builder) and to be
+# uploaded as the `v1.0.0` GitHub Release asset named `igz-uv.zip`.
+# If you rebuild the archive, replace `sha256` with the new value the build
+# script prints (or let the automatic check tell you the right one).
+#
+# Note: `id` must be lowercase letters, digits and `_` (a catalog rule), so it
+# is `igz_uv` — only the packaged folder inside the archive keeps the hyphen:
+# it installs into <plugins>/igz-uv/.
+
+id = "igz_uv"
+version = "1.0.0"
+author = "Ezequiel M. Rezende"
+author_url = "https://github.com/em-rezende"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/em-rezende/Ingetrazo-igz-uv"
+download = "https://github.com/em-rezende/Ingetrazo-igz-uv/releases/download/v1.0.0/igz-uv.zip"
+sha256 = "bd7c2a98204b94f97ced039c57f2a21d098d4fb74ec3e6ec1b0c140e8612cb25"
+ingetrazo = "0.5.7"
+tags = ["rendering", "productivity"]
+screenshot = "igz_uv.png"
+
+[name]
+es = "UV (herramientas de mapeo UV)"
+en = "UV (UV mapping tools)"
+pt = "UV (ferramentas de mapeamento UV)"
+
+[summary]
+es = "Seis proyecciones UV (planar, esférica, cilíndrica, caja, quad y tube), transformación interactiva por teclado, panel con desplazamiento U/V, rotación y escala anisotrópica, triangulación y rejilla UV automática."
+en = "Six UV projections (planar, spherical, cylindrical, box, quad, tube), an interactive keyboard transform, a panel with U/V offset, rotation and anisotropic scale, triangulation and an automatic UV grid."
+pt = "Seis projeções UV (planar, esférica, cilíndrica, caixa, quad e tube), transformação interativa por teclado, painel com deslocamento U/V, rotação e escala anisotrópica, triangulação e grade UV automática."

@@ -1,0 +1,21 @@
+id = "array_tool"
+version = "1.2"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-array"
+download = "https://github.com/PESI3D/ingetrazo-array/releases/download/v1.2/array_tool.py"
+sha256 = "cf4cdb79ab0a3402d0f6f565886cdf3641fbcf9137b058c07b69c22bb8456a51"
+ingetrazo = "0.5.7"
+tags = ["productivity", "drawing"]
+screenshot = "array_tool.png"
+
+[name]
+es = "Matriz (Array)"
+en = "Array"
+pt = "Matriz (Array)"
+
+[summary]
+es = "Copias de la selección en 1D, 2D o 3D con mover, rotar y escalar por copia, como el diálogo Array de 3ds Max. Copia o instancia, vista previa y un solo paso de deshacer."
+en = "Copies of the selection in 1D, 2D or 3D with move, rotate and scale per copy, like the 3ds Max Array dialog. Copy or instance, live preview, one undo step."
+pt = "Cópias da seleção em 1D, 2D ou 3D com mover, girar e escalar por cópia, como o diálogo Array do 3ds Max. Cópia ou instância, prévia e um só passo de desfazer."

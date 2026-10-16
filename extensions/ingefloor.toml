@@ -1,0 +1,21 @@
+id = "ingefloor"
+version = "1.0"
+author = "Hris (Krzysztof)"
+author_url = "https://github.com/hrisek"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/hrisek/IngeFloor"
+download = "https://raw.githubusercontent.com/hrisek/IngeFloor/1.0/floor_generator.py"
+sha256 = "c9be9a7a2fc99434ca96024c7defa3f0745de95ea1808f82aa28b5bba025e682"
+ingetrazo = "0.5.7"
+tags = ["architecture", "fabrication"]
+screenshot = "ingefloor.jpg"
+
+[name]
+en = "IngeFloor · Wood floors"
+es = "IngeFloor · Pisos de madera"
+pt = "IngeFloor · Pisos de madeira"
+
+[summary]
+en = "Parametric wood flooring, decking and parquet for any room outline, with a material report: planks, cuts, skirting and waste."
+es = "Pisos de madera, deck y parquet paramétricos para cualquier contorno de habitación, con informe de material: tablas, cortes, zócalos y desperdicio."
+pt = "Pisos de madeira, deck e parquet paramétricos para qualquer contorno de cômodo, com relatório de material: tábuas, cortes, rodapés e desperdício."

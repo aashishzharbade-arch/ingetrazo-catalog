@@ -28,6 +28,7 @@ import hashlib
 import io
 import json
 import re
+import subprocess
 import sys
 import tomllib
 import urllib.error
@@ -391,6 +392,60 @@ def check(ids=None, offline: bool = False) -> int:
     return 0
 
 
+# --------------------------------------------------------------- dates
+
+def _git(args: list[str], cwd: Path) -> str | None:
+    try:
+        r = subprocess.run(["git", *args], cwd=cwd, capture_output=True,
+                           text=True, timeout=60)
+    except (OSError, subprocess.SubprocessError):
+        return None
+    return r.stdout if r.returncode == 0 else None
+
+
+def _stamp(iso: str) -> str:
+    """A commit's date as UTC, to the minute — the same shape as
+    ``generated``."""
+    when = datetime.fromisoformat(iso.strip()).astimezone(timezone.utc)
+    return when.strftime("%Y-%m-%dT%H:%MZ")
+
+
+def entry_dates(path: Path) -> dict:
+    """``{"added_at", "updated_at"}`` from the git history of an entry:
+    when it was first merged, and when its current ``version`` was. A
+    rename (``archxq_it`` → ``archxq_it_lite``) keeps its history; an entry
+    git does not know yet (not committed, or no git at all) gets neither,
+    and the page and the app then treat it as the oldest."""
+    where = path.resolve().parent
+    log = _git(["log", "--follow", "--format=%x00%H%x00%cI", "--name-only",
+                "--", path.name], where)
+    if not log:
+        return {}
+    commits = []                        # oldest first: (hash, date, path)
+    parts = log.split("\x00")[1:]
+    for i in range(0, len(parts) - 1, 2):
+        sha = parts[i].strip()
+        date, _, rest = parts[i + 1].partition("\n")
+        names = [n for n in rest.split("\n") if n.strip()]
+        if names:                       # repository-relative, as git shows
+            commits.append((sha, date, names[0]))
+    commits.reverse()
+    if not commits:
+        return {}
+    dates = {"added_at": _stamp(commits[0][1])}
+    version, since = None, None
+    for sha, date, name in commits:
+        text = _git(["show", f"{sha}:{name}"], where)
+        try:
+            v = tomllib.loads(text).get("version") if text else None
+        except tomllib.TOMLDecodeError:
+            v = None
+        if v is not None and v != version:
+            version, since = v, date
+    dates["updated_at"] = _stamp(since or commits[0][1])
+    return dates
+
+
 # --------------------------------------------------------------- building
 
 def build() -> dict:
@@ -402,6 +457,7 @@ def build() -> dict:
         # Reviewed means THIS file: a new hash is unreviewed until a
         # maintainer looks again.
         entry["reviewed"] = rev.get("sha256") == entry["sha256"]
+        entry.update(entry_dates(path))
         out.append(entry)
     out.sort(key=lambda e: (not e["reviewed"],
                             (e["name"].get("es") or e["name"].get("en")

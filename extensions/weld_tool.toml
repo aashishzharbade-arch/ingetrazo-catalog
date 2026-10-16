@@ -1,0 +1,21 @@
+id = "weld_tool"
+version = "1.1"
+author = "Pesi (pesi3d.de)"
+author_url = "https://github.com/PESI3D"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/PESI3D/ingetrazo-weld"
+download = "https://github.com/PESI3D/ingetrazo-weld/releases/download/v1.1/weld_tool.py"
+sha256 = "32c78e0d8e57bc7b9d8671ef9db45f2601f4d3694d7168498b15b4833aafc7ce"
+ingetrazo = "0.5.7"
+tags = ["drawing", "import-export", "productivity"]
+screenshot = "weld_tool.webp"
+
+[name]
+es = "Soldar (Weld)"
+en = "Weld"
+pt = "Soldar (Weld)"
+
+[summary]
+es = "Une aristas sueltas en curvas que se seleccionan con un clic y cierra pequeños huecos: ideal para planos importados de DXF, DWG o PDF. Vista previa y un solo paso de deshacer."
+en = "Joins loose edges into curves that select with one click and closes small gaps — ideal for plans imported from DXF, DWG or PDF. Preview and one undo step."
+pt = "Une arestas soltas em curvas que se selecionam com um clique e fecha pequenas lacunas — ideal para plantas importadas de DXF, DWG ou PDF. Prévia e um só passo de desfazer."

@@ -1,0 +1,32 @@
+# Entry for the IngeTrazo extension catalog
+# (https://github.com/ingelibre/ingetrazo-extensions), submitted as
+# extensions/igz_steel.toml. The `sha256` is the fingerprint of the exact
+# archive uploaded as the v1.1.0 GitHub Release asset named igz_steel.zip.
+# A rebuilt archive goes out as a new release with a new hash:
+#   certutil -hashfile dist\igz_steel.zip SHA256
+
+id = "igz_steel"
+version = "1.1.0"
+author = "David Songer"
+author_url = "https://github.com/dns-0"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/dns-0/igz_steel"
+download = "https://github.com/dns-0/igz_steel/releases/download/v1.1.0/igz_steel.zip"
+sha256 = "503de7972ddfb829b5f97ebd118b5163cc9586432f39952f115d46fce416faf3"
+ingetrazo = "0.5.8"
+tags = ["structures", "bim", "fabrication"]
+screenshot = "igz_steel.png"
+
+[name]
+es = "Perfiles de acero AISC"
+en = "AISC steel members"
+pt = "Perfis de aço AISC"
+
+[summary]
+es = "Coloca perfiles de acero AISC v16 (W, C, L, HSS, tubo y más), los estira por cualquier eje o longitud escrita, los etiqueta en BIM, asigna capas, genera una lista de materiales y crea ejes de replanteo con burbujas."
+en = "Places AISC v16 steel shapes (W, C, L, HSS, pipe and more), stretches them along any axis or typed length, tags them for BIM, assigns layers, builds a bill of materials and lays out grids that members snap to."
+pt = "Insere perfis de aço AISC v16 (W, C, L, HSS, tubo e mais), estica-os em qualquer eixo ou comprimento digitado, etiqueta para BIM, atribui camadas, gera uma lista de materiais e cria eixos de implantação com balões."
+[description]
+es = "Una barra de herramientas y un submenú (Extensiones ▸ Steel) para modelar estructura metálica con las dimensiones exactas de la AISC Shapes Database v16.0: las 13 familias (W, M, S, HP, C, MC, L, WT, MT, ST, 2L, HSS y PIPE, 2.299 perfiles) con etiquetas imperiales o métricas. Se elige el perfil y el punto de inserción sobre la sección (centroide, cara superior, cualquier esquina o punto medio), se hace clic en el inicio y se estira por cualquier eje con la inferencia de IngeTrazo, o se escribe la longitud en el cuadro de medidas. Cada miembro es un grupo paramétrico con radios de acuerdo: se puede estirar de nuevo desde cualquier extremo, editar en sitio (perfil, giro, inserción, capa, longitud), y conserva su posición aunque se mueva o gire con las herramientas de IngeTrazo. Etiqueta automáticamente IfcColumn, IfcBeam o IfcMember según la orientación, asigna capas (creándolas si no existen) y genera una lista de materiales con marca, perfil, longitud, peso y totales por perfil, exportable a CSV, en las unidades del documento. Sin dependencias; los datos AISC se incluyen con su aviso legal. Los ejes de replanteo (rectangulares o radiales, con niveles) se dibujan sobre la vista con burbujas de letras y números y el cursor se ajusta a sus intersecciones en cada nivel."
+en = "A toolbar and a submenu (Extensions ▸ Steel) for modelling structural steel with the exact dimensions of the AISC Shapes Database v16.0: all 13 families (W, M, S, HP, C, MC, L, WT, MT, ST, 2L, HSS and PIPE, 2,299 shapes) with imperial or metric labels. Pick the shape and an insertion point on the section (centroid, top of steel, any corner or edge midpoint), click the start and stretch along any axis with IngeTrazo's inference, or type the length in the Measurements box. Each member is a parametric group with rounded fillets: it can be stretched again from either end, edited in place (shape, roll, insertion, layer, length), and keeps its position even after it is moved or rotated with IngeTrazo's own tools. Members are tagged IfcColumn, IfcBeam or IfcMember by orientation, assigned to layers (created on demand), and listed in a Bill of Materials with mark, shape, length, weight and per-shape totals, exportable to CSV, in the document's units. No dependencies; the AISC data ships with its disclaimer. Layout grids (rectangular or radial, with levels) draw over the viewport with lettered and numbered bubbles, and the cursor snaps to their intersections on every level."
+pt = "Uma barra de ferramentas e um submenu (Extensões ▸ Steel) para modelar estrutura metálica com as dimensões exatas da AISC Shapes Database v16.0: as 13 famílias (W, M, S, HP, C, MC, L, WT, MT, ST, 2L, HSS e PIPE, 2.299 perfis) com rótulos imperiais ou métricos. Escolhe-se o perfil e o ponto de inserção na seção (centroide, face superior, qualquer canto ou ponto médio), clica-se no início e estica-se em qualquer eixo com a inferência do IngeTrazo, ou digita-se o comprimento na caixa de medidas. Cada membro é um grupo paramétrico com raios de concordância: pode ser esticado de novo por qualquer extremo, editado no lugar (perfil, giro, inserção, camada, comprimento) e mantém a posição mesmo depois de movido ou girado com as ferramentas do IngeTrazo. Os membros recebem IfcColumn, IfcBeam ou IfcMember conforme a orientação, são atribuídos a camadas (criadas quando necessário) e listados numa lista de materiais com marca, perfil, comprimento, peso e totais por perfil, exportável para CSV, nas unidades do documento. Sem dependências; os dados AISC acompanham o seu aviso legal. Os eixos de implantação (retangulares ou radiais, com níveis) são desenhados sobre a vista com balões de letras e números e o cursor ajusta-se às suas interseções em cada nível."

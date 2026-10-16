@@ -1,0 +1,22 @@
+id = "ja_tree"
+version = "0.1.0"
+author = "Julio Angulo"
+author_url = "https://github.com/wrc86"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/wrc86/ja-tree-ingetrazo"
+download = "https://raw.githubusercontent.com/wrc86/ja-tree-ingetrazo/v0.1.0/dist/ja_tree-0.1.0.zip"
+sha256 = "9d8cb4af83c946ffb6b7fbe16c3b5f73b26df442792005665785cf0e757c2dc7"
+ingetrazo = "0.5.7"
+tags = ["architecture", "productivity", "bim"]
+
+screenshot = "ja_tree.webp"
+
+[name]
+es = "JA Tree · Árbol del modelo"
+en = "JA Tree · Model outliner"
+pt = "JA Tree · Árvore do modelo"
+
+[summary]
+es = "Árbol de grupos, componentes y planos de sección con búsqueda, visibilidad, bloqueo y organización por arrastre. Interfaz en español, inglés y francés."
+en = "Outliner of groups, components and section planes with search, visibility, locking and drag-and-drop organisation. Spanish, English and French UI."
+pt = "Árvore de grupos, componentes e planos de corte com busca, visibilidade, bloqueio e organização por arrastar. Interface em espanhol, inglês e francês."

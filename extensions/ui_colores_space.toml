@@ -1,0 +1,20 @@
+id = "ui_colores_space"
+version = "0.1.0"
+author = "sanask24"
+author_url = "https://github.com/sanask24"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/sanask24/ui-colores-space"
+download = "https://raw.githubusercontent.com/sanask24/ui-colores-space/165c6652370f6489a0435b327faa87e88d9f690b/dist/UI-Colores-Space-0.1.0.zip"
+sha256 = "4082aa3e8826f3e093a8d252b57151b3a63e2bbacb77609a94b2453087317978"
+ingetrazo = "0.5.7"
+tags = ["productivity", "drawing"]
+
+[name]
+es = "UI Colores + Space"
+en = "Coloured Tools + Space"
+
+[summary]
+es = "Iconos de herramientas con colores por familia, adaptados a los temas claro y oscuro. Espacio abre el buscador nativo de comandos; ambas funciones se pueden desactivar."
+en = "Category-coloured toolbar icons for light and dark themes. Space opens native command search; both features can be disabled independently."
+
+

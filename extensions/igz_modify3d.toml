@@ -1,0 +1,31 @@
+# Entry for the IngeTrazo extension catalog
+# (https://github.com/ingelibre/ingetrazo-extensions).
+#
+# Copy this file to that repository as `extensions/igz_modify3d.toml` and open
+# a pull request. The `sha256` below is the fingerprint of the exact archive
+# built by `packaging/build_extension.ps1` / `packaging/build_extension.py`
+# and uploaded as the `v1.0.1` GitHub Release asset named `igz_modify3d.zip`.
+# If you rebuild the archive, replace `sha256` with the new value the build
+# script prints (or let the automatic check tell you the right one).
+
+id = "igz_modify3d"
+version = "1.0.1"
+author = "Ezequiel M Rezende"
+author_url = "https://github.com/em-rezende"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/em-rezende/Ingetrazo-igz-modify-3d"
+download = "https://github.com/em-rezende/Ingetrazo-igz-modify-3d/releases/download/v1.0.1/igz_modify3d.zip"
+sha256 = "d469be60a0a20266ca29579a48249c434f12d939a22cebfc94e8f1532b3c9118"
+ingetrazo = "0.5.7"
+tags = ["productivity", "architecture"]
+screenshot = "igz_modify3d.png"
+
+[name]
+es = "Modificadores 3D"
+en = "3D Modifiers"
+pt = "Modificadores 3D"
+
+[summary]
+es = "Seis herramientas de edición 3D guiadas por puntos en una sola barra: Espejo, Escala, Rotación, Alineación, Matriz y Matriz polar, con previsualización en vivo, ajuste por snap y deshacer/rehacer."
+en = "Six point-driven 3D editing tools in one toolbar: Mirror, Scale, Rotate, Align, Array and Polar Array, each with live preview, snapping and undo/redo."
+pt = "Seis ferramentas de edição 3D guiadas por pontos numa única barra: Espelhar, Escalar, Rotacionar, Alinhar, Matriz e Matriz polar, com prévia ao vivo, snap e desfazer/refazer."

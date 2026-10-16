@@ -8,6 +8,8 @@ sha256 = "ddf8c6e17bd164f336e8f514c257fc2a0abc4f6f9b16ff0a589c5a5bc73afed2"
 ingetrazo = "0.5.3"
 tags = ["architecture", "drawing", "education"]
 
+screenshot = "niveles.webp"
+
 [name]
 es = "Niveles"
 en = "Levels"

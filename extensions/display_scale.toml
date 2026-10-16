@@ -1,0 +1,18 @@
+id = "display_scale"
+version = "1.2.0"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/display_scale-v1.2.0/repository-upload/display_scale/display_scale.py"
+sha256 = "326dff53270a08a3a7edc2224c6c841e7ce953972086fa68e381397a420238ff"
+ingetrazo = "0.5.8"
+tags = ["productivity"]
+
+screenshot = "display_scale.png"
+
+[name]
+en = "Display Scale for IngeTrazo"
+
+[summary]
+en = "Adjust interface, icon and text sizes with workspace presets, live scaling, an optional restart at true Qt scale, and a focus mode that hides side panels."

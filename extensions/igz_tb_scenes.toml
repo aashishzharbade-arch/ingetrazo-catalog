@@ -1,0 +1,32 @@
+# Entry for the IngeTrazo extension catalog
+# (https://github.com/ingelibre/ingetrazo-extensions).
+#
+# Copy this file to that repository as `extensions/igz_tb_scenes.toml` and
+# open a pull request. The `sha256` below is the fingerprint of the exact
+# archive built by `packaging/build_extension.ps1` /
+# `packaging/build_extension.py` and to be uploaded as the `v1.0.0` GitHub
+# Release asset named `igz_tb_scenes.zip`.
+# If you rebuild the archive, replace `sha256` with the new value the build
+# script prints (or let the automatic check tell you the right one).
+
+id = "igz_tb_scenes"
+version = "1.0.0"
+author = "Ezequiel M. Rezende"
+author_url = "https://github.com/em-rezende"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/em-rezende/Ingetrazo-igz-scenes"
+download = "https://github.com/em-rezende/Ingetrazo-igz-scenes/releases/download/v1.0.0/igz_tb_scenes.zip"
+sha256 = "20923ef00c7e55b9a15b8de7ba41c5596f1ad8497f513dd0cbb6adbd4459f901"
+ingetrazo = "0.5.7"
+tags = ["rendering", "productivity"]
+screenshot = "igz_tb_scenes.png"
+
+[name]
+es = "Escenas (gestor de escenas)"
+en = "Scenes (scene manager)"
+pt = "Cenas (gerenciador de cenas)"
+
+[summary]
+es = "Barra y panel lateral para guardar la cámara como «escenas», reproducirlas como una animación suave y exportarlas a PNG o MP4 (FFmpeg opcional)."
+en = "Toolbar and side panel to save the camera as \"scenes\", play them back as a smooth animation and export them to PNG or MP4 (FFmpeg optional)."
+pt = "Barra e painel lateral para salvar a câmera como \"cenas\", reproduzi-las como uma animação suave e exportá-las em PNG ou MP4 (FFmpeg opcional)."

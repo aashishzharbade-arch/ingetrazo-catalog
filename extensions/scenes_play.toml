@@ -1,0 +1,20 @@
+id = "scenes_play"
+version = "0.2.1"
+author = "G. Andreotti"
+author_url = "https://github.com/joejivaros"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/joejivaros/Plugin"
+download = "https://github.com/joejivaros/Plugin/releases/download/scenes_play-v0.2.1/scenes_play-v0.2.1.zip"
+sha256 = "ea4e52579dc1ccdaf5b3f25ad264cd6fdd3daf457b2b4927f73eb36e7cb81cdb"
+ingetrazo = "0.5.8"
+tags = ["rendering", "architecture", "productivity"]
+
+[name]
+en = "Scene Automation"
+es = "Automatización de escenas"
+pt = "Automação de cenas"
+
+[summary]
+en = "Plays the model's scenes in a sequence with smooth, cinematic camera moves, optional sounds, full screen and MP4 export."
+es = "Reproduce las escenas del modelo en secuencia con movimientos de cámara suaves y cinematográficos, sonidos opcionales, pantalla completa y exportación a MP4."
+pt = "Reproduz as cenas do modelo em sequência com movimentos de câmera suaves e cinematográficos, sons opcionais, tela cheia e exportação para MP4."

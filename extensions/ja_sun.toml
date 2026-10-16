@@ -1,0 +1,22 @@
+id = "ja_sun"
+version = "0.1.0"
+author = "Julio Angulo"
+author_url = "https://github.com/wrc86"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/wrc86/ja-sun-ingetrazo"
+download = "https://raw.githubusercontent.com/wrc86/ja-sun-ingetrazo/v0.1.0/dist/ja_sun-0.1.0.zip"
+sha256 = "63a3a41a0ac2948c30a72e44c62c2e4a9134d06e7001c41f9ad3a76686bfc4f3"
+ingetrazo = "0.5.7"
+tags = ["architecture", "analysis", "rendering"]
+
+screenshot = "ja_sun.webp"
+
+[name]
+es = "JA Sun · Sol y sombras"
+en = "JA Sun · Sun and shadows"
+pt = "JA Sun · Sol e sombras"
+
+[summary]
+es = "Panel de estudio solar: fecha, hora, ubicación, norte, intensidad de sombra, recorrido solar interactivo y animación del día, con ajustes guardados en el modelo."
+en = "Solar study panel: date, time, location, north, shadow intensity, interactive sun path and day animation, with settings saved in the model."
+pt = "Painel de estudo solar: data, hora, localização, norte, intensidade da sombra, trajetória solar interativa e animação do dia, com ajustes salvos no modelo."

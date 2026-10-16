@@ -1,0 +1,22 @@
+id = "ja_units"
+version = "0.1.0"
+author = "Julio Angulo"
+author_url = "https://github.com/wrc86"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/wrc86/ja-units-ingetrazo"
+download = "https://raw.githubusercontent.com/wrc86/ja-units-ingetrazo/v0.1.0/dist/ja_units-0.1.0.zip"
+sha256 = "e5c008fcf0376be03f195a2483a09dad38a9e8824aa24be5036b87943981d504"
+ingetrazo = "0.5.7"
+tags = ["productivity", "architecture", "drawing"]
+
+screenshot = "ja_units_v2.webp"
+
+[name]
+es = "JA Units · Unidades"
+en = "JA Units · Units"
+pt = "JA Units · Unidades"
+
+[summary]
+es = "Cambia en un clic la unidad y la precisión del modelo (mm, cm, m, pulgadas, pies y fraccionales) desde un panel y una barra, con presets propios y sin escalar la geometría."
+en = "Switch the model's unit and precision in one click (mm, cm, m, inches, feet and fractional) from a panel and toolbar, with custom presets and no geometry scaling."
+pt = "Muda num clique a unidade e a precisão do modelo (mm, cm, m, polegadas, pés e frações) a partir de um painel e uma barra, com presets próprios e sem escalar a geometria."

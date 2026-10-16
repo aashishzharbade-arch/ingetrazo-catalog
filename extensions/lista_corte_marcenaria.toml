@@ -1,0 +1,20 @@
+id = "lista_corte_marcenaria"
+version = "1.0.0"
+author = "Victor Jardim"
+author_url = "https://github.com/vemcjardim"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/vemcjardim/lista-de-corte-plugin-ingetrazo"
+download = "https://raw.githubusercontent.com/vemcjardim/lista-de-corte-plugin-ingetrazo/8f9f6ff8488c42af6a7089bab076ff0b076f15c6/lista_corte.py"
+sha256 = "4708814422c42cb375b78644a275210f6afd6fb3f120a7dd0d6dcecf4afb9670"
+ingetrazo = "0.5.7"
+tags = ["fabrication", "productivity"]
+
+[name]
+es = "Lista de corte para carpintería"
+en = "Woodworking Cut List"
+pt = "Lista de corte para marcenaria"
+
+[summary]
+es = "Extrae las dimensiones de grupos y componentes, agrupa las piezas idénticas y exporta un CSV con medidas en milímetros y cantos configurables."
+en = "Extracts panel dimensions from groups and components, groups identical parts and exports a CSV cut list with millimetre sizes and configurable edge banding."
+pt = "Extrai dimensões de grupos e componentes, agrupa peças iguais e exporta CSV com medidas em milímetros e fitas de borda configuráveis."

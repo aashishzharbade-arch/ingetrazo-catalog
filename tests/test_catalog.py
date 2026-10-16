@@ -173,3 +173,42 @@ def test_reviewed_badge_follows_the_hash(repo):
 def test_the_real_catalog_is_valid_offline():
     """The entries in this repository, without downloading."""
     assert catalog.check(offline=True) == 0
+
+
+def _commit(root, message, when):
+    import subprocess
+    env = {"GIT_AUTHOR_DATE": when, "GIT_COMMITTER_DATE": when,
+           "GIT_AUTHOR_NAME": "t", "GIT_AUTHOR_EMAIL": "t@example.org",
+           "GIT_COMMITTER_NAME": "t", "GIT_COMMITTER_EMAIL": "t@example.org",
+           "PATH": "/usr/bin:/bin", "HOME": str(root)}
+    subprocess.run(["git", "add", "-A"], cwd=root, check=True, env=env)
+    subprocess.run(["git", "commit", "-qm", message], cwd=root, check=True,
+                   env=env)
+
+
+def test_dates_come_from_git_history_and_follow_a_rename(repo):
+    """«Most recent» (#656): added = first merge, updated = when the
+    current version was merged; a metadata-only edit or a rename does not
+    count as an update."""
+    import subprocess
+    root, _ = repo
+    subprocess.run(["git", "init", "-q"], cwd=root, check=True)
+    _add(repo, _entry())
+    _commit(root, "add", "2026-10-01T10:00:00+00:00")
+    _add(repo, _entry(version="1.1"))
+    _commit(root, "1.1", "2026-10-05T12:30:00-05:00")
+    _add(repo, _entry(version="1.1", tags=["bim", "terrain"]))
+    _commit(root, "tags only", "2026-10-07T09:00:00+00:00")
+    old = root / "extensions" / "hola.toml"
+    old.rename(root / "extensions" / "hola_lite.toml")
+    _commit(root, "rename", "2026-10-09T09:00:00+00:00")
+    dates = catalog.entry_dates(root / "extensions" / "hola_lite.toml")
+    assert dates == {"added_at": "2026-10-01T10:00Z",
+                     "updated_at": "2026-10-05T17:30Z"}
+
+
+def test_an_entry_git_does_not_know_gets_no_dates(repo):
+    root, _ = repo
+    _add(repo, _entry())
+    assert catalog.entry_dates(root / "extensions" / "hola.toml") == {}
+    assert "added_at" not in catalog.build()["extensions"][0]
