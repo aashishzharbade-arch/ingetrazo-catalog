@@ -1,0 +1,18 @@
+id = "texture_library"
+version = "1.0.0"
+author = "aashishzharbade-arch"
+author_url = "https://github.com/aashishzharbade-arch"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/texture_library-v1.0.0/repository-upload/texture_library/texture_library.py"
+sha256 = "0b518fcc279b7d01496858fd4b0a0f6cd39f774aad65933fb08f346bcfdd5756"
+ingetrazo = "0.5.8"
+tags = ["productivity", "rendering"]
+
+screenshot = "texture_library.png"
+
+[name]
+en = "Texture Library for IngeTrazo"
+
+[summary]
+en = "Browse local textures by category, set real-world tile sizes and rotation, paint faces or selected groups, import images or ZIPs, and optionally download colour maps from Poly Haven."
