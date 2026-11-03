@@ -1,12 +1,12 @@
 id = "cutlist"
-version = "0.1.0"
+version = "0.2.0"
 author = "Ronaldo Alves"
 author_url = "https://github.com/ronaldogalves"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/ronaldogalves/cutlist-ingetrazo"
-download = "https://github.com/ronaldogalves/cutlist-ingetrazo/releases/download/v0.1.0/cutlist-0.1.0.zip"
-sha256 = "f576f2c963022e85175aa68385ec0d22c2130a5ccf179bc66fa9ca050f08442d"
-ingetrazo = "0.5.9"
+download = "https://github.com/ronaldogalves/cutlist-ingetrazo/releases/download/v0.2.0/cutlist-0.2.0.zip"
+sha256 = "41c1cca5b06fa579f0382cce3c45a6e242596b3aaee7c36283d7d25e58b3d487"
+ingetrazo = "0.6.0"
 tags = ["fabrication", "import-export"]
 screenshot = "cutlist.png"
 
@@ -16,6 +16,6 @@ es = "Lista de corte · piezas, proveedores, planos de corte"
 pt = "Lista de corte · peças, fornecedores, planos de corte"
 
 [summary]
-en = "Cut list by board and thickness, read from how the model is painted (boards, laminates, edge bands); supplier exports (CorteCloud, Leo Madeiras); cutting diagrams for the saw, printed as PDF."
-es = "Lista de corte por tablero y espesor, leída de la pintura del modelo (tableros, laminados, cantos); exportación a proveedores (CorteCloud, Leo Madeiras); planos de corte para la sierra en PDF."
-pt = "Lista de corte por chapa e espessura, lida da pintura do modelo (chapas, laminados, fitas); exportação para fornecedores (CorteCloud, Leo Madeiras); planos de corte para a serra em PDF."
+en = "Cut list by board and thickness, read from how the model is painted (boards, laminates, edge bands); supplier exports (CorteCloud, Leo Madeiras); cutting diagrams for the saw; edge bands to buy; part labels."
+es = "Lista de corte por tablero y espesor, leída de la pintura del modelo (tableros, laminados, cantos); exportación a proveedores (CorteCloud, Leo Madeiras); planos de corte para la sierra; cantos a comprar; etiquetas."
+pt = "Lista de corte por chapa e espessura, lida da pintura do modelo (chapas, laminados, fitas); exportação para fornecedores (CorteCloud, Leo Madeiras); planos de corte para a serra; fitas a comprar; etiquetas."
