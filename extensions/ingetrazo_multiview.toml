@@ -1,12 +1,12 @@
 id = "ingetrazo_multiview"
-version = "1.0.6"
+version = "1.0.7"
 author = "aashishzharbade-arch"
 author_url = "https://github.com/aashishzharbade-arch"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
-download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_multiview-v1.0.6/repository-upload/ingetrazo-multiview/ingetrazo_multiview.py"
-sha256 = "8b1744bd48ba09083595792e632ac51ffe94011d938f760d0667b96a66a6f384"
-ingetrazo = "0.5.7"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_multiview-v1.0.7/repository-upload/ingetrazo-multiview/ingetrazo_multiview.py"
+sha256 = "fc631efc52f1906a227deeac2dc9dbcd722ddaa4d347d0dc23d26647cf17ef98"
+ingetrazo = "0.6.0"
 tags = ["productivity", "drawing"]
 screenshot = "ingetrazo_multiview.png"
 
