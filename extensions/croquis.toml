@@ -1,5 +1,5 @@
 id = "croquis"
-version = "0.14.0"
+version = "0.14.1"
 author = "Victor Crespo"
 author_url = "https://github.com/vicc3d"
 
@@ -7,8 +7,8 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/vicc3d/croquis-ingetrazo"
 
-download = "https://github.com/vicc3d/croquis-ingetrazo/releases/download/v0.14.0/croquis-0.14.0.zip"
-sha256 = "d6d9727a4b88e5ad02cec56ba214921f4423c1cb01dace8f5e5babd4a585b02f"
+download = "https://github.com/vicc3d/croquis-ingetrazo/releases/download/v0.14.1/croquis-0.14.1.zip"
+sha256 = "00fe906a8b8033464bcac153ba7e41018517cbfd70f8e55efe00b127e2c15e6a"
 
 ingetrazo = "0.5.9"
 
