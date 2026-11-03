@@ -16,6 +16,6 @@ es = "Lista de corte · piezas, proveedores, planos de corte"
 pt = "Lista de corte · peças, fornecedores, planos de corte"
 
 [summary]
-en = "Cut list by board and thickness, read from how the model is painted (boards, laminates, edge bands); supplier exports (CorteCloud, Leo Madeiras); cutting diagrams for the saw; edge bands to buy; part labels."
-es = "Lista de corte por tablero y espesor, leída de la pintura del modelo (tableros, laminados, cantos); exportación a proveedores (CorteCloud, Leo Madeiras); planos de corte para la sierra; cantos a comprar; etiquetas."
-pt = "Lista de corte por chapa e espessura, lida da pintura do modelo (chapas, laminados, fitas); exportação para fornecedores (CorteCloud, Leo Madeiras); planos de corte para a serra; fitas a comprar; etiquetas."
+en = "Cut list for woodworking: boards, thicknesses, laminates and edge bands read from the model's materials; supplier exports (CorteCloud, Leo etc.); cutting diagrams for the saw; edge band totals; part labels."
+es = "Lista de corte para carpintería: tableros, espesores, laminados y cantos leídos de los materiales del modelo; exportación a proveedores (CorteCloud, Leo etc.); planos de corte para la sierra; cantos a comprar; etiquetas para piezas."
+pt = "Lista de corte para marcenaria: chapas, espessuras, laminados e fitas de borda lidos dos materiais do modelo; exportação para fornecedores (CorteCloud, Leo etc.); planos de corte para serra; quantificação de fitas; etiquetas para peças."
