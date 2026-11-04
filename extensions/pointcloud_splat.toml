@@ -1,5 +1,5 @@
 id = "pointcloud_splat"
-version = "1.0.0"
+version = "1.0.1"
 author = "archimades27"
 author_url = "https://github.com/archimades27"
 
@@ -7,8 +7,8 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/archimades27/ingetrazo-pointcloud-splat"
 
-download = "https://github.com/archimades27/ingetrazo-pointcloud-splat/releases/download/v1.0.0/pointcloud_splat.zip"
-sha256 = "ae95b72a90c06bf8ea894083db9f4a6ae24cd5ffe42de4415fb2d44921c22422"
+download = "https://github.com/archimades27/ingetrazo-pointcloud-splat/releases/download/v1.0.1/pointcloud_splat.zip"
+sha256 = "a7801d4c12e29f7a75550d7b97cbd302a8ecf4b3fb28ad56281d1926fec93818"
 
 ingetrazo = "0.5.7"
 
@@ -25,3 +25,8 @@ pt = "Nuvem de Pontos e Gaussian Splatting 3D"
 en = "Import, inspect, and snap to LiDAR/photogrammetry point clouds (.ply, .las, .laz, .xyz) and 3D Gaussian Splats (.splat) with accelerated viewport rendering, section box clipping, and Scan-to-BIM tools."
 es = "Importación, inspección y ajuste (snap) a nubes de puntos LiDAR/fotogrametría (.ply, .las, .laz, .xyz) y Gaussian Splats 3D (.splat) con renderizado acelerado, caja de sección y herramientas Scan-to-BIM."
 pt = "Importação, inspeção e snap em nuvens de pontos LiDAR/fotogrametria (.ply, .las, .laz, .xyz) e Gaussian Splats 3D (.splat) com renderização acelerada, caixa de corte e ferramentas Scan-to-BIM."
+
+[description]
+en = "High-performance reality-capture extension for IngeTrazo supporting LiDAR, photogrammetry point clouds (.ply, .las, .laz, .xyz, .pts, .txt, .csv), and 3D Gaussian Splats (.ply, .splat). Includes a SIMD/multi-threaded C rasterizer (up to 60+ FPS with dynamic LOD), True Color RGB/SH, Elevation colormaps (Turbo, Viridis, Jet, Terrain), Intensity and Normal shading, interactive 3D Section Box clipping, native CAD snapping, and undoable Scan-to-BIM tools (RANSAC dominant plane fitting, 3D bounding box, and guide points). What's New in v1.0.1: True 3D OpenGL depth-buffer occlusion so CAD geometry and large-scale drone scans overlap accurately in 3D space; non-blocking zero-face scene proxy so faces and edges inside visible or hidden point clouds can be freely selected, extruded (Push/Pull), and edited; native Move/Rotate/Scale sync; and SnapshotImport undo integration."
+es = "Extensión de captura de realidad de alto rendimiento para IngeTrazo compatible con nubes de puntos LiDAR y fotogrametría (.ply, .las, .laz, .xyz, .pts, .txt, .csv) y Gaussian Splats 3D (.ply, .splat). Incluye rasterizador en C multihilo (hasta 60+ FPS con LOD dinámico), modos RGB/SH, mapas de elevación (Turbo, Viridis, Jet, Terrain), intensidad y normales, caja de sección 3D, ajuste (snap) nativo para dibujo CAD y herramientas Scan-to-BIM con soporte de deshacer (plano dominante RANSAC, caja delimitadora y puntos guía). Novedades en v1.0.1: oclusión 3D real mediante el búfer de profundidad OpenGL para que el modelo CAD y las nubes de puntos se superpongan correctamente; proxy sin caras que permite seleccionar, extruir (Empujar/Tirar) y editar geometría dentro de nubes visibles u ocultas; y sincronización con Mover/Rotar/Escalar."
+pt = "Extensão de captura da realidade de alto desempenho para IngeTrazo compatível com nuvens de pontos LiDAR e fotogrametria (.ply, .las, .laz, .xyz, .pts, .txt, .csv) e Gaussian Splats 3D (.ply, .splat). Inclui rasterizador em C multithread (até 60+ FPS com LOD dinâmico), modos RGB/SH, mapas de elevação (Turbo, Viridis, Jet, Terrain), intensidade e normais, caixa de corte 3D, snap nativo para ferramentas CAD e recursos Scan-to-BIM com suporte a desfazer (plano dominante RANSAC, caixa delimitadora e pontos de guia). Novidades na v1.0.1: oclusão 3D real via buffer de profundidade OpenGL para sobreposição precisa entre o modelo CAD e a nuvem de pontos; proxy sem faces para selecionar, extrudar (Empurrar/Puxar) e editar objetos dentro de nuvens visíveis ou ocultas; e sincronização nativa com Mover/Rotacionar/Escalar."
