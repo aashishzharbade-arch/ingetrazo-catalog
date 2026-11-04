@@ -4,7 +4,7 @@
 
 # Same as the file name: lowercase letters, digits and _.
 id = "v_menu"
-version = "0.2"
+version = "0.3"
 author = "priit123"
 # author_url = "https://github.com/you"            # optional
 
@@ -17,13 +17,13 @@ repository = "https://github.com/priit123/ingetrazo-v-menu"
 # The exact file IngeTrazo users will install: a .py file, or a .zip holding
 # ONE folder with an __init__.py. Use a TAG or a COMMIT in the address, not
 # «main»: what is reviewed must not change afterwards.
-download = "https://github.com/priit123/ingetrazo-v-menu/releases/download/0.2/ingetrazo-v-menu-0.2.zip"
+download = "https://github.com/priit123/ingetrazo-v-menu/releases/download/0.3/ingetrazo-v-menu-0.3.zip"
 # sha256sum my_extension.py      (Windows: certutil -hashfile my_extension.py SHA256)
 # If it is wrong, the check tells you the right one.
-sha256 = "048870e82c1366f43712eb54a47828b0c9b91dbb64837e0866c0fc3f4ede31f1"
+sha256 = "4eb21f3e9cc7ae04298e5342e5be1ce5ae71299117fd588eeae582d845ffde3d"
 
 # The IngeTrazo version you tested with.
-ingetrazo = "0.5.11"
+ingetrazo = "0.6.0"
 
 # 1 to 4 of: architecture, bim, structures, terrain, drawing, analysis,
 # import-export, rendering, fabrication, productivity, education, other
