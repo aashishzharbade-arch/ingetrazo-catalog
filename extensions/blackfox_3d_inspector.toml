@@ -1,6 +1,6 @@
 
 id = "blackfox_3d_inspector"
-version = "1.0.0"
+version = "1.1.0"
 author = "David Mavrov"
 author_url = "https://github.com/davidsmavrov-debug"
 
@@ -8,9 +8,9 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/davidsmavrov-debug/BlackFox-CAD"
 
-download = "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/inspector-v1.0.0/IngeTrazo%20Extensions/3D%20Inspector/BlackFox_3D_Inspector_v1_0_0.py"
+download = "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/inspector-v1.1.0/IngeTrazo%20Extensions/3D%20Inspector/BlackFox_3D_Inspector_v1_1_0.py"
 
-sha256 = "4ab9473a32e881a257178128b1f19c8fa3ae5ef7821226c04f10a56ce6d13513"
+sha256 = "4192faaf94e7fb78f734f9944481a5f4662c963524d69d2fac573d838f7f6b7a"
 
 ingetrazo = "0.5.11"
 
