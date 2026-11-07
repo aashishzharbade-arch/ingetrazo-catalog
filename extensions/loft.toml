@@ -4,10 +4,11 @@ author = "Phillip Edwards (Eddy)"
 author_url = "https://github.com/eddy-99"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
-download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_loft.py"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/6b19ccf8ab8aa9a0a96987731fbc068c4e037709/plugins/3D_Eddys/ed3d_loft.py"
 sha256 = "e08dbf1a9c10b78490c347c45af559fe7e97a46188093199105af21266c1e42d"
 ingetrazo = "0.5.11"
 tags = ["drawing"]
+screenshot = "loft.webp"
 
 [name]
 es = "Transición 3D"
