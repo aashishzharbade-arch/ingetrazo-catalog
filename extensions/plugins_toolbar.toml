@@ -1,13 +1,14 @@
 id = "plugins_toolbar"
-version = "1.1"
+version = "1.2"
 author = "Phillip Edwards (Eddy)"
 author_url = "https://github.com/eddy-99"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
-download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_plugins_toolbar.py"
-sha256 = "33f5d20915c3068a1d7898bd851fec75c60a7b83fd09cc6f1322c146a087654f"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/6b19ccf8ab8aa9a0a96987731fbc068c4e037709/plugins/3D_Eddys/ed3d_plugins_toolbar.py"
+sha256 = "93b0968955618cad6f6ffb2b7b762395385bcbeb271cd01c39a97efe7967e9a7"
 ingetrazo = "0.5.11"
 tags = ["productivity"]
+screenshot = "plugins_toolbar.webp"
 
 [name]
 es = "Barra de complementos 3D"
