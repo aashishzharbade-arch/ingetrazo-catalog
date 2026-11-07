@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-07T04:39Z",
+ "generated": "2026-11-07T07:50Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1145,13 +1145,13 @@
   },
   {
    "id": "brick_block_studio",
-   "version": "1.0",
+   "version": "2.0",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/brick_block_studio.py",
-   "sha256": "58fcf433c4cf481a009d1052ae114416411fc6e5d407d7fe6f50e7610968392e",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/6b19ccf8ab8aa9a0a96987731fbc068c4e037709/plugins/3D_Eddys/ed3d_brick_block_studio.py",
+   "sha256": "821b05f47271d927fd8fef97e93309924be762d8c1fca402f57ca668da3bb3e7",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture",
@@ -1164,13 +1164,13 @@
     "pt": "Estúdio de tijolos e blocos 3D"
    },
    "summary": {
-    "es": "Ladrillo y bloque en 3D sobre una cara: aparejos, desfases, hiladas a tizón y a sardinel, envejecido, preajustes y cortes exactos en huecos. Sólidos cerrados para imprimir.",
-    "en": "3D brick and block work on a wall face: bonds, row offsets, header and soldier courses, weathering, presets and exact cuts round openings. Closed solids ready to print.",
-    "pt": "Alvenaria 3D de tijolo e bloco numa face: aparelhos, desfasamentos, fiadas, envelhecimento, predefinições e cortes exatos nas aberturas. Sólidos fechados para impressão."
+    "en": "Brick, block and stone walling on a wall face: bonds, coursed ashlar, random rubble, dry-stone, Welsh slate; quoins, copings, heads and sills; bomb-site damage and rubble piles. Closed solids ready to print.",
+    "es": "Muros de ladrillo, bloque y piedra sobre una cara: aparejos, sillería, mampostería, piedra seca, pizarra; esquinales, albardillas, dinteles y alféizares; daños de bombardeo y montones de escombros. Listo para imprimir.",
+    "pt": "Alvenaria de tijolo, bloco e pedra numa face: aparelhos, cantaria, alvenaria irregular, pedra seca, ardósia; cunhais, capeamentos, padieiras e peitoris; danos de bombardeio e montes de entulho. Pronto a imprimir."
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-01T14:54Z"
+   "updated_at": "2026-11-07T07:50Z"
   },
   {
    "id": "igz_pdf3d",
@@ -2461,13 +2461,13 @@
   },
   {
    "id": "period_doors",
-   "version": "1.0",
+   "version": "1.1",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/period_doors.py",
-   "sha256": "a363d2cd4d3b0c7b6fbadeda97f61630842ef989e56530def4cbc9369fbf4219",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/6b19ccf8ab8aa9a0a96987731fbc068c4e037709/plugins/3D_Eddys/ed3d_period_doors.py",
+   "sha256": "14736f06b6fd11437c217f2246753c356bfe99cc7ac98771426d42321ae0edad",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture"
@@ -2485,7 +2485,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-01T14:54Z"
+   "updated_at": "2026-11-07T07:50Z"
   },
   {
    "id": "comfyui_renderer",
@@ -2875,12 +2875,13 @@
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_loft.py",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/6b19ccf8ab8aa9a0a96987731fbc068c4e037709/plugins/3D_Eddys/ed3d_loft.py",
    "sha256": "e08dbf1a9c10b78490c347c45af559fe7e97a46188093199105af21266c1e42d",
    "ingetrazo": "0.5.11",
    "tags": [
     "drawing"
    ],
+   "screenshot": "loft.webp",
    "name": {
     "es": "Transición 3D",
     "en": "3D Loft",
