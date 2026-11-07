@@ -4,7 +4,7 @@ author = "Phillip Edwards (Eddy)"
 author_url = "https://github.com/eddy-99"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
-download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_wrap.py"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/6b19ccf8ab8aa9a0a96987731fbc068c4e037709/plugins/3D_Eddys/ed3d_wrap.py"
 sha256 = "a266739052cc2f778b36f114eb15487c63288d1bb25a6733f23b387d2dbc8621"
 ingetrazo = "0.5.11"
 tags = ["architecture", "fabrication"]
@@ -17,5 +17,5 @@ pt = "Envolver 3D"
 
 [summary]
 es = "Coloca ladrillos hilada a hilada alrededor de chimeneas redondas, cuadradas, cónicas o dibujadas (sin junta, esquinas trabadas), o curva un patrón plano sobre un sólido."
-en = "Lays bricks course by course around round, square, tapered or drawn chimneys (no seam, bonded corners), or bends any flat pattern round a solid."
+en = "Lays bricks course by course round round, square, tapered or drawn chimneys (no seam, bonded corners), or bends any flat pattern round a solid."
 pt = "Assenta tijolos fiada a fiada à volta de chaminés redondas, quadradas, cónicas ou desenhadas (sem junta, cantos travados), ou curva um padrão plano sobre um sólido."
