@@ -4,10 +4,11 @@ author = "Phillip Edwards (Eddy)"
 author_url = "https://github.com/eddy-99"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
-download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_centre_finder.py"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/2dbe5bef8c9214fcf4b8b4e2cf532de77b9d2a93/plugins/3D_Eddys/ed3d_centre_finder.py"
 sha256 = "1bb57622dc54117df9a0f5e5e1e8d8a855cca0216ee2fb063cef3c39f36b448a"
 ingetrazo = "0.5.11"
 tags = ["drawing", "productivity"]
+screenshot = "centre_finder.webp"
 
 [name]
 es = "Buscador de centros 3D"
