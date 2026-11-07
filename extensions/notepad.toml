@@ -1,13 +1,14 @@
 id = "notepad"
-version = "1.0"
+version = "1.1"
 author = "Phillip Edwards (Eddy)"
 author_url = "https://github.com/eddy-99"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
-download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/v1.0/plugins/notepad.py"
-sha256 = "28a5021bdc9105f35656f9c98f5925025266ce0ec6ef91a13cb2e075d993fad6"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/7f6637ab03c57c0de3a3f2969791465b2db3e469/plugins/3D_Eddys/ed3d_notepad.py"
+sha256 = "2d45f033d06e3dd09fb116af2745cf8085b7e87a766e8afffcdb10bcfd03e55d"
 ingetrazo = "0.5.11"
 tags = ["productivity"]
+screenshot = "notepad.webp"
 
 [name]
 es = "Bloc de notas 3D"
