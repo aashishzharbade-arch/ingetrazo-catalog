@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-08T12:00Z",
+ "generated": "2026-11-08T12:25Z",
  "tags": [
   "analysis",
   "architecture",
@@ -599,6 +599,34 @@
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
    "updated_at": "2026-10-21T20:31Z"
+  },
+  {
+   "id": "igz_calculator",
+   "version": "1.2.0",
+   "author": "Ezequiel M. Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-calculator",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-calculator/releases/download/v1.2.0/igz_calculator.zip",
+   "sha256": "db48ef343f69549be535e14e8933927244edfa174d33667af79d00110de5f46c",
+   "ingetrazo": "0.6.0",
+   "tags": [
+    "productivity"
+   ],
+   "screenshot": "igz-calculator.png",
+   "name": {
+    "es": "Calculadora IngeTrazo",
+    "en": "IngeTrazo Calculator",
+    "pt": "Calculadora IngeTrazo"
+   },
+   "summary": {
+    "es": "Calculadora estándar y científica con historial desplazable, teclado físico e inyección del resultado en el VCB de IngeTrazo.",
+    "en": "Standard and scientific calculator with scrollable history, physical keyboard and one-click injection of the result into IngeTrazo's VCB.",
+    "pt": "Calculadora padrão e científica com histórico rolável, teclado físico e injeção do resultado no VCB do IngeTrazo."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:25Z",
+   "updated_at": "2026-11-08T12:25Z"
   },
   {
    "id": "gutters_downpipes",
@@ -2248,6 +2276,34 @@
    "updated_at": "2026-10-19T19:56Z"
   },
   {
+   "id": "mac_trackpad_navigation",
+   "version": "1.0.1",
+   "author": "Remi Clinton",
+   "author_url": "https://github.com/RemiAnton",
+   "license": "MIT",
+   "repository": "https://github.com/RemiAnton/ingetrazo-mac-trackpad-navigation",
+   "download": "https://raw.githubusercontent.com/RemiAnton/ingetrazo-mac-trackpad-navigation/v1.0.1/mac_trackpad_navigation.py",
+   "sha256": "7318651f089758556fed3f0e59fa05ceb951fab86f65eef6d072a53986124393",
+   "ingetrazo": "0.6.0",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "name": {
+    "en": "MAC Trackpad Navigation",
+    "es": "Navegación de Trackpad para Mac",
+    "pt": "Navegação de Trackpad para Mac"
+   },
+   "summary": {
+    "en": "Blender-style trackpad navigation for macOS: 2-finger orbit, Shift pan, Control zoom, and native pinch gestures.",
+    "es": "Navegación de trackpad estilo Blender para macOS: órbita con 2 dedos, Shift para encuadre, Control para zoom y gestos táctiles.",
+    "pt": "Navegação de trackpad estilo Blender para macOS: órbita con 2 dedos, Shift para panorâmica, Control para zoom e gestos de pinça."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:25Z",
+   "updated_at": "2026-11-08T12:25Z"
+  },
+  {
    "id": "grading_tool",
    "version": "1.2",
    "author": "Pesi (pesi3d.de)",
@@ -2522,6 +2578,34 @@
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
    "updated_at": "2026-10-04T05:08Z"
+  },
+  {
+   "id": "select_curve",
+   "version": "1.0.1",
+   "author": "Remi Clinton",
+   "author_url": "https://github.com/RemiAnton",
+   "license": "MIT",
+   "repository": "https://github.com/RemiAnton/ingetrazo-select-curve",
+   "download": "https://raw.githubusercontent.com/RemiAnton/ingetrazo-select-curve/v1.0.1/select_curve.py",
+   "sha256": "76f198403cf5bac8323e7e4d2e07d23fb5363f600f731ea66fcd7edbc80b73c6",
+   "ingetrazo": "0.6.0",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "name": {
+    "en": "Select Curve",
+    "es": "Seleccionar Curva",
+    "pt": "Selecionar Curva"
+   },
+   "summary": {
+    "en": "Select a whole chain of connected edges with one click: it follows visible edges and stops at forks, dead ends and closed loops. Live preview under the cursor; modifiers to add, remove or toggle.",
+    "es": "Selecciona de un clic una cadena entera de aristas conectadas: sigue las aristas visibles y para en bifurcaciones, extremos y bucles cerrados. Vista previa bajo el cursor y teclas para añadir, quitar o alternar.",
+    "pt": "Seleciona com um clique uma cadeia inteira de arestas conectadas: segue as arestas visíveis e para em bifurcações, extremidades e laços fechados. Prévia sob o cursor e teclas para adicionar, remover ou alternar."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:25Z",
+   "updated_at": "2026-11-08T12:25Z"
   },
   {
    "id": "path_select_tool",
