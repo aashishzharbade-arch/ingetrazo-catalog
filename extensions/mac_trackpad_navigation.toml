@@ -1,0 +1,20 @@
+id = "mac_trackpad_navigation"
+version = "1.0.1"
+author = "Remi Clinton"
+author_url = "https://github.com/RemiAnton"
+license = "MIT"
+repository = "https://github.com/RemiAnton/ingetrazo-mac-trackpad-navigation"
+download = "https://raw.githubusercontent.com/RemiAnton/ingetrazo-mac-trackpad-navigation/v1.0.1/mac_trackpad_navigation.py"
+sha256 = "7318651f089758556fed3f0e59fa05ceb951fab86f65eef6d072a53986124393"
+ingetrazo = "0.6.0"
+tags = ["productivity", "drawing"]
+
+[name]
+en = "MAC Trackpad Navigation"
+es = "Navegación de Trackpad para Mac"
+pt = "Navegação de Trackpad para Mac"
+
+[summary]
+en = "Blender-style trackpad navigation for macOS: 2-finger orbit, Shift pan, Control zoom, and native pinch gestures."
+es = "Navegación de trackpad estilo Blender para macOS: órbita con 2 dedos, Shift para encuadre, Control para zoom y gestos táctiles."
+pt = "Navegação de trackpad estilo Blender para macOS: órbita con 2 dedos, Shift para panorâmica, Control para zoom e gestos de pinça."
