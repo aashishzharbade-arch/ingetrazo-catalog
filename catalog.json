@@ -237,13 +237,13 @@
   },
   {
    "id": "archxq_it_lite",
-   "version": "0.11.1",
+   "version": "0.11.2",
    "author": "Orlando Souza · XQ",
    "author_url": "https://github.com/equipexq",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/equipexq/archxq-it-lite",
-   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.11.1/archxq_it_lite-v0.11.1.zip",
-   "sha256": "7ea538a625164f300d82324ca619443142ca8a93262986324e9b801c871c848f",
+   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.11.2/archxq_it_lite-v0.11.2.zip",
+   "sha256": "996f58db9c902df9ca8c9451359cd6d31cc3693545d9565f5d35624befc65c1b",
    "ingetrazo": "0.5.8",
    "tags": [
     "architecture",
@@ -264,7 +264,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-11-04T03:44Z"
+   "updated_at": "2026-11-08T11:59Z"
   },
   {
    "id": "automacao",
@@ -750,14 +750,14 @@
   },
   {
    "id": "contexto",
-   "version": "0.3.3",
+   "version": "0.3.4",
    "author": "Victor Crespo",
    "author_url": "https://github.com/vicc3d",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/vicc3d/contexto-ingetrazo",
-   "download": "https://github.com/vicc3d/contexto-ingetrazo/releases/download/v0.3.3/contexto-0.3.3.zip",
-   "sha256": "28c6f06f037993d865b9d404baa72f35766d6b22bc835fdf36d26958e0840ee3",
-   "ingetrazo": "0.5.11",
+   "download": "https://github.com/vicc3d/contexto-ingetrazo/releases/download/v0.3.4/contexto-0.3.4.zip",
+   "sha256": "14a48341d61552e74f560bbecd10cc41f4a4eb47f0ae28f8aa01594fc570794f",
+   "ingetrazo": "0.6.0",
    "tags": [
     "architecture",
     "terrain"
@@ -775,7 +775,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T15:28Z",
-   "updated_at": "2026-11-01T15:28Z"
+   "updated_at": "2026-11-08T11:59Z"
   },
   {
    "id": "scale_converter",
