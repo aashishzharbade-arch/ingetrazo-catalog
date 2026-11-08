@@ -1,0 +1,27 @@
+id = "pisogen_arq"
+version = "2026.1.0"
+author = "Alfonso Rodríguez"
+author_url = "https://github.com/ark-rdz"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/ark-rdz/pisogen-arq-ingetrazo"
+
+download = "https://raw.githubusercontent.com/ark-rdz/pisogen-arq-ingetrazo/23138a0c8fe6d70abae48f5b7fd01f1b48554072/descarga/pisogen_arq-2026.1.0.zip"
+sha256 = "cfe4b244136b37b3f5a1002a55105f4e3e0e2934a2dc865405f75d572f9f379d"
+
+ingetrazo = "0.5.11"
+
+tags = ["architecture", "productivity"]
+
+screenshot = "pisogen_arq.jpg"
+
+[name]
+es = "PisoGen ARQ: generador de pisos"
+en = "PisoGen ARQ: floor generator"
+pt = "PisoGen ARQ: gerador de pisos"
+
+[summary]
+es = "Cubre una cara con piezas reales: veinte composiciones, juntas, relleno, bisel, texturas, nivel del piso y cantidades. Panel en español."
+en = "Covers a face with real pieces: twenty compositions, joints, joint fill, bevel, textures, floor level and quantities. Spanish interface."
+pt = "Cobre uma face com peças reais: vinte composições, juntas, rejunte, bisel, texturas, nível do piso e quantitativos. Interface em espanhol."
