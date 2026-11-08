@@ -1,0 +1,20 @@
+id = "select_curve"
+version = "1.0.1"
+author = "Remi Clinton"
+author_url = "https://github.com/RemiAnton"
+license = "MIT"
+repository = "https://github.com/RemiAnton/ingetrazo-select-curve"
+download = "https://raw.githubusercontent.com/RemiAnton/ingetrazo-select-curve/v1.0.1/select_curve.py"
+sha256 = "76f198403cf5bac8323e7e4d2e07d23fb5363f600f731ea66fcd7edbc80b73c6"
+ingetrazo = "0.6.0"
+tags = ["drawing", "productivity"]
+
+[name]
+en = "Select Curve"
+es = "Seleccionar Curva"
+pt = "Selecionar Curva"
+
+[summary]
+en = "Select a whole chain of connected edges with one click: it follows visible edges and stops at forks, dead ends and closed loops. Live preview under the cursor; modifiers to add, remove or toggle."
+es = "Selecciona de un clic una cadena entera de aristas conectadas: sigue las aristas visibles y para en bifurcaciones, extremos y bucles cerrados. Vista previa bajo el cursor y teclas para añadir, quitar o alternar."
+pt = "Seleciona com um clique uma cadeia inteira de arestas conectadas: segue as arestas visíveis e para em bifurcações, extremidades e laços fechados. Prévia sob o cursor e teclas para adicionar, remover ou alternar."
