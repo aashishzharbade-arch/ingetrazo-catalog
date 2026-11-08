@@ -1,5 +1,7 @@
-# Who must approve. The «reviewed» badge and the tools need a maintainer.
-*                    @tuxiasumari
-/reviewed.toml       @tuxiasumari
+# Who reviews. Every new entry and the «reviewed» badge: any of the
+# maintainers, so the catalog keeps moving when one of them is away.
+# The tools and the workflows that run with write access: Marco only.
+*                    @tuxiasumari @canalsecuario-blip
+/reviewed.toml       @tuxiasumari @canalsecuario-blip
 /tools/              @tuxiasumari
 /.github/            @tuxiasumari
