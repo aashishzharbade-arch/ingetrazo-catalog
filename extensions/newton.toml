@@ -1,0 +1,29 @@
+id = "newton"
+version = "0.14.0"
+author = "Tristan Cebulla"
+author_url = "https://github.com/d1rty-pixel"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/d1rty-pixel/ingetrazo-newton"
+
+download = "https://github.com/d1rty-pixel/ingetrazo-newton/releases/download/v0.14.0/newton-0.14.0.zip"
+sha256 = "d14e96834faef90a07eee401e15adb839c308e7b88b905aec49b807dc270341c"
+
+ingetrazo = "0.6.0"
+
+tags = ["analysis", "fabrication", "education"]
+screenshot = "newton.png"
+
+[name]
+es = "Newton (física)"
+en = "Newton (physics)"
+pt = "Newton (física)"
+
+[summary]
+es = "Simulación de cuerpos rígidos en el modelo: caída, colisiones, ejes giratorios y lineales, motores, conexiones, cuerdas y panel de control. Reversible."
+en = "Rigid-body simulation inside the model: falling, collisions, hinge and slide axes, motors, connections, ropes and a control panel. Fully reversible."
+pt = "Simulação de corpos rígidos no modelo: queda, colisões, eixos giratórios e lineares, motores, conexões, cabos e painel de controle. Reversível."
+
+[description]
+en = "Turns groups and components into physics bodies, in the spirit of SketchyPhysics. Bodies can be dynamic, fixed or excluded, with mass, friction, bounce and collision shapes. Hinge and slide axes support limits, servo or motor drive and force limits; ball, pin and rigid connections close mechanisms such as a crank drive; ropes and cables are flexible fixed-length strands. Named controls drive the motors and passive bodies can be dragged with the mouse. The simulation can be reset to the starting state at any time. Requires a separate Python 3.12 (64-bit) with mujoco==3.3.7; Newton starts the physics in that interpreter as its own process (see the repository README)."
