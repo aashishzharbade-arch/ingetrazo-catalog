@@ -1,0 +1,21 @@
+id = "quick_links"
+version = "1.0"
+author = "Phillip Edwards (Eddy)"
+author_url = "https://github.com/eddy-99"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/3abc3dc039bcf853a911e1e3cf14ef515fa4571b/plugins/3D_Eddys/ed3d_quick_links.py"
+sha256 = "9078fd526b69e047efeec4bfa89c9eb09485bb79051229de2c3fc5457670f3d8"
+ingetrazo = "0.5.11"
+tags = ["productivity"]
+screenshot = "quick_links.webp"
+
+[name]
+es = "Enlaces rápidos 3D"
+en = "3D Quick Links"
+pt = "Links rápidos 3D"
+
+[summary]
+en = "A small window over the work area with your folders, files and web pages: one click opens them. Keep a set of links for each job, add them with the buttons or by dragging them on."
+es = "Una ventana pequeña sobre el área de trabajo con tus carpetas, archivos y páginas web: un clic los abre. Un juego de enlaces para cada trabajo; añádelos con los botones o arrastrándolos."
+pt = "Uma pequena janela sobre a área de trabalho com as suas pastas, ficheiros e páginas web: um clique abre-os. Um conjunto de links para cada trabalho; adicione-os com os botões ou arrastando."
