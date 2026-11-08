@@ -1,5 +1,5 @@
 id = "dispersa"
-version = "0.1.0"
+version = "0.2.0"
 author = "Victor Crespo"
 author_url = "https://github.com/vicc3d"
 
@@ -9,8 +9,8 @@ repository = "https://github.com/vicc3d/dispersa-ingetrazo"
 
 # The sha256 changes with every commit (git archive stamps the files with the
 # commit's time): rebuild with tools/make_release.sh on the tagged commit.
-download = "https://github.com/vicc3d/dispersa-ingetrazo/releases/download/v0.1.0/dispersa-0.1.0.zip"
-sha256 = "08c26a7208d3d39e6fac3dc5d5fc6cd2988e18cfbedd9eba7e7101d1f9dc36e7"
+download = "https://github.com/vicc3d/dispersa-ingetrazo/releases/download/v0.2.0/dispersa-0.2.0.zip"
+sha256 = "1d9040b2697a6da902aa440ce7f16ca349b0235d4056270bba2c39c145707e5f"
 
 ingetrazo = "0.6.0"
 
@@ -23,6 +23,6 @@ en = "Dispersa"
 pt = "Dispersa"
 
 [summary]
-es = "Dispersa árboles, plantas, piedras o personas sobre caras, un grupo o el terreno, con tamaño y giro al azar, distancia mínima y semilla. Las copias comparten geometría: mil árboles pesan uno."
-en = "Scatters trees, plants, stones or people over faces, a group or the terrain, with random size and turn, a least distance and a seed. Copies share their geometry: a thousand trees weigh one."
-pt = "Espalha árvores, plantas, pedras ou pessoas sobre faces, um grupo ou o terreno, com tamanho e giro aleatórios, distância mínima e semente. As cópias compartilham a geometria: mil árvores pesam uma."
+es = "Reparte árboles, plantas, piedras o personas sobre caras, un grupo o el terreno, o los pinta con un pincel, con zonas libres. Tamaño y giro al azar, distancia mínima y semilla. Las copias comparten geometría: mil árboles pesan uno."
+en = "Scatters trees, plants, stones or people over faces, a group or the terrain, or paints them with a brush, with zones kept clear. Random size and turn, a least distance and a seed. Copies share their geometry: a thousand trees weigh one."
+pt = "Espalha árvores, plantas, pedras ou pessoas sobre faces, um grupo ou o terreno, ou as pinta com um pincel, com zonas livres. Tamanho e giro aleatórios, distância mínima e semente. As cópias compartilham a geometria: mil árvores pesam uma."
