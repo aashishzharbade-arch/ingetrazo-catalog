@@ -1,0 +1,21 @@
+id = "timeline"
+version = "1.0.1"
+author = "Phillip Edwards (Eddy)"
+author_url = "https://github.com/eddy-99"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/100541aa96f517d1ac8f40feb6880a2a83c7f792/plugins/3D_Eddys/ed3d_timeline.py"
+sha256 = "beb3f782259587359ee727c01bd53d9f8389bdb0801868aa8fbbec33c779a442"
+ingetrazo = "0.5.11"
+tags = ["productivity"]
+screenshot = "timeline.webp"
+
+[name]
+es = "Línea de tiempo 3D"
+en = "3D Timeline"
+pt = "Linha do tempo 3D"
+
+[summary]
+en = "A strip of every step along the bottom of the window: click a step to roll back, or a greyed one to go forward again. Checkpoints saved beside the file, and the step list kept in the .igz."
+es = "Una tira con cada paso al pie de la ventana: clic en un paso para volver atrás, o en uno gris para avanzar otra vez. Puntos de control junto al archivo y la lista de pasos guardada en el .igz."
+pt = "Uma faixa com cada passo no fundo da janela: clique num passo para voltar atrás, ou num cinzento para avançar de novo. Pontos de controlo junto ao ficheiro e a lista de passos guardada no .igz."
