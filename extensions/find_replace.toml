@@ -1,0 +1,21 @@
+id = "find_replace"
+version = "1.0"
+author = "Phillip Edwards (Eddy)"
+author_url = "https://github.com/eddy-99"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/3abc3dc039bcf853a911e1e3cf14ef515fa4571b/plugins/3D_Eddys/ed3d_find_replace.py"
+sha256 = "e9362b46b88ccb38cc687dc7e21e3c149a94ca37c43fa048be39c8af014c576d"
+ingetrazo = "0.5.11"
+tags = ["productivity", "fabrication"]
+screenshot = "find_replace.webp"
+
+[name]
+es = "Buscar y reemplazar 3D"
+en = "3D Find & Replace"
+pt = "Localizar e substituir 3D"
+
+[summary]
+en = "Swaps every copy of one part for another in one go: model with light markers, then swap in full rivets or bolts and back. Parts library of markers, rivets, bolts and nuts."
+es = "Cambia todas las copias de una pieza por otra de una vez: modela con marcadores ligeros y cámbialos por remaches o pernos completos, y al revés. Biblioteca de marcadores, remaches, pernos y tuercas."
+pt = "Troca todas as cópias de uma peça por outra de uma só vez: modele com marcadores leves e troque por rebites ou parafusos completos, e de volta. Biblioteca de marcadores, rebites, parafusos e porcas."
