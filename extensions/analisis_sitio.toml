@@ -1,0 +1,32 @@
+# Ficha de la extensión «Análisis de sitio» para el catálogo de IngeTrazo.
+# Va en extensions/analisis_sitio.toml
+
+id = "analisis_sitio"
+version = "1.8.0"
+author = "Jufego"
+author_url = "https://github.com/jufegofoto-cell"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/jufegofoto-cell/IngeAnalisys"
+
+# El ZIP adjunto a la versión (release). Debe coincidir EXACTAMENTE con la
+# dirección del archivo en GitHub (mayúsculas incluidas: V1.8.0 ≠ v1.8.0).
+download = "https://github.com/jufegofoto-cell/IngeAnalisys/releases/download/V1.8.0/analisis_sitio.zip"
+sha256 = "46ff7d51d13ce1d278ff5487b1ecd573a381ccf83ab7e0260af49f2e8e5a6237"
+
+ingetrazo = "0.6.0"
+
+tags = ["analysis", "architecture", "terrain", "education"]
+
+screenshot = "analisis_sitio.png"
+
+[name]
+es = "Análisis de sitio (IngeAnalysis)"
+en = "Site Analysis (IngeAnalysis)"
+pt = "Análise do terreno (IngeAnalysis)"
+
+[summary]
+es = "Análisis bioclimático del sitio en el modelo: carta solar 3D, sombras y horas de sol, radiación solar incidente, rosa de los vientos y clima desde EPW, contexto urbano de OpenStreetMap, masas e índices."
+en = "Bioclimatic site analysis inside the model: 3D sun path, shadow and sun hours, incident solar radiation, wind rose and climate from EPW, OpenStreetMap urban context, massing and planning indices."
+pt = "Análise bioclimática do terreno no modelo: carta solar 3D, sombras e horas de sol, radiação solar incidente, rosa dos ventos e clima do EPW, contexto urbano do OpenStreetMap, volumetria e índices."
