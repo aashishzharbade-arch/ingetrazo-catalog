@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-08T15:14Z",
+ "generated": "2026-11-08T21:25Z",
  "tags": [
   "analysis",
   "architecture",
@@ -125,35 +125,6 @@
    "reviewed": true,
    "added_at": "2026-10-02T21:47Z",
    "updated_at": "2026-10-02T21:47Z"
-  },
-  {
-   "id": "niveles",
-   "version": "0.5.7",
-   "author": "José Castro Basso (FADU–UDELAR)",
-   "license": "GPL-3.0-or-later",
-   "repository": "https://github.com/ingelibre/ingetrazo/blob/v0.5.7/examples/extensions/niveles.py",
-   "download": "https://raw.githubusercontent.com/ingelibre/ingetrazo/v0.5.7/examples/extensions/niveles.py",
-   "sha256": "ddf8c6e17bd164f336e8f514c257fc2a0abc4f6f9b16ff0a589c5a5bc73afed2",
-   "ingetrazo": "0.5.3",
-   "tags": [
-    "architecture",
-    "drawing",
-    "education"
-   ],
-   "screenshot": "niveles.webp",
-   "name": {
-    "es": "Niveles",
-    "en": "Levels",
-    "pt": "Níveis"
-   },
-   "summary": {
-    "es": "Niveles del edificio (PB, PA, azotea…) con su altura: líneas guía en alzados y cortes, y el cursor se engancha a cada nivel.",
-    "en": "Building levels (ground floor, upper floor, roof…) with their height: guide lines in elevations and sections, and the cursor snaps to each level.",
-    "pt": "Níveis do edifício (térreo, pavimento superior, cobertura…) com sua altura: linhas-guia em elevações e cortes, e o cursor se prende a cada nível."
-   },
-   "reviewed": true,
-   "added_at": "2026-10-02T14:40Z",
-   "updated_at": "2026-10-02T14:40Z"
   },
   {
    "id": "propiedades_poligono",
@@ -2564,6 +2535,35 @@
    "reviewed": false,
    "added_at": "2026-10-05T14:28Z",
    "updated_at": "2026-11-08T02:03Z"
+  },
+  {
+   "id": "niveles",
+   "version": "0.6.1",
+   "author": "José Castro Basso (FADU–UDELAR)",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/ingelibre/ingetrazo/blob/v0.6.1/examples/extensions/niveles.py",
+   "download": "https://raw.githubusercontent.com/ingelibre/ingetrazo/v0.6.1/examples/extensions/niveles.py",
+   "sha256": "b2f96a24786e2b2e59d88b9e669d5d20f4a8b40e2c2adbcda83bb30c6ea4cbea",
+   "ingetrazo": "0.6.0",
+   "tags": [
+    "architecture",
+    "drawing",
+    "education"
+   ],
+   "screenshot": "niveles.webp",
+   "name": {
+    "es": "Niveles",
+    "en": "Levels",
+    "pt": "Níveis"
+   },
+   "summary": {
+    "es": "Niveles del edificio (PB, PA, azotea…) con su altura: líneas guía en alzados y cortes, y el cursor se engancha a cada nivel.",
+    "en": "Building levels (ground floor, upper floor, roof…) with their height: guide lines in elevations and sections, and the cursor snaps to each level.",
+    "pt": "Níveis do edifício (térreo, pavimento superior, cobertura…) com sua altura: linhas-guia em elevações e cortes, e o cursor se prende a cada nível."
+   },
+   "reviewed": false,
+   "added_at": "2026-10-02T14:40Z",
+   "updated_at": "2026-11-08T21:24Z"
   },
   {
    "id": "pointcloud_splat",
