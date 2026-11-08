@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-08T13:09Z",
+ "generated": "2026-11-08T14:54Z",
  "tags": [
   "analysis",
   "architecture",
@@ -234,6 +234,37 @@
    "reviewed": false,
    "added_at": "2026-10-05T20:58Z",
    "updated_at": "2026-10-08T08:40Z"
+  },
+  {
+   "id": "analisis_sitio",
+   "version": "1.8.0",
+   "author": "Jufego",
+   "author_url": "https://github.com/jufegofoto-cell",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/jufegofoto-cell/IngeAnalisys",
+   "download": "https://github.com/jufegofoto-cell/IngeAnalisys/releases/download/V1.8.0/analisis_sitio.zip",
+   "sha256": "46ff7d51d13ce1d278ff5487b1ecd573a381ccf83ab7e0260af49f2e8e5a6237",
+   "ingetrazo": "0.6.0",
+   "tags": [
+    "analysis",
+    "architecture",
+    "terrain",
+    "education"
+   ],
+   "screenshot": "analisis_sitio.png",
+   "name": {
+    "es": "Análisis de sitio (IngeAnalysis)",
+    "en": "Site Analysis (IngeAnalysis)",
+    "pt": "Análise do terreno (IngeAnalysis)"
+   },
+   "summary": {
+    "es": "Análisis bioclimático del sitio en el modelo: carta solar 3D, sombras y horas de sol, radiación solar incidente, rosa de los vientos y clima desde EPW, contexto urbano de OpenStreetMap, masas e índices.",
+    "en": "Bioclimatic site analysis inside the model: 3D sun path, shadow and sun hours, incident solar radiation, wind rose and climate from EPW, OpenStreetMap urban context, massing and planning indices.",
+    "pt": "Análise bioclimática do terreno no modelo: carta solar 3D, sombras e horas de sol, radiação solar incidente, rosa dos ventos e clima do EPW, contexto urbano do OpenStreetMap, volumetria e índices."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T14:54Z",
+   "updated_at": "2026-11-08T14:54Z"
   },
   {
    "id": "archxq_it_lite",
