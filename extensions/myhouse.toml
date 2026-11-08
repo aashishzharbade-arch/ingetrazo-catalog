@@ -1,0 +1,23 @@
+id = "myhouse"
+version = "1.0.0"
+author = "dario ilardi"
+author_url = "https://github.com/darioila"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/darioila/myHouse"
+
+download = "https://github.com/darioila/myHouse/releases/download/v1.0/myhouse.zip"
+sha256 = "df468e6dc0d93553a9292fa340381dbbe2e8a0c5ba612404dba50badb720b63c"
+
+ingetrazo = "0.5.11"
+
+tags = ["architecture"]
+
+[name]
+es = "MyHouse"
+en = "MyHouse"
+
+[summary]
+es = "Herramientas de modelado arquitectónico para IngeTrazo: muros, puertas, ventanas, escaleras, rampas, losas, techos, vigas, columnas y barandas en una barra propia."
+en = "Architectural modeling tools for IngeTrazo: walls, doors, windows, stairs, ramps, floor slabs, roofs, beams, columns, and railings, all in a dedicated toolbar."
