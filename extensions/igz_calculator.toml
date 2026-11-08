@@ -1,0 +1,38 @@
+# IngeTrazo community catalog entry — https://github.com/ingelibre/ingetrazo-extensions
+#
+# To publish: copy this file to  extensions/igz_calculator.toml  in the
+# ingetrazo-extensions repository and copy the screenshot to
+# screenshots/igz-calculator.png, then open a pull request. The release asset
+# referenced by `download` must exist first (see README.md here).
+
+id = "igz_calculator"
+version = "1.2.0"
+author = "Ezequiel M. Rezende"
+author_url = "https://github.com/em-rezende"
+
+# SPDX name of a free licence compatible with GPL-3.0 (same as IngeTrazo).
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/em-rezende/Ingetrazo-igz-calculator"
+
+# Tagged GitHub Release asset — never a branch URL, so what a maintainer
+# reviewed is exactly what users download.
+download = "https://github.com/em-rezende/Ingetrazo-igz-calculator/releases/download/v1.2.0/igz_calculator.zip"
+# certutil -hashfile igz_calculator.zip SHA256  (Windows)
+sha256 = "db48ef343f69549be535e14e8933927244edfa174d33667af79d00110de5f46c"
+
+# IngeTrazo version tested with (adjust if you validated against another one).
+ingetrazo = "0.6.0"
+
+tags = ["productivity"]
+screenshot = "igz-calculator.png"
+
+[name]
+es = "Calculadora IngeTrazo"
+en = "IngeTrazo Calculator"
+pt = "Calculadora IngeTrazo"
+
+[summary]
+es = "Calculadora estándar y científica con historial desplazable, teclado físico e inyección del resultado en el VCB de IngeTrazo."
+en = "Standard and scientific calculator with scrollable history, physical keyboard and one-click injection of the result into IngeTrazo's VCB."
+pt = "Calculadora padrão e científica com histórico rolável, teclado físico e injeção do resultado no VCB do IngeTrazo."
