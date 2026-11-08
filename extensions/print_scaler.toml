@@ -4,10 +4,11 @@ author = "Phillip Edwards (Eddy)"
 author_url = "https://github.com/eddy-99"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
-download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8bad2952c0fd896232d1f4d2f1803508b2aa19eb/plugins/3D_Eddys/ed3d_print_scaler.py"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/3abc3dc039bcf853a911e1e3cf14ef515fa4571b/plugins/3D_Eddys/ed3d_print_scaler.py"
 sha256 = "806174883a0df75168b66b5655ae3ae49ba7c8e46b75c8e52d9e8c540efdb947"
 ingetrazo = "0.5.11"
 tags = ["fabrication"]
+screenshot = "print_scaler.webp"
 
 [name]
 es = "Escalador para impresión 3D"
