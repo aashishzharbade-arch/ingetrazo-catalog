@@ -1,5 +1,5 @@
 id = "contexto"
-version = "0.3.3"
+version = "0.3.4"
 author = "Victor Crespo"
 author_url = "https://github.com/vicc3d"
 
@@ -7,10 +7,10 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/vicc3d/contexto-ingetrazo"
 
-download = "https://github.com/vicc3d/contexto-ingetrazo/releases/download/v0.3.3/contexto-0.3.3.zip"
-sha256 = "28c6f06f037993d865b9d404baa72f35766d6b22bc835fdf36d26958e0840ee3"
+download = "https://github.com/vicc3d/contexto-ingetrazo/releases/download/v0.3.4/contexto-0.3.4.zip"
+sha256 = "14a48341d61552e74f560bbecd10cc41f4a4eb47f0ae28f8aa01594fc570794f"
 
-ingetrazo = "0.5.11"
+ingetrazo = "0.6.0"
 
 tags = ["architecture", "terrain"]
 screenshot = "contexto.webp"
