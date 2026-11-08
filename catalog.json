@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-08T02:00Z",
+ "generated": "2026-11-08T02:01Z",
  "tags": [
   "analysis",
   "architecture",
@@ -923,13 +923,13 @@
   },
   {
    "id": "quadrify_tool",
-   "version": "1.2",
+   "version": "1.3",
    "author": "Pesi (pesi3d.de)",
    "author_url": "https://github.com/PESI3D",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/PESI3D/ingetrazo-quadrify",
-   "download": "https://github.com/PESI3D/ingetrazo-quadrify/releases/download/v1.2/quadrify_tool.py",
-   "sha256": "018689cea34d8f81098669147cc311f5597f725158c111dd2bc15d1a5bbbc8e1",
+   "download": "https://github.com/PESI3D/ingetrazo-quadrify/releases/download/v1.3/quadrify_tool.py",
+   "sha256": "41721ee5d0642058855307ddcad644da8e3487a851d79dc968220197fc3b2e3b",
    "ingetrazo": "0.5.8",
    "tags": [
     "import-export",
@@ -949,7 +949,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:35Z",
-   "updated_at": "2026-10-19T14:00Z"
+   "updated_at": "2026-11-08T02:01Z"
   },
   {
    "id": "ifc_editor",
