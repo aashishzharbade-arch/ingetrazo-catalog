@@ -1,11 +1,11 @@
 id = "niveles"
-version = "0.5.7"
+version = "0.6.1"
 author = "José Castro Basso (FADU–UDELAR)"
 license = "GPL-3.0-or-later"
-repository = "https://github.com/ingelibre/ingetrazo/blob/v0.5.7/examples/extensions/niveles.py"
-download = "https://raw.githubusercontent.com/ingelibre/ingetrazo/v0.5.7/examples/extensions/niveles.py"
-sha256 = "ddf8c6e17bd164f336e8f514c257fc2a0abc4f6f9b16ff0a589c5a5bc73afed2"
-ingetrazo = "0.5.3"
+repository = "https://github.com/ingelibre/ingetrazo/blob/v0.6.1/examples/extensions/niveles.py"
+download = "https://raw.githubusercontent.com/ingelibre/ingetrazo/v0.6.1/examples/extensions/niveles.py"
+sha256 = "b2f96a24786e2b2e59d88b9e669d5d20f4a8b40e2c2adbcda83bb30c6ea4cbea"
+ingetrazo = "0.6.0"
 tags = ["architecture", "drawing", "education"]
 
 screenshot = "niveles.webp"
