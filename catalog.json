@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-08T12:25Z",
+ "generated": "2026-11-08T12:36Z",
  "tags": [
   "analysis",
   "architecture",
@@ -565,6 +565,35 @@
    "updated_at": "2026-11-01T17:48Z"
   },
   {
+   "id": "find_replace",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/3abc3dc039bcf853a911e1e3cf14ef515fa4571b/plugins/3D_Eddys/ed3d_find_replace.py",
+   "sha256": "e9362b46b88ccb38cc687dc7e21e3c149a94ca37c43fa048be39c8af014c576d",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "productivity",
+    "fabrication"
+   ],
+   "screenshot": "find_replace.webp",
+   "name": {
+    "es": "Buscar y reemplazar 3D",
+    "en": "3D Find & Replace",
+    "pt": "Localizar e substituir 3D"
+   },
+   "summary": {
+    "en": "Swaps every copy of one part for another in one go: model with light markers, then swap in full rivets or bolts and back. Parts library of markers, rivets, bolts and nuts.",
+    "es": "Cambia todas las copias de una pieza por otra de una vez: modela con marcadores ligeros y cámbialos por remaches o pernos completos, y al revés. Biblioteca de marcadores, remaches, pernos y tuercas.",
+    "pt": "Troca todas as cópias de uma peça por outra de uma só vez: modele com marcadores leves e troque por rebites ou parafusos completos, e de volta. Biblioteca de marcadores, rebites, parafusos e porcas."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:36Z",
+   "updated_at": "2026-11-08T12:36Z"
+  },
+  {
    "id": "cad2ingetrazo",
    "version": "3.23.3",
    "author": "M. Tariq",
@@ -749,6 +778,35 @@
    "reviewed": false,
    "added_at": "2026-11-01T17:48Z",
    "updated_at": "2026-11-07T09:02Z"
+  },
+  {
+   "id": "place_along",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/3abc3dc039bcf853a911e1e3cf14ef515fa4571b/plugins/3D_Eddys/ed3d_place_along.py",
+   "sha256": "b5a0d154aaeaf677c9d379a610d0d75a7f3b05d644ac6153a62fa93f4258f0f2",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "fabrication",
+    "productivity"
+   ],
+   "screenshot": "place_along.webp",
+   "name": {
+    "es": "Colocar a lo largo de una línea 3D",
+    "en": "3D Place Along Line",
+    "pt": "Colocar ao longo de linha 3D"
+   },
+   "summary": {
+    "en": "Puts rivets, bolts or any part along a line drawn over a surface (a boiler, a cab side), evenly spaced or at a pitch, each part standing square to the surface. One group you can edit again.",
+    "es": "Coloca remaches, pernos o cualquier pieza a lo largo de una línea sobre una superficie (una caldera, un lateral), a intervalos iguales o a un paso, cada pieza perpendicular a la superficie.",
+    "pt": "Coloca rebites, parafusos ou qualquer peça ao longo de uma linha sobre uma superfície (uma caldeira, uma lateral), igualmente espaçados ou a um passo, cada peça perpendicular à superfície."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:36Z",
+   "updated_at": "2026-11-08T12:36Z"
   },
   {
    "id": "lines_connect",
@@ -1091,6 +1149,34 @@
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
    "updated_at": "2026-11-01T18:43Z"
+  },
+  {
+   "id": "quick_links",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/3abc3dc039bcf853a911e1e3cf14ef515fa4571b/plugins/3D_Eddys/ed3d_quick_links.py",
+   "sha256": "9078fd526b69e047efeec4bfa89c9eb09485bb79051229de2c3fc5457670f3d8",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "productivity"
+   ],
+   "screenshot": "quick_links.webp",
+   "name": {
+    "es": "Enlaces rápidos 3D",
+    "en": "3D Quick Links",
+    "pt": "Links rápidos 3D"
+   },
+   "summary": {
+    "en": "A small window over the work area with your folders, files and web pages: one click opens them. Keep a set of links for each job, add them with the buttons or by dragging them on.",
+    "es": "Una ventana pequeña sobre el área de trabajo con tus carpetas, archivos y páginas web: un clic los abre. Un juego de enlaces para cada trabajo; añádelos con los botones o arrastrándolos.",
+    "pt": "Uma pequena janela sobre a área de trabalho com as suas pastas, ficheiros e páginas web: um clique abre-os. Um conjunto de links para cada trabalho; adicione-os com os botões ou arrastando."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:36Z",
+   "updated_at": "2026-11-08T12:36Z"
   },
   {
    "id": "wrap",
