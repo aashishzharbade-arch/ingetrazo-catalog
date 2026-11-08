@@ -1,0 +1,21 @@
+id = "place_along"
+version = "1.0"
+author = "Phillip Edwards (Eddy)"
+author_url = "https://github.com/eddy-99"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/3abc3dc039bcf853a911e1e3cf14ef515fa4571b/plugins/3D_Eddys/ed3d_place_along.py"
+sha256 = "b5a0d154aaeaf677c9d379a610d0d75a7f3b05d644ac6153a62fa93f4258f0f2"
+ingetrazo = "0.5.11"
+tags = ["fabrication", "productivity"]
+screenshot = "place_along.webp"
+
+[name]
+es = "Colocar a lo largo de una línea 3D"
+en = "3D Place Along Line"
+pt = "Colocar ao longo de linha 3D"
+
+[summary]
+en = "Puts rivets, bolts or any part along a line drawn over a surface (a boiler, a cab side), evenly spaced or at a pitch, each part standing square to the surface. One group you can edit again."
+es = "Coloca remaches, pernos o cualquier pieza a lo largo de una línea sobre una superficie (una caldera, un lateral), a intervalos iguales o a un paso, cada pieza perpendicular a la superficie."
+pt = "Coloca rebites, parafusos ou qualquer peça ao longo de uma linha sobre uma superfície (uma caldeira, uma lateral), igualmente espaçados ou a um passo, cada peça perpendicular à superfície."
