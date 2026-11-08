@@ -4,9 +4,9 @@
 
 # Same as the file name: lowercase letters, digits and _.
 id = "v_menu"
-version = "0.3"
+version = "1.0"
 author = "priit123"
-# author_url = "https://github.com/you"            # optional
+author_url = "https://github.com/priit123"
 
 # SPDX name of a free licence: MIT, GPL-3.0-or-later, Apache-2.0, BSD-3-Clause…
 license = "GPL-3.0-or-later"
@@ -17,10 +17,10 @@ repository = "https://github.com/priit123/ingetrazo-v-menu"
 # The exact file IngeTrazo users will install: a .py file, or a .zip holding
 # ONE folder with an __init__.py. Use a TAG or a COMMIT in the address, not
 # «main»: what is reviewed must not change afterwards.
-download = "https://github.com/priit123/ingetrazo-v-menu/releases/download/0.3/ingetrazo-v-menu-0.3.zip"
+download = "https://github.com/priit123/ingetrazo-v-menu/releases/download/1.0/ingetrazo-v-menu-1.0.zip"
 # sha256sum my_extension.py      (Windows: certutil -hashfile my_extension.py SHA256)
 # If it is wrong, the check tells you the right one.
-sha256 = "4eb21f3e9cc7ae04298e5342e5be1ce5ae71299117fd588eeae582d845ffde3d"
+sha256 = "aa53fab796f71131d98e7a19d334ddeb4a5cced849f99bb4b70cd19348491b26"
 
 # The IngeTrazo version you tested with.
 ingetrazo = "0.6.0"
@@ -30,7 +30,7 @@ ingetrazo = "0.6.0"
 tags = ["productivity"]
 
 # Optional: a picture in screenshots/ (png, jpg or webp, under 600 KB, ~1200×750).
-# screenshot = "my_extension.png"
+screenshot = "v_menu.png"
 
 # At least Spanish OR English. Portuguese is welcome. Machine translation is
 # fine — the page shows the visitor's language when it is there.
@@ -40,6 +40,6 @@ en = "V Menu"
 pt = "V Menu"
 
 [summary] # one or two sentences, up to 240 characters
-es = "Un menú radial rápido para un acceso ágil a las herramientas con la tecla V."
-en = "A fast radial menu for quick tool access bound to shortcut key V."
-pt = "Um menu radial rápido para acesso ágil às ferramentas com a tecla V."
+es = "Pulsa V para abrir un menú circular bajo el ratón. Personaliza las 10 ranuras con tus herramientas más usadas."
+en = "Press V to open a circular pie menu directly under your mouse. Customize all 10 slots with the tools you use most."
+pt = "Pressione V para abrir um menu circular sob o rato. Personalize os 10 espaços com as suas ferramentas mais usadas."
