@@ -1,0 +1,86 @@
+# A first answer, at once, to everyone who sends an entry.
+#
+# New extensions wait for a person who reads their code, and that can take
+# days. Without a word back, an author cannot tell a queue from a lost
+# request. This workflow answers right away:
+#
+# - a pull request that ADDS an entry: received, a person reviews the code
+#   of every new extension, what to watch meanwhile;
+# - an issue whose text looks like an entry (it has `id = "…"` and
+#   `download = …`): entries go in through a pull request, how to open one.
+#
+# SAFETY: it never checks out or runs anything from the pull request or the
+# issue. It only lists the pull request's file names through the API and
+# looks for two words in the issue body, passed through environment
+# variables (never pasted into the script), then posts a fixed comment.
+name: welcome
+
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  pull-request:
+    if: github.event_name == 'pull_request_target'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      PR: ${{ github.event.pull_request.number }}
+      ASSOCIATION: ${{ github.event.pull_request.author_association }}
+    steps:
+      - name: Answer a new entry
+        run: |
+          # Maintainers need no welcome.
+          case "$ASSOCIATION" in OWNER|MEMBER|COLLABORATOR) exit 0 ;; esac
+          added=$(gh api "repos/$REPO/pulls/$PR/files" --paginate \
+            --jq '.[] | select(.status == "added") | .filename' \
+            | grep -E '^extensions/[a-z0-9_]+\.toml$' || true)
+          # An update of an entry already here is answered by automerge.yml.
+          [ -n "$added" ] || exit 0
+          cat > "$RUNNER_TEMP/body.md" <<'EOF'
+          Thanks for sending your extension! / ¡Gracias por enviar tu extensión! / Obrigado por enviar a sua extensão!
+
+          **English.** Every new extension is reviewed by a person who reads its code before it is published, usually within a week. Meanwhile:
+          - The automatic **check** below reads your entry and tells you what to fix, if anything. If it says it is waiting for approval (first pull request here), a maintainer starts it.
+          - Please keep the file at `download` unchanged: if you need to fix it, publish a new tag and update `download` and `sha256` here.
+          - Once your first entry is in, your future versions are merged automatically when the check is clean.
+
+          **Español.** Cada extensión nueva la revisa una persona que lee su código antes de publicarla, normalmente en menos de una semana. Mientras tanto:
+          - La **comprobación** automática de abajo lee tu ficha y te dice qué corregir. Si dice que espera aprobación (primer PR aquí), la inicia alguien del equipo.
+          - No reemplaces el archivo de `download`: si necesitas corregirlo, publica una etiqueta nueva y actualiza aquí `download` y `sha256`.
+          - Cuando tu primera ficha esté dentro, tus versiones siguientes se fusionan solas si la comprobación sale limpia.
+
+          **Português.** Cada extensão nova é revista por uma pessoa que lê o código antes de publicá-la, normalmente em menos de uma semana. A verificação automática abaixo indica o que corrigir; não substitua o ficheiro de `download` (publique uma nova etiqueta); depois da primeira ficha, as versões seguintes entram sozinhas quando a verificação passa limpa.
+          EOF
+          gh pr comment "$PR" -R "$REPO" --body-file "$RUNNER_TEMP/body.md"
+
+  issue:
+    if: github.event_name == 'issues'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      ISSUE: ${{ github.event.issue.number }}
+      BODY: ${{ github.event.issue.body }}
+    steps:
+      - name: Point an entry pasted in an issue to a pull request
+        run: |
+          printf '%s' "$BODY" | grep -qE '^[[:space:]]*id[[:space:]]*=[[:space:]]*"' || exit 0
+          printf '%s' "$BODY" | grep -qE '^[[:space:]]*download[[:space:]]*=' || exit 0
+          cat > "$RUNNER_TEMP/body.md" <<'EOF'
+          Thanks! This looks like a catalog entry. / ¡Gracias! Esto parece una ficha del catálogo.
+
+          **English.** Entries go in through a **pull request**, not an issue — that is what starts the automatic check and the review. No Git needed: open [`TEMPLATE.toml`](../blob/main/TEMPLATE.toml), copy it, then in the `extensions/` folder press **Add file ▸ Create new file**, name it `<id>.toml`, paste and fill it in, and press **Propose changes ▸ Create pull request**. The [README](../blob/main/README.md#english) has the details (zip layout, `sha256`, tags).
+
+          **Español.** Las fichas entran por **pull request**, no por issue: es lo que pone en marcha la comprobación automática y la revisión. No hace falta Git: abre [`TEMPLATE.toml`](../blob/main/TEMPLATE.toml), cópialo, y en la carpeta `extensions/` pulsa **Add file ▸ Create new file**, llámalo `<id>.toml`, pega y rellena, y pulsa **Propose changes ▸ Create pull request**. El [README](../blob/main/README.md#español) explica el resto (zip, `sha256`, etiquetas).
+
+          **Português.** As fichas entram por **pull request**, não por issue. Copie [`TEMPLATE.toml`](../blob/main/TEMPLATE.toml) para `extensions/<id>.toml` com **Add file ▸ Create new file** e abra o pull request; o [README](../blob/main/README.md#português) explica o resto.
+          EOF
+          gh issue comment "$ISSUE" -R "$REPO" --body-file "$RUNNER_TEMP/body.md"
