@@ -5,6 +5,7 @@ author = "David Mavrov"
 author_url = "https://github.com/davidsmavrov-debug"
 
 license = "GPL-3.0-or-later"
+screenshot = "blackfox_3d_inspector.png"
 
 repository = "https://github.com/davidsmavrov-debug/BlackFox-CAD"
 

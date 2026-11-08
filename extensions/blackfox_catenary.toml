@@ -4,6 +4,7 @@ version = "1.0.0"
 author = "David Mavrov"
 author_url = "https://github.com/davidsmavrov-debug"
 license = "MIT"
+screenshot = "blackfox_catenary.png"
 repository = "https://github.com/davidsmavrov-debug/BlackFox-CAD"
 
 download = "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/catenary-v1.0.0/IngeTrazo%20Extensions/Catenary/BlackFox_Catenary_v1_0_0.py"
