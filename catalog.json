@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-08T12:36Z",
+ "generated": "2026-11-08T12:46Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1067,6 +1067,36 @@
    "reviewed": false,
    "added_at": "2026-10-19T19:56Z",
    "updated_at": "2026-10-20T18:59Z"
+  },
+  {
+   "id": "dispersa",
+   "version": "0.1.0",
+   "author": "Victor Crespo",
+   "author_url": "https://github.com/vicc3d",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/vicc3d/dispersa-ingetrazo",
+   "download": "https://github.com/vicc3d/dispersa-ingetrazo/releases/download/v0.1.0/dispersa-0.1.0.zip",
+   "sha256": "08c26a7208d3d39e6fac3dc5d5fc6cd2988e18cfbedd9eba7e7101d1f9dc36e7",
+   "ingetrazo": "0.6.0",
+   "tags": [
+    "architecture",
+    "terrain",
+    "rendering"
+   ],
+   "screenshot": "dispersa.webp",
+   "name": {
+    "es": "Dispersa",
+    "en": "Dispersa",
+    "pt": "Dispersa"
+   },
+   "summary": {
+    "es": "Dispersa árboles, plantas, piedras o personas sobre caras, un grupo o el terreno, con tamaño y giro al azar, distancia mínima y semilla. Las copias comparten geometría: mil árboles pesan uno.",
+    "en": "Scatters trees, plants, stones or people over faces, a group or the terrain, with random size and turn, a least distance and a seed. Copies share their geometry: a thousand trees weigh one.",
+    "pt": "Espalha árvores, plantas, pedras ou pessoas sobre faces, um grupo ou o terreno, com tamanho e giro aleatórios, distância mínima e semente. As cópias compartilham a geometria: mil árvores pesam uma."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:46Z",
+   "updated_at": "2026-11-08T12:46Z"
   },
   {
    "id": "display_scale",
@@ -2390,6 +2420,39 @@
    "updated_at": "2026-11-08T12:25Z"
   },
   {
+   "id": "newton",
+   "version": "0.14.0",
+   "author": "Tristan Cebulla",
+   "author_url": "https://github.com/d1rty-pixel",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/d1rty-pixel/ingetrazo-newton",
+   "download": "https://github.com/d1rty-pixel/ingetrazo-newton/releases/download/v0.14.0/newton-0.14.0.zip",
+   "sha256": "d14e96834faef90a07eee401e15adb839c308e7b88b905aec49b807dc270341c",
+   "ingetrazo": "0.6.0",
+   "tags": [
+    "analysis",
+    "fabrication",
+    "education"
+   ],
+   "screenshot": "newton.png",
+   "name": {
+    "es": "Newton (física)",
+    "en": "Newton (physics)",
+    "pt": "Newton (física)"
+   },
+   "summary": {
+    "es": "Simulación de cuerpos rígidos en el modelo: caída, colisiones, ejes giratorios y lineales, motores, conexiones, cuerdas y panel de control. Reversible.",
+    "en": "Rigid-body simulation inside the model: falling, collisions, hinge and slide axes, motors, connections, ropes and a control panel. Fully reversible.",
+    "pt": "Simulação de corpos rígidos no modelo: queda, colisões, eixos giratórios e lineares, motores, conexões, cabos e painel de controle. Reversível."
+   },
+   "description": {
+    "en": "Turns groups and components into physics bodies, in the spirit of SketchyPhysics. Bodies can be dynamic, fixed or excluded, with mass, friction, bounce and collision shapes. Hinge and slide axes support limits, servo or motor drive and force limits; ball, pin and rigid connections close mechanisms such as a crank drive; ropes and cables are flexible fixed-length strands. Named controls drive the motors and passive bodies can be dragged with the mouse. The simulation can be reset to the starting state at any time. Requires a separate Python 3.12 (64-bit) with mujoco==3.3.7; Newton starts the physics in that interpreter as its own process (see the repository README)."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:46Z",
+   "updated_at": "2026-11-08T12:46Z"
+  },
+  {
    "id": "grading_tool",
    "version": "1.2",
    "author": "Pesi (pesi3d.de)",
@@ -2549,6 +2612,35 @@
    "reviewed": false,
    "added_at": "2026-10-08T21:48Z",
    "updated_at": "2026-10-08T21:48Z"
+  },
+  {
+   "id": "pisogen_arq",
+   "version": "2026.1.0",
+   "author": "Alfonso Rodríguez",
+   "author_url": "https://github.com/ark-rdz",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/ark-rdz/pisogen-arq-ingetrazo",
+   "download": "https://raw.githubusercontent.com/ark-rdz/pisogen-arq-ingetrazo/23138a0c8fe6d70abae48f5b7fd01f1b48554072/descarga/pisogen_arq-2026.1.0.zip",
+   "sha256": "cfe4b244136b37b3f5a1002a55105f4e3e0e2934a2dc865405f75d572f9f379d",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "architecture",
+    "productivity"
+   ],
+   "screenshot": "pisogen_arq.jpg",
+   "name": {
+    "es": "PisoGen ARQ: generador de pisos",
+    "en": "PisoGen ARQ: floor generator",
+    "pt": "PisoGen ARQ: gerador de pisos"
+   },
+   "summary": {
+    "es": "Cubre una cara con piezas reales: veinte composiciones, juntas, relleno, bisel, texturas, nivel del piso y cantidades. Panel en español.",
+    "en": "Covers a face with real pieces: twenty compositions, joints, joint fill, bevel, textures, floor level and quantities. Spanish interface.",
+    "pt": "Cobre uma face com peças reais: vinte composições, juntas, rejunte, bisel, texturas, nível do piso e quantitativos. Interface em espanhol."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-08T12:46Z",
+   "updated_at": "2026-11-08T12:46Z"
   },
   {
    "id": "planarq",
