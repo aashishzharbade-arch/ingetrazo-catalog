@@ -10,6 +10,7 @@ on:
       - "screenshots/**"
       - "reviewed.toml"
       - "tools/catalog.py"
+      - "tools/thumbs.py"
   workflow_dispatch:
 
 permissions:
@@ -32,12 +33,15 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tools/catalog.py check --offline
+      # Card-sized copies of the screenshots for the extension manager
+      # (tools/thumbs.py); before the build, which names them.
+      - run: pip install pillow==12.1.1 && python tools/thumbs.py
       - run: python tools/catalog.py build
       - name: Commit catalog.json if it changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalog.json
+          git add catalog.json thumbs
           # The timestamp alone is not a change worth a commit.
           # Two merges seconds apart: the other run may push first. Then
           # rebuild on top of the new main instead of rebasing (both runs
@@ -51,7 +55,8 @@ jobs:
             git push && exit 0
             git fetch origin main
             git reset --hard origin/main
+            python tools/thumbs.py
             python tools/catalog.py build
-            git add catalog.json
+            git add catalog.json thumbs
           done
           exit 1

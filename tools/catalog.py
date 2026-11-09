@@ -40,6 +40,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ENTRIES = ROOT / "extensions"
 SHOTS = ROOT / "screenshots"
+THUMBS = ROOT / "thumbs"
 REVIEWED = ROOT / "reviewed.toml"
 OUT = ROOT / "catalog.json"
 
@@ -371,6 +372,20 @@ def check(ids=None, offline: bool = False) -> int:
     for path in ENTRIES.iterdir():
         if path.suffix != ".toml":
             problems.add(path.name, "only .toml files go in extensions/")
+    # Each screenshot gets thumbs/<stem>.webp (tools/thumbs.py): two
+    # entries whose screenshots differ only in the extension would share it.
+    stems: dict[str, str] = {}
+    for path in entry_paths():
+        try:
+            shot = load_entry(path).get("screenshot")
+        except tomllib.TOMLDecodeError:
+            continue
+        if isinstance(shot, str):
+            stem = Path(shot).stem
+            if stems.get(stem, path.stem) != path.stem:
+                problems.add(path.stem, f"screenshot {shot} has the same name "
+                             f"as {stems[stem]}'s; rename one of them")
+            stems.setdefault(stem, path.stem)
     reviewed = load_reviewed()
     known = {p.stem for p in entry_paths()}
     for ident in reviewed:
@@ -448,6 +463,28 @@ def entry_dates(path: Path) -> dict:
 
 # --------------------------------------------------------------- building
 
+def shot_fields(shot: str | None) -> dict:
+    """What the manager needs to show a screenshot quickly and fresh.
+
+    ``screenshot_sha``: the first 16 hex of its SHA-256 — the same file name
+    with a new picture is a new hash, so a cached copy is fetched again.
+    ``thumb``: the card-sized copy in ``thumbs/`` (tools/thumbs.py), named
+    only when it exists; without it the manager scales the full picture.
+    """
+    if not shot:
+        return {}
+    source = SHOTS / shot
+    try:
+        data = source.read_bytes()
+    except OSError:
+        return {}
+    out = {"screenshot_sha": hashlib.sha256(data).hexdigest()[:16]}
+    thumb = THUMBS / (Path(shot).stem + ".webp")
+    if thumb.is_file():
+        out["thumb"] = thumb.name
+    return out
+
+
 def build() -> dict:
     reviewed = load_reviewed()
     out = []
@@ -458,6 +495,7 @@ def build() -> dict:
         # maintainer looks again.
         entry["reviewed"] = rev.get("sha256") == entry["sha256"]
         entry.update(entry_dates(path))
+        entry.update(shot_fields(entry.get("screenshot")))
         out.append(entry)
     out.sort(key=lambda e: (not e["reviewed"],
                             (e["name"].get("es") or e["name"].get("en")

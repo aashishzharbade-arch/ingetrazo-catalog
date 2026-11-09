@@ -212,3 +212,17 @@ def test_an_entry_git_does_not_know_gets_no_dates(repo):
     _add(repo, _entry())
     assert catalog.entry_dates(root / "extensions" / "hola.toml") == {}
     assert "added_at" not in catalog.build()["extensions"][0]
+
+
+def test_build_names_screenshot_hash_and_thumb(tmp_path, monkeypatch):
+    shots, thumbs = tmp_path / "screenshots", tmp_path / "thumbs"
+    shots.mkdir(); thumbs.mkdir()
+    (shots / "hola.png").write_bytes(b"\x89PNG\r\n\x1a\nfake")
+    monkeypatch.setattr(catalog, "SHOTS", shots)
+    monkeypatch.setattr(catalog, "THUMBS", thumbs)
+    out = catalog.shot_fields("hola.png")
+    assert out == {"screenshot_sha": _sha(b"\x89PNG\r\n\x1a\nfake")[:16]}
+    (thumbs / "hola.webp").write_bytes(b"RIFF")
+    assert catalog.shot_fields("hola.png")["thumb"] == "hola.webp"
+    assert catalog.shot_fields(None) == {}
+    assert catalog.shot_fields("missing.png") == {}
