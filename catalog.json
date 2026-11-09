@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-09T01:29Z",
+ "generated": "2026-11-09T01:59Z",
  "tags": [
   "analysis",
   "architecture",
@@ -194,6 +194,7 @@
     "drawing",
     "productivity"
    ],
+   "screenshot": "perspective_matcher.webp",
    "name": {
     "en": "Perspective Matcher",
     "es": "Ajuste de Perspectiva"
@@ -312,6 +313,7 @@
     "architecture",
     "productivity"
    ],
+   "screenshot": "scenes_play.webp",
    "name": {
     "en": "Scene Automation",
     "es": "Automatización de escenas",
@@ -425,7 +427,7 @@
    "author": "David Mavrov",
    "author_url": "https://github.com/davidsmavrov-debug",
    "license": "GPL-3.0-or-later",
-   "screenshot": "blackfox_3d_inspector.png",
+   "screenshot": "blackfox_3d_inspector.webp",
    "repository": "https://github.com/davidsmavrov-debug/BlackFox-CAD",
    "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/inspector-v1.1.0/IngeTrazo%20Extensions/3D%20Inspector/BlackFox_3D_Inspector_v1_1_0.py",
    "sha256": "4192faaf94e7fb78f734f9944481a5f4662c963524d69d2fac573d838f7f6b7a",
@@ -464,7 +466,7 @@
     "architecture",
     "structures"
    ],
-   "screenshot": "blackfox_cad_exporter.png",
+   "screenshot": "blackfox_cad_exporter.webp",
    "name": {
     "en": "BlackFox CAD Exporter",
     "es": "BlackFox CAD Exporter",
@@ -485,7 +487,7 @@
    "author": "David Mavrov",
    "author_url": "https://github.com/davidsmavrov-debug",
    "license": "MIT",
-   "screenshot": "blackfox_catenary.png",
+   "screenshot": "blackfox_catenary.webp",
    "repository": "https://github.com/davidsmavrov-debug/BlackFox-CAD",
    "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/catenary-v1.0.0/IngeTrazo%20Extensions/Catenary/BlackFox_Catenary_v1_0_0.py",
    "sha256": "ebf18d0d2d4c42c823a7cb0ec55f19295d0ccc8f145914ffac1e85a7af43ef7b",
@@ -1056,6 +1058,7 @@
     "bim",
     "import-export"
    ],
+   "screenshot": "ifc_editor.webp",
    "name": {
     "es": "Datos IFC — lectura y edición",
     "en": "IFC data — read and edit",
@@ -1500,6 +1503,7 @@
     "productivity",
     "drawing"
    ],
+   "screenshot": "gumball.webp",
    "name": {
     "en": "Gumball & NavOrbit",
     "es": "Gumball y NavOrbit",
@@ -1527,6 +1531,7 @@
    "tags": [
     "productivity"
    ],
+   "screenshot": "align_tool.webp",
    "name": {
     "es": "Herramienta Alinear",
     "en": "Align Tool",
@@ -1557,6 +1562,7 @@
    "tags": [
     "productivity"
    ],
+   "screenshot": "camera_history.webp",
    "name": {
     "en": "Camera history",
     "es": "Historial de cámara"
@@ -1675,6 +1681,7 @@
    "tags": [
     "productivity"
    ],
+   "screenshot": "snap_locked_layers.webp",
    "name": {
     "en": "Snap to locked layers",
     "es": "Imantar en capas bloqueadas"
@@ -2064,6 +2071,7 @@
     "productivity",
     "drawing"
    ],
+   "screenshot": "cleaning.webp",
    "name": {
     "en": "Cleaning",
     "es": "Limpieza",
@@ -2092,6 +2100,7 @@
     "fabrication",
     "productivity"
    ],
+   "screenshot": "lista_corte_marcenaria.webp",
    "name": {
     "es": "Lista de corte para carpintería",
     "en": "Woodworking Cut List",
@@ -2407,6 +2416,7 @@
     "bim",
     "structures"
    ],
+   "screenshot": "openings.webp",
    "name": {
     "es": "Muros, puertas y ventanas",
     "en": "Walls, doors and windows",
@@ -2743,6 +2753,7 @@
     "structures",
     "education"
    ],
+   "screenshot": "planarq.webp",
    "name": {
     "es": "planArq",
     "en": "planArq",
@@ -3321,6 +3332,7 @@
     "productivity",
     "drawing"
    ],
+   "screenshot": "ui_colores_space.webp",
    "name": {
     "es": "UI Colores + Space",
     "en": "Coloured Tools + Space"
@@ -3514,6 +3526,7 @@
    "tags": [
     "productivity"
    ],
+   "screenshot": "grok_provider.webp",
    "name": {
     "en": "xAI Grok",
     "es": "xAI Grok"
