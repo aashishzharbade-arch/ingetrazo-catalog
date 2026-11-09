@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-09T01:59Z",
+ "generated": "2026-11-09T02:38Z",
  "tags": [
   "analysis",
   "architecture",
@@ -43,7 +43,9 @@
    },
    "reviewed": true,
    "added_at": "2026-10-02T21:47Z",
-   "updated_at": "2026-10-02T21:47Z"
+   "updated_at": "2026-10-02T21:47Z",
+   "screenshot_sha": "0088b4b26312705c",
+   "thumb": "vertex_editor.webp"
   },
   {
    "id": "ingetrazo_bevel",
@@ -70,7 +72,9 @@
    },
    "reviewed": true,
    "added_at": "2026-10-02T21:47Z",
-   "updated_at": "2026-10-02T21:47Z"
+   "updated_at": "2026-10-02T21:47Z",
+   "screenshot_sha": "b4d3f6e9871c4209",
+   "thumb": "ingetrazo_bevel.webp"
   },
   {
    "id": "ingetrazo_kitchen_maker",
@@ -97,7 +101,9 @@
    },
    "reviewed": true,
    "added_at": "2026-10-02T21:47Z",
-   "updated_at": "2026-10-02T21:47Z"
+   "updated_at": "2026-10-02T21:47Z",
+   "screenshot_sha": "90851888b9d36f34",
+   "thumb": "ingetrazo_kitchen_maker.webp"
   },
   {
    "id": "make_stair",
@@ -124,7 +130,9 @@
    },
    "reviewed": true,
    "added_at": "2026-10-02T21:47Z",
-   "updated_at": "2026-10-02T21:47Z"
+   "updated_at": "2026-10-02T21:47Z",
+   "screenshot_sha": "bc1fb6219ef23b31",
+   "thumb": "make_stair.webp"
   },
   {
    "id": "propiedades_poligono",
@@ -152,7 +160,9 @@
    },
    "reviewed": true,
    "added_at": "2026-10-02T14:40Z",
-   "updated_at": "2026-10-02T14:40Z"
+   "updated_at": "2026-10-02T14:40Z",
+   "screenshot_sha": "bc662e63ffe7a04d",
+   "thumb": "propiedades_poligono.webp"
   },
   {
    "id": "ingetrazo_taper",
@@ -177,7 +187,9 @@
    },
    "reviewed": true,
    "added_at": "2026-10-04T15:26Z",
-   "updated_at": "2026-10-04T15:26Z"
+   "updated_at": "2026-10-04T15:26Z",
+   "screenshot_sha": "be0b0471e460339c",
+   "thumb": "ingetrazo_taper.webp"
   },
   {
    "id": "perspective_matcher",
@@ -205,7 +217,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-05T20:58Z",
-   "updated_at": "2026-10-08T08:40Z"
+   "updated_at": "2026-10-08T08:40Z",
+   "screenshot_sha": "4f9b02f5c1b67eae",
+   "thumb": "perspective_matcher.webp"
   },
   {
    "id": "analisis_sitio",
@@ -236,7 +250,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T14:54Z",
-   "updated_at": "2026-11-08T14:54Z"
+   "updated_at": "2026-11-08T14:54Z",
+   "screenshot_sha": "66b77c8d42f8ec2e",
+   "thumb": "analisis_sitio.webp"
   },
   {
    "id": "archxq_it_lite",
@@ -267,7 +283,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-11-09T01:12Z"
+   "updated_at": "2026-11-09T01:12Z",
+   "screenshot_sha": "14add5f2868a6a03",
+   "thumb": "archxq_it.webp"
   },
   {
    "id": "automacao",
@@ -296,7 +314,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T19:05Z",
-   "updated_at": "2026-10-19T19:05Z"
+   "updated_at": "2026-10-19T19:05Z",
+   "screenshot_sha": "05497753192153eb",
+   "thumb": "automacao.webp"
   },
   {
    "id": "scenes_play",
@@ -326,7 +346,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-16T19:37Z",
-   "updated_at": "2026-10-16T19:37Z"
+   "updated_at": "2026-10-16T19:37Z",
+   "screenshot_sha": "08393acd8d6316c0",
+   "thumb": "scenes_play.webp"
   },
   {
    "id": "plugins_toolbar",
@@ -354,7 +376,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T09:11Z"
+   "updated_at": "2026-11-07T09:11Z",
+   "screenshot_sha": "f8ac91d11b01ea0b",
+   "thumb": "plugins_toolbar.webp"
   },
   {
    "id": "organize_toolbar",
@@ -383,7 +407,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-05T20:50Z",
-   "updated_at": "2026-10-07T15:17Z"
+   "updated_at": "2026-10-07T15:17Z",
+   "screenshot_sha": "5678b7933987a0a9",
+   "thumb": "organize_toolbar.webp"
   },
   {
    "id": "igz_toolbars",
@@ -419,7 +445,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-05T20:50Z",
-   "updated_at": "2026-10-08T15:41Z"
+   "updated_at": "2026-10-08T15:41Z",
+   "screenshot_sha": "7b92d82f9b49aca2",
+   "thumb": "igz_toolbars.webp"
   },
   {
    "id": "blackfox_3d_inspector",
@@ -449,7 +477,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T15:28Z",
-   "updated_at": "2026-11-07T04:39Z"
+   "updated_at": "2026-11-07T04:39Z",
+   "screenshot_sha": "58aa304db6bcc329",
+   "thumb": "blackfox_3d_inspector.webp"
   },
   {
    "id": "blackfox_cad_exporter",
@@ -479,7 +509,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T15:28Z",
-   "updated_at": "2026-11-04T03:45Z"
+   "updated_at": "2026-11-04T03:45Z",
+   "screenshot_sha": "c5b16f383bf616d1",
+   "thumb": "blackfox_cad_exporter.webp"
   },
   {
    "id": "blackfox_catenary",
@@ -509,7 +541,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T15:28Z",
-   "updated_at": "2026-11-01T15:28Z"
+   "updated_at": "2026-11-01T15:28Z",
+   "screenshot_sha": "d6c883f2e3c19567",
+   "thumb": "blackfox_catenary.webp"
   },
   {
    "id": "notepad",
@@ -537,7 +571,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T08:05Z"
+   "updated_at": "2026-11-07T08:05Z",
+   "screenshot_sha": "e1afc1a6eb3a00b9",
+   "thumb": "notepad.webp"
   },
   {
    "id": "centre_finder",
@@ -566,7 +602,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T17:48Z",
-   "updated_at": "2026-11-01T17:48Z"
+   "updated_at": "2026-11-01T17:48Z",
+   "screenshot_sha": "a9a779e853508bd7",
+   "thumb": "centre_finder.webp"
   },
   {
    "id": "find_replace",
@@ -595,7 +633,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:36Z",
-   "updated_at": "2026-11-08T12:36Z"
+   "updated_at": "2026-11-08T12:36Z",
+   "screenshot_sha": "c2b02ba457f7849a",
+   "thumb": "find_replace.webp"
   },
   {
    "id": "cad2ingetrazo",
@@ -631,7 +671,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
-   "updated_at": "2026-10-21T20:31Z"
+   "updated_at": "2026-10-21T20:31Z",
+   "screenshot_sha": "d91fa25f4b64786c",
+   "thumb": "cad2ingetrazo.webp"
   },
   {
    "id": "igz_calculator",
@@ -659,7 +701,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:25Z",
-   "updated_at": "2026-11-08T12:25Z"
+   "updated_at": "2026-11-08T12:25Z",
+   "screenshot_sha": "7add0b0652ab8445",
+   "thumb": "igz-calculator.webp"
   },
   {
    "id": "gutters_downpipes",
@@ -687,7 +731,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T09:06Z"
+   "updated_at": "2026-11-07T09:06Z",
+   "screenshot_sha": "284fa7deb20f0bda",
+   "thumb": "gutters_downpipes.webp"
   },
   {
    "id": "chakkree_tools",
@@ -723,7 +769,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:30Z",
-   "updated_at": "2026-10-21T20:30Z"
+   "updated_at": "2026-10-21T20:30Z",
+   "screenshot_sha": "90269edc77d8e62c",
+   "thumb": "chakkree_tools.webp"
   },
   {
    "id": "corrugated_iron",
@@ -752,7 +800,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T17:47Z",
-   "updated_at": "2026-11-07T09:03Z"
+   "updated_at": "2026-11-07T09:03Z",
+   "screenshot_sha": "2821b16349d0bc40",
+   "thumb": "corrugated_iron.webp"
   },
   {
    "id": "chimneys",
@@ -781,7 +831,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T17:48Z",
-   "updated_at": "2026-11-07T09:02Z"
+   "updated_at": "2026-11-07T09:02Z",
+   "screenshot_sha": "7215cd0a7e0a7550",
+   "thumb": "chimneys.webp"
   },
   {
    "id": "place_along",
@@ -810,7 +862,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:36Z",
-   "updated_at": "2026-11-08T12:36Z"
+   "updated_at": "2026-11-08T12:36Z",
+   "screenshot_sha": "eaf9dce2eff65c42",
+   "thumb": "place_along.webp"
   },
   {
    "id": "lines_connect",
@@ -838,7 +892,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
-   "updated_at": "2026-10-25T01:06Z"
+   "updated_at": "2026-10-25T01:06Z",
+   "screenshot_sha": "4527ba5aab36e4f3",
+   "thumb": "lines_connect.webp"
   },
   {
    "id": "contexto",
@@ -867,7 +923,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T15:28Z",
-   "updated_at": "2026-11-08T11:59Z"
+   "updated_at": "2026-11-08T11:59Z",
+   "screenshot_sha": "4e7e79fb8ad97dc7",
+   "thumb": "contexto.webp"
   },
   {
    "id": "scale_converter",
@@ -895,7 +953,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-08T13:09Z"
+   "updated_at": "2026-11-08T13:09Z",
+   "screenshot_sha": "7a67509216358a37",
+   "thumb": "scale_converter.webp"
   },
   {
    "id": "loop_cut",
@@ -924,7 +984,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-02T21:47Z",
-   "updated_at": "2026-10-19T04:41Z"
+   "updated_at": "2026-10-19T04:41Z",
+   "screenshot_sha": "1b313cca345647af",
+   "thumb": "loop_cut.webp"
   },
   {
    "id": "angle_dimension",
@@ -953,7 +1015,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-10T13:14Z",
-   "updated_at": "2026-10-10T13:14Z"
+   "updated_at": "2026-10-10T13:14Z",
+   "screenshot_sha": "a7add171cdb1cd4b",
+   "thumb": "angle_dimension.webp"
   },
   {
    "id": "crear_cara",
@@ -982,7 +1046,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:41Z",
-   "updated_at": "2026-10-21T20:41Z"
+   "updated_at": "2026-10-21T20:41Z",
+   "screenshot_sha": "c57857a6ba0ef026",
+   "thumb": "crear_cara.webp"
   },
   {
    "id": "croquis",
@@ -1012,7 +1078,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:30Z",
-   "updated_at": "2026-11-04T02:06Z"
+   "updated_at": "2026-11-04T02:06Z",
+   "screenshot_sha": "6968f057b54c1a4f",
+   "thumb": "croquis.webp"
   },
   {
    "id": "quadrify_tool",
@@ -1042,7 +1110,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:35Z",
-   "updated_at": "2026-11-08T02:01Z"
+   "updated_at": "2026-11-08T02:01Z",
+   "screenshot_sha": "5d500573fa070b09",
+   "thumb": "quadrify_tool.webp"
   },
   {
    "id": "ifc_editor",
@@ -1071,7 +1141,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T19:56Z",
-   "updated_at": "2026-10-20T18:59Z"
+   "updated_at": "2026-10-20T18:59Z",
+   "screenshot_sha": "0a311b295107127b",
+   "thumb": "ifc_editor.webp"
   },
   {
    "id": "dispersa",
@@ -1101,7 +1173,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:46Z",
-   "updated_at": "2026-11-08T22:33Z"
+   "updated_at": "2026-11-08T22:33Z",
+   "screenshot_sha": "23f9603c293f1de9",
+   "thumb": "dispersa.webp"
   },
   {
    "id": "display_scale",
@@ -1125,7 +1199,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-15T15:47Z",
-   "updated_at": "2026-10-15T15:47Z"
+   "updated_at": "2026-10-15T15:47Z",
+   "screenshot_sha": "e5fd2581f1a665e9",
+   "thumb": "display_scale.webp"
   },
   {
    "id": "divide_points",
@@ -1154,7 +1230,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-13T22:15Z",
-   "updated_at": "2026-10-26T19:18Z"
+   "updated_at": "2026-10-26T19:18Z",
+   "screenshot_sha": "9904a72d55914fea",
+   "thumb": "divide_points.webp"
   },
   {
    "id": "node_editor",
@@ -1183,7 +1261,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-11-01T18:43Z"
+   "updated_at": "2026-11-01T18:43Z",
+   "screenshot_sha": "2d56a1400283c690",
+   "thumb": "node_editor.webp"
   },
   {
    "id": "quick_links",
@@ -1211,7 +1291,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:36Z",
-   "updated_at": "2026-11-08T12:36Z"
+   "updated_at": "2026-11-08T12:36Z",
+   "screenshot_sha": "c4966cd47d6f7db7",
+   "thumb": "quick_links.webp"
   },
   {
    "id": "wrap",
@@ -1240,7 +1322,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-01T17:29Z"
+   "updated_at": "2026-11-01T17:29Z",
+   "screenshot_sha": "cec68df5dc397731",
+   "thumb": "wrap.webp"
   },
   {
    "id": "print_scaler",
@@ -1268,7 +1352,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-01T17:46Z"
+   "updated_at": "2026-11-01T17:46Z",
+   "screenshot_sha": "a13e8b8d519dddc8",
+   "thumb": "print_scaler.webp"
   },
   {
    "id": "igz_tb_scenes",
@@ -1297,7 +1383,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
-   "updated_at": "2026-10-08T21:49Z"
+   "updated_at": "2026-10-08T21:49Z",
+   "screenshot_sha": "d080f21eec3a2bfa",
+   "thumb": "igz_tb_scenes.webp"
   },
   {
    "id": "brick_block_studio",
@@ -1326,7 +1414,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T13:53Z"
+   "updated_at": "2026-11-07T13:53Z",
+   "screenshot_sha": "30b72debad88df1d",
+   "thumb": "brick_block_studio.webp"
   },
   {
    "id": "igz_pdf3d",
@@ -1361,7 +1451,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-15T15:47Z",
-   "updated_at": "2026-10-20T19:13Z"
+   "updated_at": "2026-10-20T19:13Z",
+   "screenshot_sha": "52ca2b0d7a8e534e",
+   "thumb": "igz_pdf3d.webp"
   },
   {
    "id": "ply3ds",
@@ -1390,7 +1482,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T16:04Z",
-   "updated_at": "2026-11-01T16:04Z"
+   "updated_at": "2026-11-01T16:04Z",
+   "screenshot_sha": "3e775d5db4e0274f",
+   "thumb": "ply3ds.webp"
   },
   {
    "id": "html_export",
@@ -1426,7 +1520,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-27T11:46Z",
-   "updated_at": "2026-10-27T11:46Z"
+   "updated_at": "2026-10-27T11:46Z",
+   "screenshot_sha": "11b55f1d6c9bca79",
+   "thumb": "html_export.webp"
   },
   {
    "id": "go_factory_generator",
@@ -1457,7 +1553,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
-   "updated_at": "2026-10-26T05:39Z"
+   "updated_at": "2026-10-26T05:39Z",
+   "screenshot_sha": "116583435634246c",
+   "thumb": "go_factory_generator.webp"
   },
   {
    "id": "go_shx_stroke_text",
@@ -1487,7 +1585,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T15:28Z",
-   "updated_at": "2026-11-01T15:28Z"
+   "updated_at": "2026-11-01T15:28Z",
+   "screenshot_sha": "50cdcb7f5eea91ce",
+   "thumb": "go_shx_stroke_text.webp"
   },
   {
    "id": "gumball",
@@ -1516,7 +1616,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-27T03:43Z",
-   "updated_at": "2026-11-01T18:43Z"
+   "updated_at": "2026-11-01T18:43Z",
+   "screenshot_sha": "a503df13daf379ee",
+   "thumb": "gumball.webp"
   },
   {
    "id": "align_tool",
@@ -1547,7 +1649,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:41Z",
-   "updated_at": "2026-10-21T20:41Z"
+   "updated_at": "2026-10-21T20:41Z",
+   "screenshot_sha": "a20d5f060a935f55",
+   "thumb": "align_tool.webp"
   },
   {
    "id": "camera_history",
@@ -1573,7 +1677,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
-   "updated_at": "2026-10-25T01:06Z"
+   "updated_at": "2026-10-25T01:06Z",
+   "screenshot_sha": "e68d2024d2a5493b",
+   "thumb": "camera_history.webp"
   },
   {
    "id": "better_icons",
@@ -1601,7 +1707,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T17:47Z",
-   "updated_at": "2026-11-01T17:47Z"
+   "updated_at": "2026-11-01T17:47Z",
+   "screenshot_sha": "d82922117731e5c5",
+   "thumb": "better_icons.webp"
   },
   {
    "id": "custom_icons",
@@ -1630,7 +1738,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T19:05Z",
-   "updated_at": "2026-10-19T19:05Z"
+   "updated_at": "2026-10-19T19:05Z",
+   "screenshot_sha": "4a577188227b5729",
+   "thumb": "custom_icons.webp"
   },
   {
    "id": "igz_sunpath",
@@ -1666,7 +1776,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T17:29Z",
-   "updated_at": "2026-10-19T17:29Z"
+   "updated_at": "2026-10-19T17:29Z",
+   "screenshot_sha": "9f91da37d8289d84",
+   "thumb": "igz_sunpath.webp"
   },
   {
    "id": "snap_locked_layers",
@@ -1692,7 +1804,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
-   "updated_at": "2026-10-25T01:06Z"
+   "updated_at": "2026-10-25T01:06Z",
+   "screenshot_sha": "e68d2024d2a5493b",
+   "thumb": "snap_locked_layers.webp"
   },
   {
    "id": "igz_geotiff_import",
@@ -1727,7 +1841,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-28T02:51Z",
-   "updated_at": "2026-10-28T02:51Z"
+   "updated_at": "2026-10-28T02:51Z",
+   "screenshot_sha": "26115d482ce160f7",
+   "thumb": "igz_geotiff_import.webp"
   },
   {
    "id": "plan_import_tool",
@@ -1756,7 +1872,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-15T15:47Z",
-   "updated_at": "2026-11-08T11:59Z"
+   "updated_at": "2026-11-08T11:59Z",
+   "screenshot_sha": "ec5355bf1b5c847e",
+   "thumb": "plan_import_tool.webp"
   },
   {
    "id": "print3d",
@@ -1786,7 +1904,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T16:04Z",
-   "updated_at": "2026-11-01T16:04Z"
+   "updated_at": "2026-11-01T16:04Z",
+   "screenshot_sha": "9cb51d8a1baf1f61",
+   "thumb": "print3d.webp"
   },
   {
    "id": "ingefloor",
@@ -1815,7 +1935,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-05T14:35Z",
-   "updated_at": "2026-10-05T14:35Z"
+   "updated_at": "2026-10-05T14:35Z",
+   "screenshot_sha": "89aed235d54edc93",
+   "thumb": "ingefloor.webp"
   },
   {
    "id": "inge_groundbox",
@@ -1846,7 +1968,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:07Z",
-   "updated_at": "2026-10-26T05:39Z"
+   "updated_at": "2026-10-26T05:39Z",
+   "screenshot_sha": "058434016c59e57e",
+   "thumb": "ground.webp"
   },
   {
    "id": "ingescan",
@@ -1882,7 +2006,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:41Z",
-   "updated_at": "2026-10-21T20:41Z"
+   "updated_at": "2026-10-21T20:41Z",
+   "screenshot_sha": "28e4084919466b08",
+   "thumb": "ingescan.webp"
   },
   {
    "id": "ingetrazo_curve_tools",
@@ -1907,7 +2033,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-10-04T05:08Z"
+   "updated_at": "2026-10-04T05:08Z",
+   "screenshot_sha": "5854f183342ced3f",
+   "thumb": "ingetrazo_curve_tool.webp"
   },
   {
    "id": "unfold",
@@ -1936,7 +2064,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T17:28Z",
-   "updated_at": "2026-10-19T17:28Z"
+   "updated_at": "2026-10-19T17:28Z",
+   "screenshot_sha": "fc95911f850d84d3",
+   "thumb": "unfold.webp"
   },
   {
    "id": "ja_lineastyle",
@@ -1965,7 +2095,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-10-04T13:03Z"
+   "updated_at": "2026-10-04T13:03Z",
+   "screenshot_sha": "6751e52894d65e81",
+   "thumb": "ja_lineastyle.webp"
   },
   {
    "id": "ja_sun",
@@ -1995,7 +2127,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-10-04T05:08Z"
+   "updated_at": "2026-10-04T05:08Z",
+   "screenshot_sha": "ec0f0aa2294b150a",
+   "thumb": "ja_sun.webp"
   },
   {
    "id": "ja_tree",
@@ -2025,7 +2159,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-10-04T05:08Z"
+   "updated_at": "2026-10-04T05:08Z",
+   "screenshot_sha": "01db0964f6fef65f",
+   "thumb": "ja_tree.webp"
   },
   {
    "id": "ja_units",
@@ -2055,7 +2191,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-10-04T05:08Z"
+   "updated_at": "2026-10-04T05:08Z",
+   "screenshot_sha": "6f885e9297177cd4",
+   "thumb": "ja_units_v2.webp"
   },
   {
    "id": "cleaning",
@@ -2084,7 +2222,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:30Z",
-   "updated_at": "2026-10-26T19:18Z"
+   "updated_at": "2026-10-26T19:18Z",
+   "screenshot_sha": "32b2cd29eb437c01",
+   "thumb": "cleaning.webp"
   },
   {
    "id": "lista_corte_marcenaria",
@@ -2113,7 +2253,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-13T22:15Z",
-   "updated_at": "2026-10-13T22:15Z"
+   "updated_at": "2026-10-13T22:15Z",
+   "screenshot_sha": "2fbe2c227ba54982",
+   "thumb": "lista_corte_marcenaria.webp"
   },
   {
    "id": "cutlist",
@@ -2142,7 +2284,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-21T20:31Z",
-   "updated_at": "2026-11-03T22:32Z"
+   "updated_at": "2026-11-03T22:32Z",
+   "screenshot_sha": "8a775ff373a603f0",
+   "thumb": "cutlist.webp"
   },
   {
    "id": "ingetrazo_lite_bridge",
@@ -2171,7 +2315,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-27T03:43Z",
-   "updated_at": "2026-10-27T03:43Z"
+   "updated_at": "2026-10-27T03:43Z",
+   "screenshot_sha": "4f0dea979db0dad8",
+   "thumb": "ingetrazo_lite_bridge.webp"
   },
   {
    "id": "timeline",
@@ -2199,7 +2345,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T13:09Z",
-   "updated_at": "2026-11-08T13:09Z"
+   "updated_at": "2026-11-08T13:09Z",
+   "screenshot_sha": "d3fe9b8054e138a6",
+   "thumb": "timeline.webp"
   },
   {
    "id": "station_canopies",
@@ -2227,7 +2375,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T17:48Z",
-   "updated_at": "2026-11-07T09:17Z"
+   "updated_at": "2026-11-07T09:17Z",
+   "screenshot_sha": "77d4bd086d94725b",
+   "thumb": "station_canopies.webp"
   },
   {
    "id": "array_tool",
@@ -2256,7 +2406,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-11-08T01:59Z"
+   "updated_at": "2026-11-08T01:59Z",
+   "screenshot_sha": "edeabc774538882c",
+   "thumb": "array_tool.webp"
   },
   {
    "id": "membrane_tool",
@@ -2285,7 +2437,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:35Z",
-   "updated_at": "2026-11-08T02:02Z"
+   "updated_at": "2026-11-08T02:02Z",
+   "screenshot_sha": "93b7fdf827f9f62c",
+   "thumb": "membrane_tool.webp"
   },
   {
    "id": "igz_modify3d",
@@ -2314,7 +2468,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-06T14:35Z",
-   "updated_at": "2026-10-06T14:35Z"
+   "updated_at": "2026-10-06T14:35Z",
+   "screenshot_sha": "3994176c0eb7765e",
+   "thumb": "igz_modify3d.webp"
   },
   {
    "id": "motion",
@@ -2344,7 +2500,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
-   "updated_at": "2026-10-25T01:06Z"
+   "updated_at": "2026-10-25T01:06Z",
+   "screenshot_sha": "4e45c3397fedacc3",
+   "thumb": "motion.webp"
   },
   {
    "id": "ingetrazo_multiview",
@@ -2369,7 +2527,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T13:28Z",
-   "updated_at": "2026-10-29T15:42Z"
+   "updated_at": "2026-10-29T15:42Z",
+   "screenshot_sha": "f839bc7e7cb68a64",
+   "thumb": "ingetrazo_multiview.webp"
   },
   {
    "id": "walls_tool",
@@ -2399,7 +2559,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T17:28Z",
-   "updated_at": "2026-11-08T02:05Z"
+   "updated_at": "2026-11-08T02:05Z",
+   "screenshot_sha": "f28a309b187c774b",
+   "thumb": "walls_tool.webp"
   },
   {
    "id": "openings",
@@ -2429,7 +2591,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T19:56Z",
-   "updated_at": "2026-10-19T19:56Z"
+   "updated_at": "2026-10-19T19:56Z",
+   "screenshot_sha": "b34f82ca1225ab87",
+   "thumb": "openings.webp"
   },
   {
    "id": "myhouse",
@@ -2455,7 +2619,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T15:13Z",
-   "updated_at": "2026-11-08T15:13Z"
+   "updated_at": "2026-11-08T15:13Z",
+   "screenshot_sha": "0aea143dc3b0c384",
+   "thumb": "myhouse.webp"
   },
   {
    "id": "mac_trackpad_navigation",
@@ -2484,7 +2650,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:25Z",
-   "updated_at": "2026-11-08T12:25Z"
+   "updated_at": "2026-11-08T12:25Z",
+   "screenshot_sha": "8ae2415fafb9ecb3",
+   "thumb": "mac_trackpad_navigation.webp"
   },
   {
    "id": "newton",
@@ -2517,7 +2685,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:46Z",
-   "updated_at": "2026-11-08T15:13Z"
+   "updated_at": "2026-11-08T15:13Z",
+   "screenshot_sha": "d908a0c7b7fc43a3",
+   "thumb": "newton.webp"
   },
   {
    "id": "grading_tool",
@@ -2546,7 +2716,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-05T14:28Z",
-   "updated_at": "2026-11-08T02:03Z"
+   "updated_at": "2026-11-08T02:03Z",
+   "screenshot_sha": "fe2910d2379b976e",
+   "thumb": "grading_tool.webp"
   },
   {
    "id": "niveles",
@@ -2575,7 +2747,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-02T14:40Z",
-   "updated_at": "2026-11-08T21:24Z"
+   "updated_at": "2026-11-08T21:24Z",
+   "screenshot_sha": "9385a138c9571a12",
+   "thumb": "niveles.webp"
   },
   {
    "id": "pointcloud_splat",
@@ -2610,7 +2784,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-08T22:33Z",
-   "updated_at": "2026-11-08T11:59Z"
+   "updated_at": "2026-11-08T11:59Z",
+   "screenshot_sha": "ca13afe378d872f8",
+   "thumb": "pointcloud_splat.webp"
   },
   {
    "id": "opentrace_bim",
@@ -2646,7 +2822,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-06T14:39Z",
-   "updated_at": "2026-10-19T19:51Z"
+   "updated_at": "2026-10-19T19:51Z",
+   "screenshot_sha": "721d739562d356e0",
+   "thumb": "opentrace_bim.webp"
   },
   {
    "id": "igz_steel",
@@ -2681,7 +2859,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-13T22:15Z",
-   "updated_at": "2026-10-14T14:59Z"
+   "updated_at": "2026-10-14T14:59Z",
+   "screenshot_sha": "7121e1a8cff04c63",
+   "thumb": "igz_steel.webp"
   },
   {
    "id": "phasing_animator",
@@ -2707,7 +2887,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-08T21:48Z",
-   "updated_at": "2026-10-08T21:48Z"
+   "updated_at": "2026-10-08T21:48Z",
+   "screenshot_sha": "8d133016de8a1fce",
+   "thumb": "phasing_animator.webp"
   },
   {
    "id": "pisogen_arq",
@@ -2736,7 +2918,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:46Z",
-   "updated_at": "2026-11-08T12:46Z"
+   "updated_at": "2026-11-08T12:46Z",
+   "screenshot_sha": "d0ad0ea06337462e",
+   "thumb": "pisogen_arq.webp"
   },
   {
    "id": "planarq",
@@ -2766,7 +2950,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-05T21:19Z",
-   "updated_at": "2026-10-15T21:28Z"
+   "updated_at": "2026-10-15T21:28Z",
+   "screenshot_sha": "ea26161d01a4ac35",
+   "thumb": "planarq.webp"
   },
   {
    "id": "proxy_tool",
@@ -2795,7 +2981,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-15T15:47Z",
-   "updated_at": "2026-11-08T02:04Z"
+   "updated_at": "2026-11-08T02:04Z",
+   "screenshot_sha": "77e3b51e5a294510",
+   "thumb": "proxy_tool.webp"
   },
   {
    "id": "period_doors",
@@ -2823,7 +3011,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T09:07Z"
+   "updated_at": "2026-11-07T09:07Z",
+   "screenshot_sha": "2401c4f4d6dd44ab",
+   "thumb": "period_doors.webp"
   },
   {
    "id": "comfyui_renderer",
@@ -2852,7 +3042,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-10-04T05:08Z"
+   "updated_at": "2026-10-04T05:08Z",
+   "screenshot_sha": "524fbd78da62d881",
+   "thumb": "comfyui_renderer.webp"
   },
   {
    "id": "select_curve",
@@ -2909,7 +3101,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-05T14:28Z",
-   "updated_at": "2026-10-05T17:48Z"
+   "updated_at": "2026-10-05T17:48Z",
+   "screenshot_sha": "4ef4d2c811e26106",
+   "thumb": "path_select_tool.webp"
   },
   {
    "id": "weld_tool",
@@ -2939,7 +3133,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:35Z",
-   "updated_at": "2026-11-08T02:00Z"
+   "updated_at": "2026-11-08T02:00Z",
+   "screenshot_sha": "1d1b18e2815dbb0d",
+   "thumb": "weld_tool.webp"
   },
   {
    "id": "stepexport",
@@ -2968,7 +3164,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-17T20:47Z",
-   "updated_at": "2026-10-31T23:44Z"
+   "updated_at": "2026-10-31T23:44Z",
+   "screenshot_sha": "ace049ccbb797f2b",
+   "thumb": "stepexport.webp"
   },
   {
    "id": "subdiv",
@@ -2997,7 +3195,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-11T14:25Z",
-   "updated_at": "2026-10-30T20:42Z"
+   "updated_at": "2026-10-30T20:42Z",
+   "screenshot_sha": "0cd263d0bf46dbe9",
+   "thumb": "subdiv.webp"
   },
   {
    "id": "igz_solids",
@@ -3032,7 +3232,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-11T14:25Z",
-   "updated_at": "2026-10-11T14:25Z"
+   "updated_at": "2026-10-11T14:25Z",
+   "screenshot_sha": "be094fb102a321a7",
+   "thumb": "igz-solids.webp"
   },
   {
    "id": "wood_planking",
@@ -3061,7 +3263,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T09:19Z"
+   "updated_at": "2026-11-07T09:19Z",
+   "screenshot_sha": "c125db265c9b3a0e",
+   "thumb": "wood_planking.webp"
   },
   {
    "id": "roof_tile_tool",
@@ -3089,7 +3293,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-08T22:33Z",
-   "updated_at": "2026-11-08T02:05Z"
+   "updated_at": "2026-11-08T02:05Z",
+   "screenshot_sha": "86549801cabad672",
+   "thumb": "roof_tile_tool.webp"
   },
   {
    "id": "roof_tiles",
@@ -3118,7 +3324,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T09:14Z"
+   "updated_at": "2026-11-07T09:14Z",
+   "screenshot_sha": "1a915f3acb0354ca",
+   "thumb": "roof_tiles.webp"
   },
   {
    "id": "terraroad",
@@ -3149,7 +3357,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
-   "updated_at": "2026-10-25T01:06Z"
+   "updated_at": "2026-10-25T01:06Z",
+   "screenshot_sha": "b49083705e0afee7",
+   "thumb": "terraroad.webp"
   },
   {
    "id": "texture_library",
@@ -3174,7 +3384,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T17:28Z",
-   "updated_at": "2026-10-19T17:28Z"
+   "updated_at": "2026-10-19T17:28Z",
+   "screenshot_sha": "09c6f6c92922ff43",
+   "thumb": "texture_library.webp"
   },
   {
    "id": "igz_toolkeeper",
@@ -3202,7 +3414,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T16:04Z",
-   "updated_at": "2026-11-01T16:04Z"
+   "updated_at": "2026-11-01T16:04Z",
+   "screenshot_sha": "1ac19fe827e10739",
+   "thumb": "igz_toolkeeper.webp"
   },
   {
    "id": "topology_tool",
@@ -3232,7 +3446,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T05:08Z",
-   "updated_at": "2026-11-08T11:58Z"
+   "updated_at": "2026-11-08T11:58Z",
+   "screenshot_sha": "8e41298622a27ae0",
+   "thumb": "topology_tool.webp"
   },
   {
    "id": "loft",
@@ -3260,7 +3476,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T17:46Z",
-   "updated_at": "2026-11-01T17:46Z"
+   "updated_at": "2026-11-01T17:46Z",
+   "screenshot_sha": "1c2b8135a4c74c5b",
+   "thumb": "loft.webp"
   },
   {
    "id": "trim_fillet",
@@ -3288,7 +3506,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-26T05:39Z",
-   "updated_at": "2026-10-26T05:39Z"
+   "updated_at": "2026-10-26T05:39Z",
+   "screenshot_sha": "213f092bb705b9b5",
+   "thumb": "trim_fillet.webp"
   },
   {
    "id": "soil_waste_pipes",
@@ -3316,7 +3536,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T09:16Z"
+   "updated_at": "2026-11-07T09:16Z",
+   "screenshot_sha": "617835f501dbc06e",
+   "thumb": "soil_waste_pipes.webp"
   },
   {
    "id": "ui_colores_space",
@@ -3343,7 +3565,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-11T14:25Z",
-   "updated_at": "2026-10-11T14:25Z"
+   "updated_at": "2026-10-11T14:25Z",
+   "screenshot_sha": "9ec3f325bed88450",
+   "thumb": "ui_colores_space.webp"
   },
   {
    "id": "igz_uv",
@@ -3372,7 +3596,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-13T22:15Z",
-   "updated_at": "2026-10-13T22:15Z"
+   "updated_at": "2026-10-13T22:15Z",
+   "screenshot_sha": "ce6592aa75ca9a69",
+   "thumb": "igz_uv.webp"
   },
   {
    "id": "v_menu",
@@ -3400,7 +3626,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-02T14:40Z",
-   "updated_at": "2026-11-08T12:00Z"
+   "updated_at": "2026-11-08T12:00Z",
+   "screenshot_sha": "26849597a67b7156",
+   "thumb": "v_menu.webp"
   },
   {
    "id": "fences_gates",
@@ -3428,7 +3656,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T09:04Z"
+   "updated_at": "2026-11-07T09:04Z",
+   "screenshot_sha": "dc1254ffe4dc2be6",
+   "thumb": "fences_gates.webp"
   },
   {
    "id": "period_windows",
@@ -3456,7 +3686,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T09:08Z"
+   "updated_at": "2026-11-07T09:08Z",
+   "screenshot_sha": "05a5b4f3f10bcafe",
+   "thumb": "period_windows.webp"
   },
   {
    "id": "standalone_3d_html_viewer",
@@ -3485,7 +3717,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-26T05:39Z",
-   "updated_at": "2026-10-26T05:39Z"
+   "updated_at": "2026-10-26T05:39Z",
+   "screenshot_sha": "f70e02f3b1241bf7",
+   "thumb": "standalone_3d_html_viewer.webp"
   },
   {
    "id": "standard_views_2",
@@ -3537,7 +3771,9 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
-   "updated_at": "2026-10-25T01:06Z"
+   "updated_at": "2026-10-25T01:06Z",
+   "screenshot_sha": "a45934a98f2c620b",
+   "thumb": "grok_provider.webp"
   }
  ]
 }
