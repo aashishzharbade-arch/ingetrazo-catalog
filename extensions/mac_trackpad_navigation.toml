@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/RemiAnton/ingetrazo-mac-trackpad-n
 sha256 = "7318651f089758556fed3f0e59fa05ceb951fab86f65eef6d072a53986124393"
 ingetrazo = "0.6.0"
 tags = ["productivity", "drawing"]
+screenshot = "mac_trackpad_navigation.png"
 
 [name]
 en = "MAC Trackpad Navigation"

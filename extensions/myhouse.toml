@@ -13,6 +13,7 @@ sha256 = "df468e6dc0d93553a9292fa340381dbbe2e8a0c5ba612404dba50badb720b63c"
 ingetrazo = "0.5.11"
 
 tags = ["architecture"]
+screenshot = "myhouse.png"
 
 [name]
 es = "MyHouse"
