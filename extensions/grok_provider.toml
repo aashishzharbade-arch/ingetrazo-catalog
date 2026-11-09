@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/vonkozy/IngeTenzo-extensions/V1.0.
 sha256 = "ec59053d7b90b7cc05884679b9b8ad704a5f1190baa09c2faa7d12d4dcf2f7f2"
 ingetrazo = "0.5.9"
 tags = ["productivity"]
+screenshot = "grok_provider.webp"
 
 [name]
 en = "xAI Grok"

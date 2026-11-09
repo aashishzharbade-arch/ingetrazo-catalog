@@ -13,6 +13,7 @@ sha256 = "fb3c939e8dd38926d69954354be86672664a4270d5382fcfd0d61dfe586b10c2"
 ingetrazo = "0.5.9"
 
 tags = ["productivity", "drawing"]
+screenshot = "cleaning.webp"
 
 [name]
 en = "Cleaning"

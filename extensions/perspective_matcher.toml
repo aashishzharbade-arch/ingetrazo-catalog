@@ -11,6 +11,7 @@ sha256 = "68179ce4b1e7f3be4a79b1e3cb09caa40ddb067383f1938c020067e221ca200c"
 
 ingetrazo = "0.5.7"
 tags = ["architecture", "drawing", "productivity"]
+screenshot = "perspective_matcher.webp"
 
 [name]
 en = "Perspective Matcher"

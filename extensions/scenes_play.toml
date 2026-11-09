@@ -8,6 +8,7 @@ download = "https://github.com/joejivaros/Plugin/releases/download/scenes_play-v
 sha256 = "ea4e52579dc1ccdaf5b3f25ad264cd6fdd3daf457b2b4927f73eb36e7cb81cdb"
 ingetrazo = "0.5.8"
 tags = ["rendering", "architecture", "productivity"]
+screenshot = "scenes_play.webp"
 
 [name]
 en = "Scene Automation"

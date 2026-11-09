@@ -8,6 +8,7 @@ download = "https://github.com/smokey7428/ingetrazo-addons/releases/download/ifc
 sha256 = "a5266697c8afbc8b2936e5f922f15d66316dc2a4d66c7dcb4d90efd53de6aad5"
 ingetrazo = "0.5.9"
 tags = ["bim", "import-export"]
+screenshot = "ifc_editor.webp"
 
 [name]
 es = "Datos IFC — lectura y edición"

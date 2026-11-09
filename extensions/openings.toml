@@ -8,6 +8,7 @@ download = "https://github.com/smokey7428/ingetrazo-addons/releases/download/ope
 sha256 = "a6618fe3bbb3703bac8d884dc8a7b3aa4af06e8994095f9c24e8c463d7bdb7e2"
 ingetrazo = "0.5.9"
 tags = ["architecture", "bim", "structures"]
+screenshot = "openings.webp"
 
 [name]
 es = "Muros, puertas y ventanas"

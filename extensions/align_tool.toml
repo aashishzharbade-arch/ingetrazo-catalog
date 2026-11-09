@@ -13,6 +13,7 @@ sha256 = "5e37989a31dbdec289d7028ad2816d936be7fd5967f84dad2fac823e9d5d8b9d"
 ingetrazo = "0.5.7"
 
 tags = ["productivity"]
+screenshot = "align_tool.webp"
 
 [name]
 es = "Herramienta Alinear"

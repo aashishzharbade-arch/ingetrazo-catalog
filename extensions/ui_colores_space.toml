@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/sanask24/ui-colores-space/165c6652
 sha256 = "4082aa3e8826f3e093a8d252b57151b3a63e2bbacb77609a94b2453087317978"
 ingetrazo = "0.5.7"
 tags = ["productivity", "drawing"]
+screenshot = "ui_colores_space.webp"
 
 [name]
 es = "UI Colores + Space"

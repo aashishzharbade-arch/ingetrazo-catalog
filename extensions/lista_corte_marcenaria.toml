@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/vemcjardim/lista-de-corte-plugin-i
 sha256 = "4708814422c42cb375b78644a275210f6afd6fb3f120a7dd0d6dcecf4afb9670"
 ingetrazo = "0.5.7"
 tags = ["fabrication", "productivity"]
+screenshot = "lista_corte_marcenaria.webp"
 
 [name]
 es = "Lista de corte para carpintería"

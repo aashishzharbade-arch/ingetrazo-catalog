@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/vonkozy/IngeTenzo-extensions/V1.0.
 sha256 = "aba3ba32060a3ed7c756f23f4b1632bcf40589ba601f4eea3a4f81054c92f9f1"
 ingetrazo = "0.5.9"
 tags = ["productivity"]
+screenshot = "camera_history.webp"
 
 [name]
 en = "Camera history"

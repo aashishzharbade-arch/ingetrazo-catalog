@@ -11,6 +11,7 @@ download = "https://github.com/seghier/IngeTrazoGumball/releases/download/v1.3.2
 sha256 = "02c514283f6b6d641b250723ebf9c40ea5dfdc05a4103eb5bf68867890ac8b3c"
 ingetrazo = "0.5.7"
 tags = ["productivity", "drawing"]
+screenshot = "gumball.webp"
 
 [name]
 en = "Gumball & NavOrbit"

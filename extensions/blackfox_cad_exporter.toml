@@ -14,7 +14,7 @@ sha256 = "4e9546424fd5ab6c3bcbe78bcaffd0f1c275657d4b35ee05c616874d9aca005b"
 ingetrazo = "0.5.11"
 
 tags = ["import-export", "architecture", "structures"]
-screenshot = "blackfox_cad_exporter.png"
+screenshot = "blackfox_cad_exporter.webp"
 
 [name]
 en = "BlackFox CAD Exporter"

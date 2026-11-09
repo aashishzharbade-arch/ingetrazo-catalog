@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/vonkozy/IngeTenzo-extensions/V1.0.
 sha256 = "aacd33ac223e07f3f3bd54d6d956c333cf8e34c661870701c5d48b6556ca0122"
 ingetrazo = "0.5.9"
 tags = ["productivity"]
+screenshot = "snap_locked_layers.webp"
 
 [name]
 en = "Snap to locked layers"
