@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-09T01:12Z",
+ "generated": "2026-11-09T01:29Z",
  "tags": [
   "analysis",
   "architecture",
@@ -2434,6 +2434,7 @@
    "tags": [
     "architecture"
    ],
+   "screenshot": "myhouse.png",
    "name": {
     "es": "MyHouse",
     "en": "MyHouse"
@@ -2460,6 +2461,7 @@
     "productivity",
     "drawing"
    ],
+   "screenshot": "mac_trackpad_navigation.png",
    "name": {
     "en": "MAC Trackpad Navigation",
     "es": "Navegación de Trackpad para Mac",
