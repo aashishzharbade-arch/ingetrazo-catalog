@@ -1,17 +1,17 @@
 id = "ingetrazo_kitchen_maker"
-version = "1.0.2"
+version = "1.1.0"
 author = "aashishzharbade-arch"
 author_url = "https://github.com/aashishzharbade-arch"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
-download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_kitchen_maker-v1.0.2/repository-upload/ingetrazo_kitchen_maker/ingetrazo_kitchen_maker.py"
-sha256 = "eb2ccb24e0d73da31c8fe2c8e17bd2f2762f0f36bc1f8c330466a4bc52e882e0"
+download = "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/ingetrazo_kitchen_maker-v1.1.0/repository-upload/ingetrazo_kitchen_maker/ingetrazo_kitchen_maker.py"
+sha256 = "6cf1940861c90c25ac5748b113ae0818cafce1ded25e19cbc9f03b37a61300be"
 ingetrazo = "0.5.7"
 tags = ["architecture", "productivity"]
 screenshot = "ingetrazo_kitchen_maker.png"
 
 [name]
-en = "IngeTrazo Kitchen Maker"
+en = "Kitchen Maker V1.1"
 
 [summary]
 en = "Create and edit parametric kitchen cabinets, arrange cabinet runs, and export CSV cost reports."
