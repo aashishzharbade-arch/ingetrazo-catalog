@@ -1,5 +1,5 @@
 id = "myhouse"
-version = "1.1.0"
+version = "1.2.0"
 author = "Dario Ilardi"
 author_url = "https://github.com/darioila"
 
@@ -7,8 +7,8 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/darioila/myHouse"
 
-download = "https://github.com/darioila/myHouse/releases/download/v1.1/myhouse.zip"
-sha256 = "2af5cd13dd42c6f29b93ef5f5997ebf4f97c6bc0ceb9871bf6919e3f16512006"
+download = "https://github.com/darioila/myHouse/releases/download/v1.2/myhouse.zip"
+sha256 = "cb0e8b0d38d1973b05e42055160f3800059132cbb658cf91dd48dd4306a66b06"
 
 ingetrazo = "0.5.11"
 
