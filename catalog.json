@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-14T17:45Z",
+ "generated": "2026-11-14T17:46Z",
  "tags": [
   "analysis",
   "architecture",
@@ -737,6 +737,37 @@
    "updated_at": "2026-11-07T09:06Z",
    "screenshot_sha": "284fa7deb20f0bda",
    "thumb": "gutters_downpipes.webp"
+  },
+  {
+   "id": "layers_colours",
+   "version": "1.0",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/800eeef25c4d35d2c47b6c51e7b24f9deb10a7a0/plugins/3D_Eddys/ed3d_layers_colours.py",
+   "sha256": "4685d2f66cdfb42168eb5a83eef7f556c50d0fb7963cee42a412a0a5af10167e",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "productivity",
+    "architecture"
+   ],
+   "screenshot": "layers_colours.webp",
+   "name": {
+    "es": "Capas y colores 3D",
+    "en": "3D Layers & Colours",
+    "pt": "Camadas e cores 3D"
+   },
+   "summary": {
+    "en": "Puts what the building plugins make on a layer for each kind of work (chimneys, windows...) and colours each part by what it is: brick, slate, glass, ironwork. Can also tidy older groups.",
+    "es": "Pone lo que crean los complementos de construcción en una capa por tipo (chimeneas, ventanas...) y colorea cada pieza según lo que es: ladrillo, pizarra, vidrio, hierro. También ordena grupos antiguos.",
+    "pt": "Coloca o que os plugins de construção criam numa camada por tipo (chaminés, janelas...) e colore cada peça pelo que é: tijolo, ardósia, vidro, ferro. Também arruma grupos antigos."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-14T17:46Z",
+   "updated_at": "2026-11-14T17:46Z",
+   "screenshot_sha": "6df771eb5f3c7bba",
+   "thumb": "layers_colours.webp"
   },
   {
    "id": "chakkree_tools",
