@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-14T17:46Z",
+ "generated": "2026-11-14T21:12Z",
  "tags": [
   "analysis",
   "architecture",
@@ -840,13 +840,13 @@
   },
   {
    "id": "chimneys",
-   "version": "1.1",
+   "version": "1.2",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/f804333250eaa3751f9f88d1ddec575915f1b668/plugins/3D_Eddys/ed3d_chimneys.py",
-   "sha256": "53bc3f63ff3ff0a985548d556ee28312635828ec6038855f4d404e64b8136b57",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/cd23baef7e05f1c40749a23edf6a7590010c9f64/plugins/3D_Eddys/ed3d_chimneys.py",
+   "sha256": "12283cbbe75812c4fdbefaefcfc0d71358c5581ef53abcd7b7089b5f8e787c67",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture",
@@ -859,13 +859,13 @@
     "pt": "Chaminés 3D"
    },
    "summary": {
-    "es": "Chimeneas de ladrillo cortadas a la pendiente del tejado, con remate, cumbrera de mortero y sombreretes; chimeneas industriales; ventiladores y veletas.",
-    "en": "Brick chimney stacks cut to the roof slope, with oversailing courses, flaunching and pots; industrial chimneys; chimney pots; roof ventilators and weather vanes.",
-    "pt": "Chaminés de tijolo cortadas à inclinação do telhado, com cornija, argamassa e potes; chaminés industriais; ventiladores e cata-ventos."
+    "es": "Chimeneas de ladrillo cortadas a la pendiente del tejado, con remate, cumbrera de mortero y sombreretes; chimeneas industriales; ventiladores y veletas. Haz clic en el edificio y la chimenea se coloca en la cumbrera.",
+    "en": "Brick chimney stacks cut to the roof slope, with oversailing courses, flaunching and pots; industrial chimneys; chimney pots; roof ventilators and weather vanes. Click the whole building and the stack stands on its ridge.",
+    "pt": "Chaminés de tijolo cortadas à inclinação do telhado, com cornija, argamassa e potes; chaminés industriais; ventiladores e cata-ventos. Clique no edifício inteiro e a chaminé fica na cumeeira."
    },
    "reviewed": false,
    "added_at": "2026-11-01T17:48Z",
-   "updated_at": "2026-11-07T09:02Z",
+   "updated_at": "2026-11-14T21:12Z",
    "screenshot_sha": "7215cd0a7e0a7550",
    "thumb": "chimneys.webp"
   },
