@@ -4,7 +4,7 @@
 # Copy this file to that repository as `extensions/igz_uv.toml` and open a
 # pull request. The `sha256` below is the fingerprint of the exact archive
 # built by `packaging/build_extension.ps1` (the Windows builder) and to be
-# uploaded as the `v1.0.0` GitHub Release asset named `igz-uv.zip`.
+# uploaded as the `v1.1.0` GitHub Release asset named `igz-uv.zip`.
 # If you rebuild the archive, replace `sha256` with the new value the build
 # script prints (or let the automatic check tell you the right one).
 #
@@ -13,13 +13,13 @@
 # it installs into <plugins>/igz-uv/.
 
 id = "igz_uv"
-version = "1.0.0"
+version = "1.1.0"
 author = "Ezequiel M. Rezende"
 author_url = "https://github.com/em-rezende"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/em-rezende/Ingetrazo-igz-uv"
-download = "https://github.com/em-rezende/Ingetrazo-igz-uv/releases/download/v1.0.0/igz-uv.zip"
-sha256 = "bd7c2a98204b94f97ced039c57f2a21d098d4fb74ec3e6ec1b0c140e8612cb25"
+download = "https://github.com/em-rezende/Ingetrazo-igz-uv/releases/download/v1.1.0/igz-uv.zip"
+sha256 = "804fb678ea1f970e21a25cc3c757e4822d9a6c572994cfc489d06517a6f7236f"
 ingetrazo = "0.5.7"
 tags = ["rendering", "productivity"]
 screenshot = "igz_uv.png"
