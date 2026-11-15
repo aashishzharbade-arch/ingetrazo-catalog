@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-14T21:19Z",
+ "generated": "2026-11-15T05:50Z",
  "tags": [
   "analysis",
   "architecture",
@@ -3759,13 +3759,13 @@
   },
   {
    "id": "igz_uv",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "author": "Ezequiel M. Rezende",
    "author_url": "https://github.com/em-rezende",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/em-rezende/Ingetrazo-igz-uv",
-   "download": "https://github.com/em-rezende/Ingetrazo-igz-uv/releases/download/v1.0.0/igz-uv.zip",
-   "sha256": "bd7c2a98204b94f97ced039c57f2a21d098d4fb74ec3e6ec1b0c140e8612cb25",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-uv/releases/download/v1.1.0/igz-uv.zip",
+   "sha256": "804fb678ea1f970e21a25cc3c757e4822d9a6c572994cfc489d06517a6f7236f",
    "ingetrazo": "0.5.7",
    "tags": [
     "rendering",
@@ -3784,7 +3784,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-13T22:15Z",
-   "updated_at": "2026-10-13T22:15Z",
+   "updated_at": "2026-11-15T05:50Z",
    "screenshot_sha": "ce6592aa75ca9a69",
    "thumb": "igz_uv.webp"
   },
