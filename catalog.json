@@ -3235,6 +3235,37 @@
    "thumb": "period_doors.webp"
   },
   {
+   "id": "rounded_snap_points",
+   "version": "1.0",
+   "author": "Antoine Enault",
+   "author_url": "https://github.com/antoinearchienault-hub",
+   "license": "MIT",
+   "repository": "https://github.com/antoinearchienault-hub/rounded-snap-points",
+   "download": "https://raw.githubusercontent.com/antoinearchienault-hub/rounded-snap-points/v1.0/rounded_snap_points.py",
+   "sha256": "9a4abe1b60ad7c673b6be94529dd0262b7eb8aa74069e69cb29ee312ed9a533b",
+   "ingetrazo": "0.5.8",
+   "tags": [
+    "drawing",
+    "productivity"
+   ],
+   "screenshot": "rounded_snap_points.png",
+   "name": {
+    "es": "Puntos de ajuste redondeados",
+    "en": "Rounded Snap Points",
+    "pt": "Pontos de ajuste arredondados"
+   },
+   "summary": {
+    "es": "Redondea automáticamente las coordenadas de los puntos de ajuste para un dibujo más limpio y preciso.",
+    "en": "Automatically rounds snap point coordinates for cleaner and more accurate drafting in IngeTrazo.",
+    "pt": "Arredonda automaticamente as coordenadas dos pontos de ajuste para um desenho mais limpo e preciso."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-16T05:36Z",
+   "updated_at": "2026-11-16T05:36Z",
+   "screenshot_sha": "eabc69bd81f324a6",
+   "thumb": "rounded_snap_points.webp"
+  },
+  {
    "id": "comfyui_renderer",
    "version": "1.0",
    "author": "seghier",
