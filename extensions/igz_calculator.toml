@@ -6,7 +6,7 @@
 # referenced by `download` must exist first (see README.md here).
 
 id = "igz_calculator"
-version = "1.2.0"
+version = "1.2.1"
 author = "Ezequiel M. Rezende"
 author_url = "https://github.com/em-rezende"
 
@@ -17,9 +17,9 @@ repository = "https://github.com/em-rezende/Ingetrazo-igz-calculator"
 
 # Tagged GitHub Release asset — never a branch URL, so what a maintainer
 # reviewed is exactly what users download.
-download = "https://github.com/em-rezende/Ingetrazo-igz-calculator/releases/download/v1.2.0/igz_calculator.zip"
+download = "https://github.com/em-rezende/Ingetrazo-igz-calculator/releases/download/v1.2.1/igz_calculator.zip"
 # certutil -hashfile igz_calculator.zip SHA256  (Windows)
-sha256 = "db48ef343f69549be535e14e8933927244edfa174d33667af79d00110de5f46c"
+sha256 = "fa0824ae83ce4e459b2abdbff8151242e50d40743590d08e2fbb2255b4d0fdb2"
 
 # IngeTrazo version tested with (adjust if you validated against another one).
 ingetrazo = "0.6.0"
