@@ -1,0 +1,20 @@
+id = "subframe"
+version = "1.0"
+author = "Phillip Edwards (Eddy)"
+author_url = "https://github.com/eddy-99"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/56772842810b9f8bcc0419b4561b9993b7d45a46/plugins/3D_Eddys/ed3d_subframe.py"
+sha256 = "7e2eb362ec268a3e748371ee14e2e8d81e8ad3166c71515eb439c633cfa02926"
+ingetrazo = "0.5.11"
+tags = ["drawing", "fabrication"]
+
+[name]
+es = "Subestructura 3D"
+en = "3D Subframe"
+pt = "Subestrutura 3D"
+
+[summary]
+es = "Pone un armazón de refuerzo tras las paredes y bajo el tejado, a cualquier escala: soleras, postes, dinteles, montantes, riostras, cabios y correas, o barras que siguen tus líneas. Cada barra es una pieza que se imprime tumbada."
+en = "Puts a strengthening frame behind walls and under roofs of any shape, at any scale: plates, posts, lintels, studs, braces, rafters and purlins, or bars that follow lines you draw. Every bar is its own piece that prints flat."
+pt = "Coloca uma estrutura de reforço atrás das paredes e sob o telhado, a qualquer escala: soleiras, postes, padieiras, montantes, travamentos, caibros e madres, ou barras que seguem as suas linhas. Cada barra imprime-se deitada."
