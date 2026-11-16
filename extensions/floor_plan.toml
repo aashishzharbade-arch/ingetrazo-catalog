@@ -1,0 +1,21 @@
+id = "floor_plan"
+version = "1.0"
+author = "Phillip Edwards (Eddy)"
+author_url = "https://github.com/eddy-99"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo"
+download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/56772842810b9f8bcc0419b4561b9993b7d45a46/plugins/3D_Eddys/ed3d_floor_plan.py"
+sha256 = "9d16359018adff6e18c3b37c785d65759977dcb9592b6a656b0e7015bdd839f7"
+ingetrazo = "0.5.11"
+tags = ["drawing", "fabrication"]
+screenshot = "floor_plan.webp"
+
+[name]
+es = "Planta 3D"
+en = "3D Floor Plan"
+pt = "Planta 3D"
+
+[summary]
+es = "Levanta el casco de un edificio desde su planta (rectángulo, L, T, U o tu propia forma): muros metidos según su grosor, partidos por plantas, con suelos, tabiques con puerta, zócalo y placa superior. Cada pieza se imprime tumbada."
+en = "Builds a building's shell from its floor plan (rectangle, L, T, U or your own shape): walls set in by their thickness, split at each floor, with floors, room dividers with doorways, a plinth and a top plate. Every piece prints flat."
+pt = "Levanta o casco de um edifício a partir da planta (retângulo, L, T, U ou forma própria): paredes recuadas pela espessura, divididas por piso, com pisos, divisórias com porta, plinto e placa de topo. Cada peça imprime-se deitada."
