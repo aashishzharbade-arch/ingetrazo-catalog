@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-16T05:27Z",
+ "generated": "2026-11-16T05:29Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1425,13 +1425,13 @@
   },
   {
    "id": "igz_tb_scenes",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "author": "Ezequiel M. Rezende",
    "author_url": "https://github.com/em-rezende",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/em-rezende/Ingetrazo-igz-scenes",
-   "download": "https://github.com/em-rezende/Ingetrazo-igz-scenes/releases/download/v1.0.0/igz_tb_scenes.zip",
-   "sha256": "20923ef00c7e55b9a15b8de7ba41c5596f1ad8497f513dd0cbb6adbd4459f901",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-scenes/releases/download/v1.1.0/igz_tb_scenes.zip",
+   "sha256": "7414cf50c98968062ba041238e3a7d0a5c09765a8116f1b77b9c72ce03fd4f3d",
    "ingetrazo": "0.5.7",
    "tags": [
     "rendering",
@@ -1450,7 +1450,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-08T21:49Z",
-   "updated_at": "2026-10-08T21:49Z",
+   "updated_at": "2026-11-16T05:29Z",
    "screenshot_sha": "d080f21eec3a2bfa",
    "thumb": "igz_tb_scenes.webp"
   },
