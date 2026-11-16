@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-16T05:32Z",
+ "generated": "2026-11-16T05:33Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1487,13 +1487,13 @@
   },
   {
    "id": "scale_converter",
-   "version": "1.4",
+   "version": "1.5",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/800eeef25c4d35d2c47b6c51e7b24f9deb10a7a0/plugins/3D_Eddys/ed3d_scale_converter.py",
-   "sha256": "254d128ebf673f3a1340f33b3b27f60cd41e7014e536a053a4aaf162c3ff1231",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/56772842810b9f8bcc0419b4561b9993b7d45a46/plugins/3D_Eddys/ed3d_scale_converter.py",
+   "sha256": "d31b82921a5ace5a30b2c7bd6705161a2f58a6b45f53a8b485f155cfdade8fef",
    "ingetrazo": "0.5.11",
    "tags": [
     "productivity"
@@ -1511,7 +1511,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-12T15:21Z",
+   "updated_at": "2026-11-16T05:33Z",
    "screenshot_sha": "b087d056d62bc95a",
    "thumb": "scale_converter.webp"
   },
