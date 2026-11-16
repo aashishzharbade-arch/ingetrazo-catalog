@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-15T21:22Z",
+ "generated": "2026-11-16T05:27Z",
  "tags": [
   "analysis",
   "architecture",
@@ -680,13 +680,13 @@
   },
   {
    "id": "igz_calculator",
-   "version": "1.2.0",
+   "version": "1.2.1",
    "author": "Ezequiel M. Rezende",
    "author_url": "https://github.com/em-rezende",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/em-rezende/Ingetrazo-igz-calculator",
-   "download": "https://github.com/em-rezende/Ingetrazo-igz-calculator/releases/download/v1.2.0/igz_calculator.zip",
-   "sha256": "db48ef343f69549be535e14e8933927244edfa174d33667af79d00110de5f46c",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-calculator/releases/download/v1.2.1/igz_calculator.zip",
+   "sha256": "fa0824ae83ce4e459b2abdbff8151242e50d40743590d08e2fbb2255b4d0fdb2",
    "ingetrazo": "0.6.0",
    "tags": [
     "productivity"
@@ -704,7 +704,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:25Z",
-   "updated_at": "2026-11-08T12:25Z",
+   "updated_at": "2026-11-16T05:27Z",
    "screenshot_sha": "7add0b0652ab8445",
    "thumb": "igz-calculator.webp"
   },
