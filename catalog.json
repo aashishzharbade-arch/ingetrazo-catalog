@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-16T15:09Z",
+ "generated": "2026-11-16T15:13Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1651,6 +1651,33 @@
    "updated_at": "2026-10-27T11:46Z",
    "screenshot_sha": "11b55f1d6c9bca79",
    "thumb": "html_export.webp"
+  },
+  {
+   "id": "fgid_scenes",
+   "version": "0.1.4",
+   "author": "FGId",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/gta974/fgid-scenes-ingetrazo",
+   "download": "https://github.com/gta974/fgid-scenes-ingetrazo/releases/download/v0.1.4/FGId_Scenes_IngeTrazo_v0_1_4.zip",
+   "sha256": "37249267ab673b0fcf3afc8a8463515a02d0ed02da316bf1f61c7d1782d8a5ac",
+   "ingetrazo": "0.5.10.1",
+   "tags": [
+    "productivity",
+    "drawing"
+   ],
+   "name": {
+    "en": "FGId Scenes",
+    "es": "FGId Escenas",
+    "pt": "FGId Cenas"
+   },
+   "summary": {
+    "en": "Organize IngeTrazo scenes with thumbnails, descriptions, selective recall of view properties, and automatic playback.",
+    "es": "Organiza las escenas de IngeTrazo con miniaturas, descripciones, restauración selectiva de propiedades y reproducción automática.",
+    "pt": "Organize as cenas do IngeTrazo com miniaturas, descrições, restauração seletiva de propriedades e reprodução automática."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-16T15:13Z",
+   "updated_at": "2026-11-16T15:13Z"
   },
   {
    "id": "blend",
