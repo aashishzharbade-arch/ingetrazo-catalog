@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-17T17:00Z",
+ "generated": "2026-11-17T17:01Z",
  "tags": [
   "analysis",
   "architecture",
@@ -3228,13 +3228,13 @@
   },
   {
    "id": "floor_plan",
-   "version": "1.0",
+   "version": "1.1",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/56772842810b9f8bcc0419b4561b9993b7d45a46/plugins/3D_Eddys/ed3d_floor_plan.py",
-   "sha256": "9d16359018adff6e18c3b37c785d65759977dcb9592b6a656b0e7015bdd839f7",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/b5cdd347feac1eab7d0bf73aba3d810097699511/plugins/3D_Eddys/ed3d_floor_plan.py",
+   "sha256": "e0c851143097d25db64933f19970812fec63903bcdcc7ff70d5d5a8c1eb68a5c",
    "ingetrazo": "0.5.11",
    "tags": [
     "drawing",
@@ -3253,7 +3253,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-16T05:32Z",
-   "updated_at": "2026-11-16T05:32Z",
+   "updated_at": "2026-11-17T17:01Z",
    "screenshot_sha": "92a5897b5c620f42",
    "thumb": "floor_plan.webp"
   },
