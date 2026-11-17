@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-17T14:41Z",
+ "generated": "2026-11-17T16:57Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1517,13 +1517,13 @@
   },
   {
    "id": "brick_block_studio",
-   "version": "2.5",
+   "version": "2.6",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/4f771210bce528f9ea497bbcf500da4d99fdc206/plugins/3D_Eddys/ed3d_brick_block_studio.py",
-   "sha256": "e9ee5c16073c1bb560291b4a707296f3c6598ce1d5c6210d532b8e3d9bd85b69",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/b5cdd347feac1eab7d0bf73aba3d810097699511/plugins/3D_Eddys/ed3d_brick_block_studio.py",
+   "sha256": "0e6c114d30fd678365fb64c8d2f5e9cf8d6fd9ec6d1de6727c921a0bedcd6086",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture",
@@ -1542,7 +1542,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-15T17:13Z",
+   "updated_at": "2026-11-17T16:57Z",
    "screenshot_sha": "30b72debad88df1d",
    "thumb": "brick_block_studio.webp"
   },
