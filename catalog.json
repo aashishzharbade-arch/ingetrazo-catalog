@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-17T14:21Z",
+ "generated": "2026-11-17T14:22Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1545,6 +1545,35 @@
    "updated_at": "2026-11-15T17:13Z",
    "screenshot_sha": "30b72debad88df1d",
    "thumb": "brick_block_studio.webp"
+  },
+  {
+   "id": "material_studio",
+   "version": "0.4.14",
+   "author": "dre87bb2",
+   "author_url": "https://github.com/dre87bb2",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/dre87bb2/material-studio",
+   "download": "https://raw.githubusercontent.com/dre87bb2/material-studio/v0.4.14/Material_Studio_v0.4.14.zip",
+   "sha256": "0fe5df4b71465bd0a735015b369f7372171a1a4b29d88617a1cbd431deaec52a",
+   "ingetrazo": "0.6.2.1",
+   "tags": [
+    "architecture",
+    "rendering",
+    "productivity"
+   ],
+   "name": {
+    "en": "Material Studio",
+    "es": "Estudio de materiales",
+    "pt": "Estúdio de Materiais"
+   },
+   "summary": {
+    "en": "Edit per-material PBR properties and texture maps; add surface relief, emission and glow, lighting, camera controls, and Blender Cycles/EEVEE render presets.",
+    "es": "Edita propiedades PBR y mapas de textura por material; añade relieve, emisión y resplandor, iluminación, cámara y ajustes de render para Blender Cycles/EEVEE.",
+    "pt": "Edite propriedades PBR e mapas de textura por material; adicione relevo, emissão e brilho, iluminação, câmera e predefinições de renderização para Blender Cycles/EEVEE."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-17T14:22Z",
+   "updated_at": "2026-11-17T14:22Z"
   },
   {
    "id": "igz_pdf3d",
