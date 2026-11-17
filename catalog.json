@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-16T15:13Z",
+ "generated": "2026-11-17T01:02Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1958,13 +1958,13 @@
   },
   {
    "id": "igz_sunpath",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "author": "Ezequiel M. Rezende",
    "author_url": "https://github.com/em-rezende",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/em-rezende/Ingetrazo-igz-sunpath",
-   "download": "https://github.com/em-rezende/Ingetrazo-igz-sunpath/releases/download/v1.0.0/igz_sunpath.zip",
-   "sha256": "d2226805b3a41a6181a4553bbc0fbe32050ea7624fc1749a045243c2175d0b30",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-sunpath/releases/download/v1.1.0/igz_sunpath.zip",
+   "sha256": "15b2445ac1a0e245014385c83e11fef1d584224852a84d41490502972c694607",
    "ingetrazo": "0.5.8",
    "tags": [
     "architecture",
@@ -1990,8 +1990,8 @@
    },
    "reviewed": false,
    "added_at": "2026-10-19T17:29Z",
-   "updated_at": "2026-10-19T17:29Z",
-   "screenshot_sha": "9f91da37d8289d84",
+   "updated_at": "2026-11-17T01:01Z",
+   "screenshot_sha": "eacf791baf3f6ab3",
    "thumb": "igz_sunpath.webp"
   },
   {
