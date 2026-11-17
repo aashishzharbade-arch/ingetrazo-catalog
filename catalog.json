@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-17T16:59Z",
+ "generated": "2026-11-17T17:00Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1898,13 +1898,13 @@
   },
   {
    "id": "ed3d_openings",
-   "version": "1.3",
+   "version": "1.4",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/c6604d93ce02ece7721c29b1fc3d08122269cd5d/plugins/3D_Eddys/ed3d_openings.py",
-   "sha256": "18992a9b6489dcf5590412b79519b0aa9d052c73d1e674bcd0a17e5ff8d22c16",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/b5cdd347feac1eab7d0bf73aba3d810097699511/plugins/3D_Eddys/ed3d_openings.py",
+   "sha256": "08a97266f9c34e1c52282d1a0c8afd28689023f4698ff996ba7428a80ea2cb5a",
    "ingetrazo": "0.5.11",
    "tags": [
     "drawing",
@@ -1922,7 +1922,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-16T15:08Z",
-   "updated_at": "2026-11-17T08:06Z"
+   "updated_at": "2026-11-17T17:00Z"
   },
   {
    "id": "better_icons",
