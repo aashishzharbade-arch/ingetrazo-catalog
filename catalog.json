@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-17T14:22Z",
+ "generated": "2026-11-17T14:41Z",
  "tags": [
   "analysis",
   "architecture",
@@ -2869,13 +2869,13 @@
   },
   {
    "id": "myhouse",
-   "version": "1.2.0",
+   "version": "1.3.1",
    "author": "Dario Ilardi",
    "author_url": "https://github.com/darioila",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/darioila/myHouse",
-   "download": "https://github.com/darioila/myHouse/releases/download/v1.2/myhouse.zip",
-   "sha256": "cb0e8b0d38d1973b05e42055160f3800059132cbb658cf91dd48dd4306a66b06",
+   "download": "https://github.com/darioila/myHouse/releases/download/v1.3.1/myhouse.zip",
+   "sha256": "b8b76ba2e62ff94de8e69474179404ac8ff562459436e62d1c131e3841aee92b",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture"
@@ -2891,7 +2891,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T15:13Z",
-   "updated_at": "2026-11-14T17:43Z",
+   "updated_at": "2026-11-17T14:41Z",
    "screenshot_sha": "acc5bce760bbbfb9",
    "thumb": "myhouse.webp"
   },
