@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-17T17:07Z",
+ "generated": "2026-11-18T04:19Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1548,13 +1548,13 @@
   },
   {
    "id": "material_studio",
-   "version": "0.4.14",
+   "version": "0.4.15",
    "author": "dre87bb2",
    "author_url": "https://github.com/dre87bb2",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/dre87bb2/material-studio",
-   "download": "https://raw.githubusercontent.com/dre87bb2/material-studio/v0.4.14/Material_Studio_v0.4.14.zip",
-   "sha256": "0fe5df4b71465bd0a735015b369f7372171a1a4b29d88617a1cbd431deaec52a",
+   "download": "https://raw.githubusercontent.com/dre87bb2/material-studio/v0.4.15/Material_Studio_v0.4.15.zip",
+   "sha256": "1f6dc538f8904ced0d4202f8fdb0e0e28e65856451b2ae8204458903bb4c3584",
    "ingetrazo": "0.6.2.1",
    "tags": [
     "architecture",
@@ -1573,7 +1573,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-17T14:22Z",
-   "updated_at": "2026-11-17T14:22Z"
+   "updated_at": "2026-11-18T04:18Z"
   },
   {
    "id": "igz_pdf3d",
