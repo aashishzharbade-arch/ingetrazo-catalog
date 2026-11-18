@@ -8,6 +8,7 @@ download = "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo
 sha256 = "08a97266f9c34e1c52282d1a0c8afd28689023f4698ff996ba7428a80ea2cb5a"
 ingetrazo = "0.5.11"
 tags = ["drawing", "fabrication"]
+screenshot = "ed3d_openings.webp"
 
 [name]
 es = "Huecos 3D"
