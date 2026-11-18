@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-08T15:41Z",
+ "generated": "2026-11-18T20:44Z",
  "tags": [
   "analysis",
   "architecture",
@@ -117,31 +117,6 @@
     "en": "Create and edit parametric kitchen cabinets, arrange cabinet runs, and export CSV cost reports.",
     "es": "Crea y edita muebles de cocina paramétricos, organiza filas de muebles y exporta informes de costos en CSV.",
     "pt": "Cria e edita armários de cozinha paramétricos, organiza fileiras de armários e exporta relatórios de custos em CSV."
-   },
-   "reviewed": true
-  },
-  {
-   "id": "make_stair",
-   "version": "1.1.0",
-   "author": "aashishzharbade-arch",
-   "author_url": "https://github.com/aashishzharbade-arch",
-   "license": "GPL-3.0-or-later",
-   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
-   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/make_stair-v1.1.0/repository-upload/make_stair/make_stair.py",
-   "sha256": "202f96b75c1fd28ae8212e0b0d2409f2c5432fd9f3f53120dc1f5fce71f2d0f2",
-   "ingetrazo": "0.5.7",
-   "tags": [
-    "architecture",
-    "productivity"
-   ],
-   "screenshot": "make_stair.webp",
-   "name": {
-    "en": "IngeTrazo Stair Maker with Railings"
-   },
-   "summary": {
-    "en": "Create editable straight, L-shaped and U-shaped stairs with optional glass or steel railings.",
-    "es": "Crea escaleras editables rectas, en L y en U, con barandas opcionales de vidrio o acero.",
-    "pt": "Cria escadas editáveis retas, em L e em U, com guarda-corpos opcionais de vidro ou aço."
    },
    "reviewed": true
   },
@@ -465,6 +440,31 @@
    },
    "summary": {
     "en": "Create and edit Bézier curves, chains and splines with coordinate, sampling, and closed-loop controls."
+   },
+   "reviewed": false
+  },
+  {
+   "id": "make_stair",
+   "version": "1.1.1",
+   "author": "aashishzharbade-arch",
+   "author_url": "https://github.com/aashishzharbade-arch",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/aashishzharbade-arch/ingetrazo-extensions",
+   "download": "https://raw.githubusercontent.com/aashishzharbade-arch/ingetrazo-extensions/make_stair-v1.1.1/repository-upload/make_stair/make_stair.py",
+   "sha256": "634182401d8e285ee541aa2eb29965c49e2528db8dd9cc6e60e88c1482dbb0ad",
+   "ingetrazo": "0.6.2.1",
+   "tags": [
+    "architecture",
+    "productivity"
+   ],
+   "screenshot": "stair_maker.png",
+   "name": {
+    "en": "IngeTrazo Stair Maker with Railings"
+   },
+   "summary": {
+    "en": "Create editable straight, L-shaped and U-shaped stairs with optional glass or steel railings.",
+    "es": "Crea escaleras editables rectas, en L y en U, con barandas opcionales de vidrio o acero.",
+    "pt": "Cria escadas editáveis retas, em L e em U, com guarda-corpos opcionais de vidro ou aço."
    },
    "reviewed": false
   },
