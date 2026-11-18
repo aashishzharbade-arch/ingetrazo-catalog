@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-18T21:00Z",
+ "generated": "2026-11-18T21:44Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1881,6 +1881,7 @@
     "drawing",
     "fabrication"
    ],
+   "screenshot": "ed3d_openings.webp",
    "name": {
     "es": "Huecos 3D",
     "en": "3D Openings",
@@ -1893,7 +1894,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-16T15:08Z",
-   "updated_at": "2026-11-17T17:00Z"
+   "updated_at": "2026-11-17T17:00Z",
+   "screenshot_sha": "dad6cee690d36cbe",
+   "thumb": "ed3d_openings.webp"
   },
   {
    "id": "better_icons",
