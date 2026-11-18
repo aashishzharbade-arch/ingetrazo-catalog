@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-18T17:34Z",
+ "generated": "2026-11-18T17:35Z",
  "tags": [
   "analysis",
   "architecture",
@@ -3692,13 +3692,13 @@
   },
   {
    "id": "roof_tiles",
-   "version": "1.6",
+   "version": "1.7",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/60cb54961e9600b64c5331cc7d7888eea3c3324d/plugins/3D_Eddys/ed3d_roof_tiles.py",
-   "sha256": "2dcbd4c3d983728ca7d2dcc467975b29b5f035bb6c2df86cdfd31f252cc8b06c",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/ae7da826a1ab873330b5c4a5aabd654252b708e7/plugins/3D_Eddys/ed3d_roof_tiles.py",
+   "sha256": "c22d8d114585145c9c8b6f203dddaf6dd842bbae0305a6f034a1579f4c3dcc0d",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture",
@@ -3717,7 +3717,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-18T10:38Z",
+   "updated_at": "2026-11-18T17:35Z",
    "screenshot_sha": "1a915f3acb0354ca",
    "thumb": "roof_tiles.webp"
   },
