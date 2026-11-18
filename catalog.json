@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-18T17:35Z",
+ "generated": "2026-11-18T17:36Z",
  "tags": [
   "analysis",
   "architecture",
@@ -259,13 +259,13 @@
   },
   {
    "id": "archxq_it_lite",
-   "version": "0.12.1",
+   "version": "0.13.0",
    "author": "Orlando Souza · XQ",
    "author_url": "https://github.com/equipexq",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/equipexq/archxq-it-lite",
-   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.12.1/archxq_it_lite-v0.12.1.zip",
-   "sha256": "af4e46ede184981ee8d1c3c6608f2a317ec7b2b2cc810cc833724471f22b6b96",
+   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.13.0/archxq_it_lite-v0.13.0.zip",
+   "sha256": "1a12b49c81d002e5a5ecafb8cd79bf7eafc4dfa6308d0554f11ef9a16df0fb02",
    "ingetrazo": "0.5.8",
    "tags": [
     "architecture",
@@ -286,7 +286,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-11-12T15:21Z",
+   "updated_at": "2026-11-18T17:36Z",
    "screenshot_sha": "14add5f2868a6a03",
    "thumb": "archxq_it.webp"
   },
@@ -1487,13 +1487,13 @@
   },
   {
    "id": "scale_converter",
-   "version": "1.5",
+   "version": "1.6",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/56772842810b9f8bcc0419b4561b9993b7d45a46/plugins/3D_Eddys/ed3d_scale_converter.py",
-   "sha256": "d31b82921a5ace5a30b2c7bd6705161a2f58a6b45f53a8b485f155cfdade8fef",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/ae7da826a1ab873330b5c4a5aabd654252b708e7/plugins/3D_Eddys/ed3d_scale_converter.py",
+   "sha256": "0f7ec687b875b7021e425bf47a195fbd87f06b4e585c51a8fdadea28d6a09d25",
    "ingetrazo": "0.5.11",
    "tags": [
     "productivity"
@@ -1511,7 +1511,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-16T05:33Z",
+   "updated_at": "2026-11-18T17:36Z",
    "screenshot_sha": "b087d056d62bc95a",
    "thumb": "scale_converter.webp"
   },
