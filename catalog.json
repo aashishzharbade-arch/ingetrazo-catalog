@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-18T11:41Z",
+ "generated": "2026-11-18T17:32Z",
  "tags": [
   "analysis",
   "architecture",
@@ -3290,13 +3290,13 @@
   },
   {
    "id": "period_doors",
-   "version": "1.5",
+   "version": "1.6",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/b5cdd347feac1eab7d0bf73aba3d810097699511/plugins/3D_Eddys/ed3d_period_doors.py",
-   "sha256": "9ca21d56c26bca898ee394ad08c66b745cb174c0232055530d4ca6dea2ac041a",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/ae7da826a1ab873330b5c4a5aabd654252b708e7/plugins/3D_Eddys/ed3d_period_doors.py",
+   "sha256": "c8159d321f2ad4ab955ab403e34c93973dbf8aa458d5f1ccfd9ffd21382bef51",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture"
@@ -3314,7 +3314,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-17T17:02Z",
+   "updated_at": "2026-11-18T17:32Z",
    "screenshot_sha": "2401c4f4d6dd44ab",
    "thumb": "period_doors.webp"
   },
