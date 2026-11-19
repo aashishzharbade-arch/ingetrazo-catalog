@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T13:06Z",
+ "generated": "2026-11-19T17:37Z",
  "tags": [
   "analysis",
   "architecture",
@@ -938,14 +938,14 @@
   },
   {
    "id": "contexto",
-   "version": "0.3.4",
+   "version": "0.4.0",
    "author": "Victor Crespo",
    "author_url": "https://github.com/vicc3d",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/vicc3d/contexto-ingetrazo",
-   "download": "https://github.com/vicc3d/contexto-ingetrazo/releases/download/v0.3.4/contexto-0.3.4.zip",
-   "sha256": "14a48341d61552e74f560bbecd10cc41f4a4eb47f0ae28f8aa01594fc570794f",
-   "ingetrazo": "0.6.0",
+   "download": "https://github.com/vicc3d/contexto-ingetrazo/releases/download/v0.4.0/contexto-0.4.0.zip",
+   "sha256": "d803fbaddfde7e070f825c6cf026323ef06620b9eacd627b300cd0a1dd1d365d",
+   "ingetrazo": "0.6.2.1",
    "tags": [
     "architecture",
     "terrain"
@@ -963,7 +963,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T15:28Z",
-   "updated_at": "2026-11-08T11:59Z",
+   "updated_at": "2026-11-19T17:37Z",
    "screenshot_sha": "4e7e79fb8ad97dc7",
    "thumb": "contexto.webp"
   },
