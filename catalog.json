@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T20:55Z",
+ "generated": "2026-11-19T20:56Z",
  "tags": [
   "analysis",
   "architecture",
@@ -3634,13 +3634,13 @@
   },
   {
    "id": "wood_planking",
-   "version": "1.2",
+   "version": "1.3",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/56772842810b9f8bcc0419b4561b9993b7d45a46/plugins/3D_Eddys/ed3d_wood_planking.py",
-   "sha256": "95eff4950e0cbe640b132251d03ba144826a3545c24211c4867f929652b8b93e",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/37e88b091ec60d8ad9060097229fb598b37f5cd4/plugins/3D_Eddys/ed3d_wood_planking.py",
+   "sha256": "98a20ca8812786adb4957aad6d85a6bdc478228b2d200b1d6cad05d8b9d9447b",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture",
@@ -3659,7 +3659,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-15T21:21Z",
+   "updated_at": "2026-11-19T20:55Z",
    "screenshot_sha": "c125db265c9b3a0e",
    "thumb": "wood_planking.webp"
   },
