@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T20:48Z",
+ "generated": "2026-11-19T20:49Z",
  "tags": [
   "analysis",
   "architecture",
@@ -842,13 +842,13 @@
   },
   {
    "id": "place_along",
-   "version": "1.1",
+   "version": "1.2",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/56772842810b9f8bcc0419b4561b9993b7d45a46/plugins/3D_Eddys/ed3d_place_along.py",
-   "sha256": "de6d7a924ab73ad7c685b77caa3bfdce3a338c05a20bf5a5bbfd62afbb74c666",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/37e88b091ec60d8ad9060097229fb598b37f5cd4/plugins/3D_Eddys/ed3d_place_along.py",
+   "sha256": "ed61f3b8e5c7fc0012a8bf725c7d9fae180b600f9de82bd522bd6aafe02bfdb4",
    "ingetrazo": "0.5.11",
    "tags": [
     "fabrication",
@@ -867,7 +867,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T12:36Z",
-   "updated_at": "2026-11-15T21:17Z",
+   "updated_at": "2026-11-19T20:49Z",
    "screenshot_sha": "de806616afac5a2d",
    "thumb": "place_along.webp"
   },
