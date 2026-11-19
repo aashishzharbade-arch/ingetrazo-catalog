@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T08:23Z",
+ "generated": "2026-11-19T08:24Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1335,13 +1335,13 @@
   },
   {
    "id": "wrap",
-   "version": "1.2",
+   "version": "1.3",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/56772842810b9f8bcc0419b4561b9993b7d45a46/plugins/3D_Eddys/ed3d_wrap.py",
-   "sha256": "73ed620209c02048d155bef1fd9acb53a1e22bbc39449b60c468ae4b078d13be",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/85e931a17e1a9c4fa6f4a9a1c2d565d6a87b0e8f/plugins/3D_Eddys/ed3d_wrap.py",
+   "sha256": "0e6f8a33ab53bf9947e1737b1cc84abb77a26c67ace29cec9f13624a97bd9a0a",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture",
@@ -1360,7 +1360,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-15T21:22Z",
+   "updated_at": "2026-11-19T08:24Z",
    "screenshot_sha": "cec68df5dc397731",
    "thumb": "wrap.webp"
   },
