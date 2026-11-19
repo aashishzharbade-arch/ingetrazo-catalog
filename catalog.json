@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T20:38Z",
+ "generated": "2026-11-19T20:39Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1681,13 +1681,13 @@
   },
   {
    "id": "blend",
-   "version": "1.0",
+   "version": "1.1",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/800eeef25c4d35d2c47b6c51e7b24f9deb10a7a0/plugins/3D_Eddys/ed3d_blend.py",
-   "sha256": "b2bc5d52b83d65c6d84a41705857fc59bb7f712ce5a031c2b0191013fc66c76f",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/37e88b091ec60d8ad9060097229fb598b37f5cd4/plugins/3D_Eddys/ed3d_blend.py",
+   "sha256": "ae6191af7ebf0fc83aba03d9e3a0329cb5f832044efcbd203b1b753d2fcd2f44",
    "ingetrazo": "0.5.11",
    "tags": [
     "drawing",
@@ -1706,7 +1706,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-12T15:21Z",
-   "updated_at": "2026-11-12T15:21Z",
+   "updated_at": "2026-11-19T20:38Z",
    "screenshot_sha": "a8845d282fb397e5",
    "thumb": "blend.webp"
   },
