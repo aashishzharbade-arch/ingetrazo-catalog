@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T18:09Z",
+ "generated": "2026-11-19T18:10Z",
  "tags": [
   "analysis",
   "architecture",
@@ -3908,13 +3908,13 @@
   },
   {
    "id": "soil_waste_pipes",
-   "version": "1.2",
+   "version": "1.3",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/4f771210bce528f9ea497bbcf500da4d99fdc206/plugins/3D_Eddys/ed3d_soil_waste_pipes.py",
-   "sha256": "5a7705cd13f2fc350bc6b0f7cd52c3794a7c1be8b97ae888ef02ba20e0c107ff",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/b7a170e9f3e37532e4c2ec9391e89efd8f79c73b/plugins/3D_Eddys/ed3d_soil_waste_pipes.py",
+   "sha256": "f73a7e2cfc045b65490e412c05147df2289569fedbb424d3c664aef27072dac9",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture"
@@ -3932,7 +3932,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-15T17:24Z",
+   "updated_at": "2026-11-19T18:10Z",
    "screenshot_sha": "617835f501dbc06e",
    "thumb": "soil_waste_pipes.webp"
   },
