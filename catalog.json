@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T20:56Z",
+ "generated": "2026-11-19T22:08Z",
  "tags": [
   "analysis",
   "architecture",
@@ -425,15 +425,15 @@
   },
   {
    "id": "blackfox_3d_inspector",
-   "version": "1.1.0",
+   "version": "1.2.0",
    "author": "David Mavrov",
    "author_url": "https://github.com/davidsmavrov-debug",
    "license": "GPL-3.0-or-later",
    "screenshot": "blackfox_3d_inspector.webp",
-   "repository": "https://github.com/davidsmavrov-debug/BlackFox-CAD",
-   "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/inspector-v1.1.0/IngeTrazo%20Extensions/3D%20Inspector/BlackFox_3D_Inspector_v1_1_0.py",
-   "sha256": "4192faaf94e7fb78f734f9944481a5f4662c963524d69d2fac573d838f7f6b7a",
-   "ingetrazo": "0.5.11",
+   "repository": "https://github.com/davidsmavrov-debug/BlackFox-CAD/tree/main/IngeTrazo%20Extensions/3D%20Inspector",
+   "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/3e9544a6f008dad286cb56df261b5a61b2f080b4/IngeTrazo%20Extensions/3D%20Inspector/BlackFox_3D_Inspector_v1_2_0.py",
+   "sha256": "ea7cebe34a469e8b2b27554d5078206268d2aeadb63490d77e61b52eea93998b",
+   "ingetrazo": "0.6.2.1",
    "tags": [
     "analysis",
     "productivity",
@@ -445,14 +445,19 @@
     "pt": "BlackFox 3D Inspector"
    },
    "summary": {
-    "en": "Read-only diagnostic extension for inspecting IngeTrazo geometry, topology, layers, materials, annotations, survey points and internal APIs.",
-    "es": "Extensión de diagnóstico de solo lectura para inspeccionar geometría, topología, capas, materiales, anotaciones, puntos topográficos y APIs internas de IngeTrazo.",
-    "pt": "Extensão de diagnóstico somente leitura para inspecionar geometria, topologia, camadas, materiais, anotações, pontos topográficos e APIs internas do IngeTrazo."
+    "en": "A read-only inspector for IngeTrazo models and extension APIs. Explore geometry, placements, selection, cameras and saved views. Copy the report or export it to TXT.",
+    "es": "Inspector de solo lectura para modelos y API de extensiones de IngeTrazo. Explora geometría, colocaciones, selección, cámaras y vistas guardadas. Copia el informe o expórtalo a TXT.",
+    "pt": "Inspetor somente leitura para modelos e APIs de extensões do IngeTrazo. Explore geometria, posicionamentos, seleção, câmeras e vistas salvas. Copie o relatório ou exporte-o para TXT."
+   },
+   "description": {
+    "en": "BlackFox 3D Inspector helps extension developers, CAD users and AI assistants understand how an IngeTrazo document is structured and which APIs are available.\n\nFour tabs organize the report. Scene shows geometry, topology, layers, materials, textures and annotations. Placements & selection shows nested groups, component transforms, shared meshes and selected entities. Camera & views shows camera settings, saved views, scene transitions and section planes. Developer APIs shows signatures, extension-data keys and Catenary compatibility checks.\n\nRefresh reruns the inspection. Copy report copies all four tabs. Export to TXT saves the full UTF-8 report only after you choose a destination. Inspection leaves the model and its history unchanged.\n",
+    "es": "BlackFox 3D Inspector ayuda a desarrolladores de extensiones, usuarios de CAD y asistentes de IA a entender la estructura de un documento de IngeTrazo y las API disponibles.\n\nCuatro pestañas organizan el informe: escena con geometría, topología, capas, materiales, texturas y anotaciones; colocaciones y selección con grupos anidados, transformaciones, mallas compartidas y elementos seleccionados; cámara y vistas con vistas guardadas, transiciones y planos de sección; y API para desarrolladores con firmas, claves de datos de extensiones y comprobaciones de Catenary.\n\nPuedes actualizar el informe, copiar las cuatro pestañas o exportarlas a TXT en UTF-8. El archivo solo se guarda al elegir un destino. La inspección mantiene intactos el modelo y su historial.\n",
+    "pt": "O BlackFox 3D Inspector ajuda desenvolvedores de extensões, usuários de CAD e assistentes de IA a entender a estrutura de um documento do IngeTrazo e as APIs disponíveis.\n\nQuatro abas organizam o relatório: cena com geometria, topologia, camadas, materiais, texturas e anotações; posicionamentos e seleção com grupos aninhados, transformações, malhas compartilhadas e entidades selecionadas; câmera e vistas com vistas salvas, transições e planos de seção; e APIs para desenvolvedores com assinaturas, chaves de dados de extensões e verificações do Catenary.\n\nVocê pode atualizar o relatório, copiar as quatro abas ou exportá-las para TXT em UTF-8. O arquivo só é salvo ao escolher um destino. A inspeção preserva o modelo e seu histórico.\n"
    },
    "reviewed": false,
    "added_at": "2026-11-01T15:28Z",
-   "updated_at": "2026-11-07T04:39Z",
-   "screenshot_sha": "58aa304db6bcc329",
+   "updated_at": "2026-11-19T22:08Z",
+   "screenshot_sha": "e821f7a193ce3650",
    "thumb": "blackfox_3d_inspector.webp"
   },
   {
