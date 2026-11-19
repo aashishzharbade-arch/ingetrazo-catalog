@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T20:47Z",
+ "generated": "2026-11-19T20:48Z",
  "tags": [
   "analysis",
   "architecture",
@@ -521,13 +521,13 @@
   },
   {
    "id": "notepad",
-   "version": "1.1",
+   "version": "1.2",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/7c8c78341e548e93ec298bf6b479047fce46649f/plugins/3D_Eddys/ed3d_notepad.py",
-   "sha256": "2d45f033d06e3dd09fb116af2745cf8085b7e87a766e8afffcdb10bcfd03e55d",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/37e88b091ec60d8ad9060097229fb598b37f5cd4/plugins/3D_Eddys/ed3d_notepad.py",
+   "sha256": "946656ac9524b6504339a78f72fec95613fdba449fa975b6f4992a304ea005c5",
    "ingetrazo": "0.5.11",
    "tags": [
     "productivity"
@@ -545,7 +545,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-07T08:05Z",
+   "updated_at": "2026-11-19T20:48Z",
    "screenshot_sha": "d676b268b66f49e9",
    "thumb": "notepad.webp"
   },
