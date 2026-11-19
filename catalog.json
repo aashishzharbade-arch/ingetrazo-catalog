@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-19T20:46Z",
+ "generated": "2026-11-19T20:47Z",
  "tags": [
   "analysis",
   "architecture",
@@ -3848,13 +3848,13 @@
   },
   {
    "id": "loft",
-   "version": "1.0",
+   "version": "1.1",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/6b19ccf8ab8aa9a0a96987731fbc068c4e037709/plugins/3D_Eddys/ed3d_loft.py",
-   "sha256": "e08dbf1a9c10b78490c347c45af559fe7e97a46188093199105af21266c1e42d",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/37e88b091ec60d8ad9060097229fb598b37f5cd4/plugins/3D_Eddys/ed3d_loft.py",
+   "sha256": "5d4a724e7a7f95ed4bc9dc2ac5778dd7250bfa3d1002e376bcc933d5070a9baa",
    "ingetrazo": "0.5.11",
    "tags": [
     "drawing"
@@ -3872,7 +3872,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T17:46Z",
-   "updated_at": "2026-11-01T17:46Z",
+   "updated_at": "2026-11-19T20:47Z",
    "screenshot_sha": "1c2b8135a4c74c5b",
    "thumb": "loft.webp"
   },
