@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-20T11:13Z",
+ "generated": "2026-11-20T11:14Z",
  "tags": [
   "analysis",
   "architecture",
@@ -4063,13 +4063,13 @@
   },
   {
    "id": "period_windows",
-   "version": "1.5",
+   "version": "1.6",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/ae7da826a1ab873330b5c4a5aabd654252b708e7/plugins/3D_Eddys/ed3d_period_windows.py",
-   "sha256": "9eb349bec48f624e02fdae4b8e7fa71c09aa71532561ff26f237852b1cc81466",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/518867a720155ec71a0c09a1e6171f52f884cc0c/plugins/3D_Eddys/ed3d_period_windows.py",
+   "sha256": "83cee81e6adabce91804196235a7cb2544e025e59f08b4a3b096f2051c79e5a9",
    "ingetrazo": "0.5.11",
    "tags": [
     "architecture"
@@ -4087,7 +4087,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-18T17:33Z",
+   "updated_at": "2026-11-20T11:14Z",
    "screenshot_sha": "05a5b4f3f10bcafe",
    "thumb": "period_windows.webp"
   },
