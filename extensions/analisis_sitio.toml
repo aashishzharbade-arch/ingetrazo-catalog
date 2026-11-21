@@ -2,7 +2,7 @@
 # Va en extensions/analisis_sitio.toml
 
 id = "analisis_sitio"
-version = "1.11.0"
+version = "1.12.0"
 author = "Jufego"
 author_url = "https://github.com/jufegofoto-cell"
 
@@ -11,9 +11,9 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/jufegofoto-cell/IngeAnalisys"
 
 # El ZIP adjunto a la versión (release). Debe coincidir EXACTAMENTE con la
-# dirección del archivo en GitHub (mayúsculas incluidas: V1.11.0 ≠ v1.11.0).
-download = "https://github.com/jufegofoto-cell/IngeAnalisys/releases/download/V1.11.0/analisis_sitio.zip"
-sha256 = "2a87d80a37b025107d83973fb211ae33b6c7388adf20e7057921d1eb6b3292b9"
+# dirección del archivo en GitHub (mayúsculas incluidas: V1.12.0 ≠ v1.12.0).
+download = "https://github.com/jufegofoto-cell/IngeAnalisys/releases/download/V1.12.0/analisis_sitio.zip"
+sha256 = "63c6a4f149b6a2bc45f0f6553e9883c2222b759020a0a87e088c99546b3e4fcf"
 
 ingetrazo = "0.6.0"
 
