@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-21T17:23Z",
+ "generated": "2026-11-21T18:54Z",
  "tags": [
   "analysis",
   "architecture",
@@ -197,13 +197,13 @@
   },
   {
    "id": "analisis_sitio",
-   "version": "1.11.0",
+   "version": "1.12.0",
    "author": "Jufego",
    "author_url": "https://github.com/jufegofoto-cell",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/jufegofoto-cell/IngeAnalisys",
-   "download": "https://github.com/jufegofoto-cell/IngeAnalisys/releases/download/V1.11.0/analisis_sitio.zip",
-   "sha256": "2a87d80a37b025107d83973fb211ae33b6c7388adf20e7057921d1eb6b3292b9",
+   "download": "https://github.com/jufegofoto-cell/IngeAnalisys/releases/download/V1.12.0/analisis_sitio.zip",
+   "sha256": "63c6a4f149b6a2bc45f0f6553e9883c2222b759020a0a87e088c99546b3e4fcf",
    "ingetrazo": "0.6.0",
    "tags": [
     "analysis",
@@ -224,7 +224,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-08T14:54Z",
-   "updated_at": "2026-11-21T17:22Z",
+   "updated_at": "2026-11-21T18:53Z",
    "screenshot_sha": "66b77c8d42f8ec2e",
    "thumb": "analisis_sitio.webp"
   },
