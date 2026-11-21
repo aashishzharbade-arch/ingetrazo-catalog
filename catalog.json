@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-21T17:21Z",
+ "generated": "2026-11-21T17:23Z",
  "tags": [
   "analysis",
   "architecture",
@@ -197,13 +197,13 @@
   },
   {
    "id": "analisis_sitio",
-   "version": "1.8.0",
+   "version": "1.11.0",
    "author": "Jufego",
    "author_url": "https://github.com/jufegofoto-cell",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/jufegofoto-cell/IngeAnalisys",
-   "download": "https://github.com/jufegofoto-cell/IngeAnalisys/releases/download/V1.8.0/analisis_sitio.zip",
-   "sha256": "46ff7d51d13ce1d278ff5487b1ecd573a381ccf83ab7e0260af49f2e8e5a6237",
+   "download": "https://github.com/jufegofoto-cell/IngeAnalisys/releases/download/V1.11.0/analisis_sitio.zip",
+   "sha256": "2a87d80a37b025107d83973fb211ae33b6c7388adf20e7057921d1eb6b3292b9",
    "ingetrazo": "0.6.0",
    "tags": [
     "analysis",
@@ -218,13 +218,13 @@
     "pt": "Análise do terreno (IngeAnalysis)"
    },
    "summary": {
-    "es": "Análisis bioclimático del sitio en el modelo: carta solar 3D, sombras y horas de sol, radiación solar incidente, rosa de los vientos y clima desde EPW, contexto urbano de OpenStreetMap, masas e índices.",
-    "en": "Bioclimatic site analysis inside the model: 3D sun path, shadow and sun hours, incident solar radiation, wind rose and climate from EPW, OpenStreetMap urban context, massing and planning indices.",
-    "pt": "Análise bioclimática do terreno no modelo: carta solar 3D, sombras e horas de sol, radiação solar incidente, rosa dos ventos e clima do EPW, contexto urbano do OpenStreetMap, volumetria e índices."
+    "es": "Análisis bioclimático del sitio en el modelo: carta solar 3D, sombras y horas de sol, radiación solar incidente, rosa de los vientos y clima desde EPW.",
+    "en": "Bioclimatic site analysis inside the model: 3D sun path, shadow and sun hours, incident solar radiation, wind rose and climate from EPW.",
+    "pt": "Análise bioclimática do terreno no modelo: carta solar 3D, sombras e horas de sol, radiação solar incidente, rosa dos ventos e clima do EPW."
    },
    "reviewed": false,
    "added_at": "2026-11-08T14:54Z",
-   "updated_at": "2026-11-08T14:54Z",
+   "updated_at": "2026-11-21T17:22Z",
    "screenshot_sha": "66b77c8d42f8ec2e",
    "thumb": "analisis_sitio.webp"
   },
