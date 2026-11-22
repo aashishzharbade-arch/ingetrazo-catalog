@@ -1,0 +1,30 @@
+id = "portico_nave"
+version = "1.0"
+author = "José María Martín García-Donas (Donas Ingenieros)"
+author_url = "https://github.com/donasingenieros-stack"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/donasingenieros-stack/ingetrazo-portico-nave"
+
+download = "https://raw.githubusercontent.com/donasingenieros-stack/ingetrazo-portico-nave/v1.0/portico_nave.py"
+sha256 = "423d26f030760aca6b6ff7385accb0b0db0e700ac748c9223b7e50cdcd358e1c"
+
+ingetrazo = "0.6.2.1"
+
+tags = ["structures", "bim", "architecture"]
+screenshot = "portico_nave.webp"
+
+[name]
+es = "Pórtico de nave"
+en = "Portal-frame shed"
+pt = "Pórtico de galpão"
+
+[summary]
+es = "Nave de pórticos metálicos a dos aguas, paramétrica y editable: perfiles IPE/HEA/HEB, cartelas, correas C/Z/IPE, canalón y puente grúa, como componentes con clase BIM y medición de acero."
+en = "Parametric, editable gable portal-frame steel shed: IPE/HEA/HEB sections, haunches, C/Z/IPE purlins, gutter and crane runway, built as components with BIM classes and a steel take-off."
+pt = "Galpão de pórticos metálicos de duas águas, paramétrico e editável: perfis IPE/HEA/HEB, mísulas, terças C/Z/IPE, calha e ponte rolante, como componentes com classe BIM e quantitativo de aço."
+
+[description]
+es = "Extensiones ▸ Pórtico de nave ▸ Nueva nave… abre un cuadro de parámetros por pestañas: luz, altura de alero, pendiente, número de pórticos y separación; perfiles europeos IPE, HEA y HEB para pilares y dinteles; cartelas de alero y de cumbrera; correas C o Z conformadas, o IPE, repartidas por faldón con una separación máxima; canalón exterior en U; y puente grúa opcional con ménsulas y viga carril, con aviso de interferencia con el dintel y la cartela. Cada pórtico es un componente compartido y sus pilares, dinteles, cartelas y ménsulas también lo son; las piezas llevan etiquetas y clase IfcColumn, IfcBeam o IfcMember. Los parámetros se guardan en la nave (.igz): Editar nave… la regenera en su sitio en un solo paso de deshacer, y Medición de acero… da la tabla de pesos por elemento, copiable a Excel. Interfaz en español."
+en = "Extensions ▸ Pórtico de nave ▸ Nueva nave… opens a tabbed dialog: span, eaves height, roof pitch, number of frames and spacing; European IPE, HEA and HEB sections for columns and rafters; eaves and ridge haunches; cold-formed C or Z purlins, or IPE, spread per roof slope at a maximum spacing; external U gutter; and an optional crane runway with brackets and runway beam, warning when it clashes with the rafter or haunch. Each frame is a shared component, and so are its columns, rafters, haunches and brackets; parts carry layers and IfcColumn, IfcBeam or IfcMember classes. Parameters live in the shed (.igz): Editar nave… rebuilds it in place as one undo step, and Medición de acero… gives the steel weight table per element, ready to paste into Excel. Spanish interface."
