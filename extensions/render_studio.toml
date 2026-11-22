@@ -1,0 +1,30 @@
+id = "render_studio"
+version = "0.26.0"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-render-studio"
+
+# The release asset, under the release's tag.
+download = "https://github.com/moominot/ingetrazo-render-studio/releases/download/v0.26.0/render_studio-0.26.0.zip"
+sha256 = "673eb32abebfc010a3b4f822ee526682e48e231780970bea48ddf72192a80766"
+
+ingetrazo = "0.6.2.1"
+
+tags = ["rendering", "architecture"]
+screenshot = "render_studio.webp"
+
+[name]
+es = "Render Studio"
+en = "Render Studio"
+pt = "Render Studio"
+
+[summary]
+es = "Renders fotográficos: aspectos, estilos (blanco, maqueta, lux, boceto, acuarela), panorámicas planas y 360°, cielo, suelo y horizonte, editores de luces y materiales, vista previa en vivo, escenas en lote; PNG a EXR."
+en = "Photographic renders: looks, styles (white, model, lux, sketch, watercolour), 360° and flat panoramas, sky, ground and horizon, lights and materials editors, live preview, scenes in bulk; PNG to EXR."
+pt = "Renders fotográficos: aspetos, estilos (branco, maquete, lux, esboço, aguarela), panorâmicas planas e 360°, céu, chão e horizonte, editores de luzes e materiais, prévia ao vivo, cenas em lote; PNG a EXR."
+
+[description]
+en = "Drives the Blender that IngeTrazo's Render tab already uses, with IngeTrazo's own scene script plus a look on top. Looks: clear day, partly cloudy, golden hour, overcast, white model, interior (Cycles) and night. Each meters its exposure, with AgX, white balance, clouds, a sun coloured by its height and distance haze. Style: none, white, model (one material for everything), light (the lux each surface receives, in false colour with a scale), sketch (pencil lines on paper) and watercolour, each with fine outlines. Sky: date and hour sliders marked with the seasons and the photographers' hours, sun or moonlight, clouds and stars. Ground: a generated ground with the material of your choice (grass included), its radius and centre; Horizon: distant mountains, hills, forest or city. A 360° image can be the background and light the scene. Lights and Materials open in windows of their own: point, spot, area and sun lights, IES profiles, lights on objects, a material editor with presets, types (glass, water, glowing, grass…), maps per setting and an instant cube preview; «Edit in Blender…» opens the whole scene (or one material) in Blender for experts and the changes come back. Sun by place and hour, a section plane that cuts the render with a flat or hatched cap, and an Output tab: a flat or 360° panorama, size, PNG, JPEG, 16-bit PNG/TIFF, OpenEXR, transparent sky, and the ticked scenes rendered in bulk. The preview window keeps a live view with a quality of its own (Fast, Normal, High); Render uses that same Blender scene when it can and retouches the final picture without rendering again. Proxies render as their full models; what is hidden in the drawing stays out of the render."
