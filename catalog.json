@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-22T22:04Z",
+ "generated": "2026-11-22T23:35Z",
  "tags": [
   "analysis",
   "architecture",
@@ -424,6 +424,41 @@
    "thumb": "igz_toolbars.webp"
   },
   {
+   "id": "asset_manager",
+   "version": "0.5.1",
+   "author": "moominot",
+   "author_url": "https://github.com/moominot",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/moominot/ingetrazo-skp-dc-import",
+   "download": "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/asset_manager-v0.5.1/asset_manager-0.5.1.zip",
+   "sha256": "84e80cf23f04690dd4ec4a10266eab783bf8cb0478594b6117e61b058f5a7bae",
+   "ingetrazo": "0.6.2.1",
+   "tags": [
+    "productivity",
+    "architecture",
+    "rendering"
+   ],
+   "screenshot": "asset_manager.webp",
+   "name": {
+    "es": "Biblioteca",
+    "en": "Library",
+    "pt": "Biblioteca"
+   },
+   "summary": {
+    "es": "Componentes y materiales del dibujo; tu catálogo de modelos, materiales y fondos 360° con filtro por tipo; HDRI, materiales PBR y modelos gratuitos de Poly Haven y ambientCG para guardar en el catálogo; y proxies.",
+    "en": "The drawing's components and materials; your catalog of models, materials and 360° backgrounds with a type filter; free HDRIs, PBR materials and models from Poly Haven and ambientCG to save to it; and proxies.",
+    "pt": "Componentes e materiais do desenho; seu catálogo de modelos, materiais e fundos 360° com filtro por tipo; HDRIs, materiais PBR e modelos gratuitos do Poly Haven e ambientCG para guardar nele; e proxies."
+   },
+   "description": {
+    "en": "A tray tab with three pages. In drawing: every component once, with a preview and a count (dynamic ones marked); select every instance (also from the view's right-click menu), replace them all with another component, edit it, or mark it as a stand-in (translucent, left out of the render); place a copy, or drag it onto the view. My catalog: your models (.igz, .skp, .gltf, .glb; also inside .zip files), material sets downloaded from any site, materials kept with a .pbr.json manifest (Render Studio's .rsmat files are read too) and 360° backgrounds (.hdr, .exr), with a type filter; the drawing's materials are listed beside them. Folders are watched in real time or read again with Update. Insert by double-click or by dragging: a model follows the cursor, a material loads the paint bucket, a background becomes Render Studio's 360° background. Save to catalog keeps a material of the drawing (its image and maps, or a simple picture of a plain colour, with translucency and finish) and, from the online tabs, the downloaded materials, models and HDRIs. A .skp keeps its components and dynamic data with the «Parametric components from .skp» extension. Online, a tab each for 360° backgrounds, materials and models: CC0 assets from Poly Haven and ambientCG; a material loads the paint bucket at its real size with all its maps. Proxies: with «As proxy» a model goes in as a light envelope while the full model is kept in an .igz next to the drawing; right-click: Make proxy, Show original, Show proxy, Open original in a new tab. One undo step each. Requests only reach each site's own servers over https; downloads are checked, cached and reused."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-22T00:04Z",
+   "updated_at": "2026-11-22T23:35Z",
+   "screenshot_sha": "ef30067db2127359",
+   "thumb": "asset_manager.webp"
+  },
+  {
    "id": "blackfox_3d_inspector",
    "version": "1.2.0",
    "author": "David Mavrov",
@@ -584,6 +619,33 @@
    "updated_at": "2026-11-19T20:39Z",
    "screenshot_sha": "cbfac86dec65b8f5",
    "thumb": "centre_finder.webp"
+  },
+  {
+   "id": "ed3d_update_checker",
+   "version": "1.3",
+   "author": "Phillip Edwards (Eddy)",
+   "author_url": "https://github.com/eddy-99",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/e19ac2a013e90f4be632f1c82700efad2891dcc1/plugins/3D_Eddys/ed3d_update_checker.py",
+   "sha256": "9430662b7be70282e18880516def21aab98e12e6ee4a0325f014fa1ce22a20d4",
+   "ingetrazo": "0.5.11",
+   "tags": [
+    "productivity"
+   ],
+   "name": {
+    "es": "Buscar actualizaciones 3D",
+    "en": "3D Check for Updates",
+    "pt": "Procurar atualizações 3D"
+   },
+   "summary": {
+    "en": "Finds new versions of Eddy's 3D plugins, and new plugins, in IngeTrazo's catalog. Tick the ones you want and they're put in for you, with your old copy kept as a backup. Install it first to get the whole set in one go.",
+    "es": "Busca en el catálogo de IngeTrazo nuevas versiones de los plugins 3D de Eddy, y plugins nuevos. Marca los que quieras y se instalan solos, guardando una copia de los anteriores. Instálalo primero para tener todo el conjunto de una vez.",
+    "pt": "Procura no catálogo do IngeTrazo novas versões dos plugins 3D do Eddy, e plugins novos. Marque os que quiser e são instalados por si, guardando uma cópia dos anteriores. Instale-o primeiro para ter o conjunto completo de uma vez."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-22T23:34Z",
+   "updated_at": "2026-11-22T23:34Z"
   },
   {
    "id": "find_replace",
@@ -910,6 +972,75 @@
    "updated_at": "2026-11-12T15:43Z",
    "screenshot_sha": "73bfcf089d2741d1",
    "thumb": "dynamic-components.webp"
+  },
+  {
+   "id": "dc_tools",
+   "version": "0.3.5",
+   "author": "moominot",
+   "author_url": "https://github.com/moominot",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/moominot/ingetrazo-skp-dc-import",
+   "download": "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/dc_tools-v0.3.5/dc_tools-0.3.5.zip",
+   "sha256": "cee68dcfbbdba44dde7c5a15684ffe111c048ccc2703bcbfbf25a3e9635a8197",
+   "ingetrazo": "0.6.2.1",
+   "tags": [
+    "architecture",
+    "productivity"
+   ],
+   "screenshot": "dc_tools.png",
+   "name": {
+    "es": "Componentes dinámicos: opciones y fórmulas",
+    "en": "Dynamic components: options and formulas",
+    "pt": "Componentes dinâmicos: opções e fórmulas"
+   },
+   "summary": {
+    "es": "Cambia las opciones de un componente dinámico y redibújalo (copias, piezas ocultas, medidas, giros, materiales), o haz dinámicos tus componentes y escribe sus atributos y fórmulas. Un botón ? explica cada función.",
+    "en": "Change a dynamic component's options and redraw it (copies, hidden parts, sizes, rotations, materials), or make your own components dynamic and write their attributes and formulas. A ? button explains every function.",
+    "pt": "Mude as opções de um componente dinâmico e redesenhe-o (cópias, peças ocultas, medidas, rotações, materiais), ou torne seus componentes dinâmicos e escreva atributos e fórmulas. Um botão ? explica cada função."
+   },
+   "description": {
+    "en": "Component Options shows a dynamic component's options and redraws it by the .skp format's rules: copies, hidden parts, sizes, positions, rotations, materials and LenX/LenY/LenZ resizing, checked part by part against the original program's redraw. Component Attributes makes a group dynamic and edits attributes and formulas per part, also inside an open group, where a nested part sees its parent (Parent!LenX). IngeTrazo's Scale tool shows only the handles a component's ScaleTool attribute allows, and a scaled dynamic component is redrawn at its new size instead of stretched. Every change is one undo step. Works on components imported with «Parametric components from .skp» or made here; needs no .skp file. Formula interpreter from d1rty-pixel's Dynamic Components (no eval, with limits on size and depth)."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-22T23:34Z",
+   "updated_at": "2026-11-22T23:34Z",
+   "screenshot_sha": "fd4f2744072271f7",
+   "thumb": "dc_tools.webp"
+  },
+  {
+   "id": "skp_dc_import",
+   "version": "0.8.0",
+   "author": "moominot",
+   "author_url": "https://github.com/moominot",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/moominot/ingetrazo-skp-dc-import",
+   "download": "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/skp_dc_import-v0.8.0/skp_dc_import-0.8.0.zip",
+   "sha256": "46c4beebe33b777806fb44932e36c06a18f7dd8ae83ceb50501eda2cfb15cdd9",
+   "ingetrazo": "0.6.2.1",
+   "tags": [
+    "import-export",
+    "architecture",
+    "productivity"
+   ],
+   "screenshot": "skp_dc_import.png",
+   "name": {
+    "es": "Componentes paramétricos desde .skp",
+    "en": "Parametric components from .skp",
+    "pt": "Componentes paramétricos de .skp"
+   },
+   "summary": {
+    "es": "Abre archivos .skp conservando sus componentes y los atributos, fórmulas y opciones dinámicos de cada pieza, y vuelve a guardar el dibujo en .skp con ellos. Se editan con «Componentes dinámicos: opciones y fórmulas».",
+    "en": "Open .skp files keeping their components and each part's dynamic attributes, formulas and options, and save the drawing back to .skp with them. Edit them with «Dynamic components: options and formulas».",
+    "pt": "Abre arquivos .skp mantendo seus componentes e os atributos, fórmulas e opções dinâmicos de cada peça, e salva o desenho de volta em .skp com eles. Edite-os com «Componentes dinâmicos: opções e fórmulas»."
+   },
+   "description": {
+    "en": "Imports a .skp with its component tree: every part becomes a nested IngeTrazo component, repeated parts share their geometry, and each part keeps its dynamic attributes, formulas and options. A dynamic component saved as its own file (a library component) comes in as one component with its top-level options. Every .skp version is read, 2020 and older included (a newer OpenSKP is bundled to read definition and model attributes). Export .skp writes groups, components, materials, textures and that data in the 2017 format, so the components keep working as dynamic components. Options and formulas are edited with the separate «Dynamic components: options and formulas» extension (dc_tools). Note: .skp export uses OpenSKP's blank template, which is not included: the settings window downloads it from OpenSKP (fixed commit, SHA-256 checked) or takes your own copy. Import works without it."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-22T23:34Z",
+   "updated_at": "2026-11-22T23:34Z",
+   "screenshot_sha": "fd4f2744072271f7",
+   "thumb": "skp_dc_import.webp"
   },
   {
    "id": "lines_connect",
@@ -1463,13 +1594,13 @@
   },
   {
    "id": "scale_converter",
-   "version": "1.7",
+   "version": "1.8",
    "author": "Phillip Edwards (Eddy)",
    "author_url": "https://github.com/eddy-99",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/eddy-99/eddys-3d-plugins-ingetrazo",
-   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/8a6e32de7cb4cbb3dd76402ebca702ae4e43840d/plugins/3D_Eddys/ed3d_scale_converter.py",
-   "sha256": "11e46077d9660ae34b57e51b1ed3a6974a1e9d364a823c611d0a8927befbc611",
+   "download": "https://raw.githubusercontent.com/eddy-99/eddys-3d-plugins-ingetrazo/e19ac2a013e90f4be632f1c82700efad2891dcc1/plugins/3D_Eddys/ed3d_scale_converter.py",
+   "sha256": "72784158686ec8af265799eaed721cf600670c0fbb114596ae92734d87d94ccd",
    "ingetrazo": "0.5.11",
    "tags": [
     "productivity"
@@ -1487,7 +1618,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-01T14:54Z",
-   "updated_at": "2026-11-22T00:04Z",
+   "updated_at": "2026-11-22T23:35Z",
    "screenshot_sha": "b087d056d62bc95a",
    "thumb": "scale_converter.webp"
   },
@@ -1714,38 +1845,6 @@
    "updated_at": "2026-11-19T20:38Z",
    "screenshot_sha": "a8845d282fb397e5",
    "thumb": "blend.webp"
-  },
-  {
-   "id": "asset_manager",
-   "version": "0.3.1",
-   "author": "moominot",
-   "author_url": "https://github.com/moominot",
-   "license": "GPL-3.0-or-later",
-   "repository": "https://github.com/moominot/ingetrazo-skp-dc-import",
-   "download": "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/asset_manager-v0.3.1/asset_manager-0.3.1.zip",
-   "sha256": "0ce7067d8937c7bac219a35639e23f582d9efacde52bee6a001c353aa95058fe",
-   "ingetrazo": "0.6.2.1",
-   "tags": [
-    "productivity",
-    "architecture",
-    "rendering"
-   ],
-   "name": {
-    "es": "Gestor de componentes",
-    "en": "Components manager",
-    "pt": "Gerenciador de componentes"
-   },
-   "summary": {
-    "es": "Los componentes del dibujo, tus carpetas de modelos .igz y .skp vigiladas en tiempo real, HDRI, materiales PBR y modelos 3D gratuitos de Poly Haven y ambientCG, y proxies: los modelos pesados como una envolvente ligera.",
-    "en": "The drawing's components, your folders of .igz and .skp models watched in real time, free HDRIs, full PBR materials and 3-D models from Poly Haven and ambientCG, and proxies: heavy models as a light envelope.",
-    "pt": "Os componentes do desenho, suas pastas de modelos .igz e .skp vigiadas em tempo real, HDRIs, materiais PBR e modelos 3D gratuitos do Poly Haven e ambientCG, e proxies: modelos pesados como uma envoltória leve."
-   },
-   "description": {
-    "en": "A tray tab with three pages. In drawing: every component once, with a preview and a count (dynamic ones marked; the parts inside a dynamic component are not listed); select every instance (also from the view's right-click menu); place a copy, or drag it onto the view. My catalog: folders of your own models, .igz and .skp (also inside .zip files), and material sets downloaded from any site; a .skp shows the preview it carries; each folder is watched in real time or read again with Update; insert by double-click or by dragging onto the view. A .skp comes in keeping its components and dynamic data when the «Parametric components from .skp» extension is installed, also when dragged from the file explorer. «Open a model site» opens, in the browser, the addresses you set. Online: CC0 assets from Poly Haven (HDRIs, materials, glTF models) and ambientCG (materials): an HDRI becomes Render Studio's 360° background, a material loads the paint bucket at its real size with all its maps and a .pbr.json manifest, a model follows the cursor to be placed. Proxies: with «As proxy» a model goes in as a light envelope (its convex hull) while the full model is kept in an .igz of its own next to the drawing; the right-click menu has Make proxy, Show original, Show proxy and Open original in a new tab (saved there, the envelope follows). One undo step each. The data is the «Proxies» extension's, so both work on either's proxies, and Render Studio renders the full models. Requests only reach each site's own servers over https; downloads are checked, cached and reused."
-   },
-   "reviewed": false,
-   "added_at": "2026-11-22T00:04Z",
-   "updated_at": "2026-11-22T00:04Z"
   },
   {
    "id": "go_factory_generator",
@@ -2786,13 +2885,13 @@
   },
   {
    "id": "motion",
-   "version": "0.10.0",
+   "version": "0.10.2",
    "author": "Nicolas Marc",
    "author_url": "https://github.com/nicolasmarc",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/nicolasmarc/ingetrazo-motion",
-   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-motion/ad28311e65228280e4ebb01eb671dafaf1d0e226/dist/motion-0.10.0.zip",
-   "sha256": "3515b6c9375ca22684550d737a34d2abcd0e85732894149efe32dee6403c108b",
+   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-motion/ab749a992e2e63af712bab14bee82e36afde5821/dist/motion-0.10.2.zip",
+   "sha256": "10194e9ca9ffb3a799d4fdedc0fb51f9edc1831cc05593746c301b46d3942c34",
    "ingetrazo": "0.6.0",
    "tags": [
     "fabrication",
@@ -2812,7 +2911,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-25T01:06Z",
-   "updated_at": "2026-11-14T17:44Z",
+   "updated_at": "2026-11-22T23:35Z",
    "screenshot_sha": "4e45c3397fedacc3",
    "thumb": "motion.webp"
   },
@@ -3388,6 +3487,40 @@
    "updated_at": "2026-11-16T05:36Z",
    "screenshot_sha": "eabc69bd81f324a6",
    "thumb": "rounded_snap_points.webp"
+  },
+  {
+   "id": "render_studio",
+   "version": "0.26.0",
+   "author": "moominot",
+   "author_url": "https://github.com/moominot",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/moominot/ingetrazo-render-studio",
+   "download": "https://github.com/moominot/ingetrazo-render-studio/releases/download/v0.26.0/render_studio-0.26.0.zip",
+   "sha256": "673eb32abebfc010a3b4f822ee526682e48e231780970bea48ddf72192a80766",
+   "ingetrazo": "0.6.2.1",
+   "tags": [
+    "rendering",
+    "architecture"
+   ],
+   "screenshot": "render_studio.webp",
+   "name": {
+    "es": "Render Studio",
+    "en": "Render Studio",
+    "pt": "Render Studio"
+   },
+   "summary": {
+    "es": "Renders fotográficos: aspectos, estilos (blanco, maqueta, lux, boceto, acuarela), panorámicas planas y 360°, cielo, suelo y horizonte, editores de luces y materiales, vista previa en vivo, escenas en lote; PNG a EXR.",
+    "en": "Photographic renders: looks, styles (white, model, lux, sketch, watercolour), 360° and flat panoramas, sky, ground and horizon, lights and materials editors, live preview, scenes in bulk; PNG to EXR.",
+    "pt": "Renders fotográficos: aspetos, estilos (branco, maquete, lux, esboço, aguarela), panorâmicas planas e 360°, céu, chão e horizonte, editores de luzes e materiais, prévia ao vivo, cenas em lote; PNG a EXR."
+   },
+   "description": {
+    "en": "Drives the Blender that IngeTrazo's Render tab already uses, with IngeTrazo's own scene script plus a look on top. Looks: clear day, partly cloudy, golden hour, overcast, white model, interior (Cycles) and night. Each meters its exposure, with AgX, white balance, clouds, a sun coloured by its height and distance haze. Style: none, white, model (one material for everything), light (the lux each surface receives, in false colour with a scale), sketch (pencil lines on paper) and watercolour, each with fine outlines. Sky: date and hour sliders marked with the seasons and the photographers' hours, sun or moonlight, clouds and stars. Ground: a generated ground with the material of your choice (grass included), its radius and centre; Horizon: distant mountains, hills, forest or city. A 360° image can be the background and light the scene. Lights and Materials open in windows of their own: point, spot, area and sun lights, IES profiles, lights on objects, a material editor with presets, types (glass, water, glowing, grass…), maps per setting and an instant cube preview; «Edit in Blender…» opens the whole scene (or one material) in Blender for experts and the changes come back. Sun by place and hour, a section plane that cuts the render with a flat or hatched cap, and an Output tab: a flat or 360° panorama, size, PNG, JPEG, 16-bit PNG/TIFF, OpenEXR, transparent sky, and the ticked scenes rendered in bulk. The preview window keeps a live view with a quality of its own (Fast, Normal, High); Render uses that same Blender scene when it can and retouches the final picture without rendering again. Proxies render as their full models; what is hidden in the drawing stays out of the render."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-22T23:34Z",
+   "updated_at": "2026-11-22T23:34Z",
+   "screenshot_sha": "04cec332d0a8a40b",
+   "thumb": "render_studio.webp"
   },
   {
    "id": "comfyui_renderer",
