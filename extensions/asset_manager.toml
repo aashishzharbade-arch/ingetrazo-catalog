@@ -1,5 +1,5 @@
 id = "asset_manager"
-version = "0.3.1"
+version = "0.5.1"
 author = "moominot"
 author_url = "https://github.com/moominot"
 
@@ -8,22 +8,23 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
 
 # The release asset, under the release's tag.
-download = "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/asset_manager-v0.3.1/asset_manager-0.3.1.zip"
-sha256 = "0ce7067d8937c7bac219a35639e23f582d9efacde52bee6a001c353aa95058fe"
+download = "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/asset_manager-v0.5.1/asset_manager-0.5.1.zip"
+sha256 = "84e80cf23f04690dd4ec4a10266eab783bf8cb0478594b6117e61b058f5a7bae"
 
 ingetrazo = "0.6.2.1"
 
 tags = ["productivity", "architecture", "rendering"]
+screenshot = "asset_manager.webp"
 
 [name]
-es = "Gestor de componentes"
-en = "Components manager"
-pt = "Gerenciador de componentes"
+es = "Biblioteca"
+en = "Library"
+pt = "Biblioteca"
 
 [summary]
-es = "Los componentes del dibujo, tus carpetas de modelos .igz y .skp vigiladas en tiempo real, HDRI, materiales PBR y modelos 3D gratuitos de Poly Haven y ambientCG, y proxies: los modelos pesados como una envolvente ligera."
-en = "The drawing's components, your folders of .igz and .skp models watched in real time, free HDRIs, full PBR materials and 3-D models from Poly Haven and ambientCG, and proxies: heavy models as a light envelope."
-pt = "Os componentes do desenho, suas pastas de modelos .igz e .skp vigiadas em tempo real, HDRIs, materiais PBR e modelos 3D gratuitos do Poly Haven e ambientCG, e proxies: modelos pesados como uma envoltória leve."
+es = "Componentes y materiales del dibujo; tu catálogo de modelos, materiales y fondos 360° con filtro por tipo; HDRI, materiales PBR y modelos gratuitos de Poly Haven y ambientCG para guardar en el catálogo; y proxies."
+en = "The drawing's components and materials; your catalog of models, materials and 360° backgrounds with a type filter; free HDRIs, PBR materials and models from Poly Haven and ambientCG to save to it; and proxies."
+pt = "Componentes e materiais do desenho; seu catálogo de modelos, materiais e fundos 360° com filtro por tipo; HDRIs, materiais PBR e modelos gratuitos do Poly Haven e ambientCG para guardar nele; e proxies."
 
 [description]
-en = "A tray tab with three pages. In drawing: every component once, with a preview and a count (dynamic ones marked; the parts inside a dynamic component are not listed); select every instance (also from the view's right-click menu); place a copy, or drag it onto the view. My catalog: folders of your own models, .igz and .skp (also inside .zip files), and material sets downloaded from any site; a .skp shows the preview it carries; each folder is watched in real time or read again with Update; insert by double-click or by dragging onto the view. A .skp comes in keeping its components and dynamic data when the «Parametric components from .skp» extension is installed, also when dragged from the file explorer. «Open a model site» opens, in the browser, the addresses you set. Online: CC0 assets from Poly Haven (HDRIs, materials, glTF models) and ambientCG (materials): an HDRI becomes Render Studio's 360° background, a material loads the paint bucket at its real size with all its maps and a .pbr.json manifest, a model follows the cursor to be placed. Proxies: with «As proxy» a model goes in as a light envelope (its convex hull) while the full model is kept in an .igz of its own next to the drawing; the right-click menu has Make proxy, Show original, Show proxy and Open original in a new tab (saved there, the envelope follows). One undo step each. The data is the «Proxies» extension's, so both work on either's proxies, and Render Studio renders the full models. Requests only reach each site's own servers over https; downloads are checked, cached and reused."
+en = "A tray tab with three pages. In drawing: every component once, with a preview and a count (dynamic ones marked); select every instance (also from the view's right-click menu), replace them all with another component, edit it, or mark it as a stand-in (translucent, left out of the render); place a copy, or drag it onto the view. My catalog: your models (.igz, .skp, .gltf, .glb; also inside .zip files), material sets downloaded from any site, materials kept with a .pbr.json manifest (Render Studio's .rsmat files are read too) and 360° backgrounds (.hdr, .exr), with a type filter; the drawing's materials are listed beside them. Folders are watched in real time or read again with Update. Insert by double-click or by dragging: a model follows the cursor, a material loads the paint bucket, a background becomes Render Studio's 360° background. Save to catalog keeps a material of the drawing (its image and maps, or a simple picture of a plain colour, with translucency and finish) and, from the online tabs, the downloaded materials, models and HDRIs. A .skp keeps its components and dynamic data with the «Parametric components from .skp» extension. Online, a tab each for 360° backgrounds, materials and models: CC0 assets from Poly Haven and ambientCG; a material loads the paint bucket at its real size with all its maps. Proxies: with «As proxy» a model goes in as a light envelope while the full model is kept in an .igz next to the drawing; right-click: Make proxy, Show original, Show proxy, Open original in a new tab. One undo step each. Requests only reach each site's own servers over https; downloads are checked, cached and reused."
