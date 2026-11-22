@@ -1,0 +1,30 @@
+id = "dc_tools"
+version = "0.3.5"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
+
+# The release asset, under the release's tag.
+download = "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/dc_tools-v0.3.5/dc_tools-0.3.5.zip"
+sha256 = "cee68dcfbbdba44dde7c5a15684ffe111c048ccc2703bcbfbf25a3e9635a8197"
+
+ingetrazo = "0.6.2.1"
+
+tags = ["architecture", "productivity"]
+screenshot = "dc_tools.png"
+
+[name]
+es = "Componentes dinámicos: opciones y fórmulas"
+en = "Dynamic components: options and formulas"
+pt = "Componentes dinâmicos: opções e fórmulas"
+
+[summary]
+es = "Cambia las opciones de un componente dinámico y redibújalo (copias, piezas ocultas, medidas, giros, materiales), o haz dinámicos tus componentes y escribe sus atributos y fórmulas. Un botón ? explica cada función."
+en = "Change a dynamic component's options and redraw it (copies, hidden parts, sizes, rotations, materials), or make your own components dynamic and write their attributes and formulas. A ? button explains every function."
+pt = "Mude as opções de um componente dinâmico e redesenhe-o (cópias, peças ocultas, medidas, rotações, materiais), ou torne seus componentes dinâmicos e escreva atributos e fórmulas. Um botão ? explica cada função."
+
+[description]
+en = "Component Options shows a dynamic component's options and redraws it by the .skp format's rules: copies, hidden parts, sizes, positions, rotations, materials and LenX/LenY/LenZ resizing, checked part by part against the original program's redraw. Component Attributes makes a group dynamic and edits attributes and formulas per part, also inside an open group, where a nested part sees its parent (Parent!LenX). IngeTrazo's Scale tool shows only the handles a component's ScaleTool attribute allows, and a scaled dynamic component is redrawn at its new size instead of stretched. Every change is one undo step. Works on components imported with «Parametric components from .skp» or made here; needs no .skp file. Formula interpreter from d1rty-pixel's Dynamic Components (no eval, with limits on size and depth)."

@@ -1,0 +1,30 @@
+id = "skp_dc_import"
+version = "0.8.0"
+author = "moominot"
+author_url = "https://github.com/moominot"
+
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/moominot/ingetrazo-skp-dc-import"
+
+# The release asset, under the release's tag.
+download = "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/skp_dc_import-v0.8.0/skp_dc_import-0.8.0.zip"
+sha256 = "46c4beebe33b777806fb44932e36c06a18f7dd8ae83ceb50501eda2cfb15cdd9"
+
+ingetrazo = "0.6.2.1"
+
+tags = ["import-export", "architecture", "productivity"]
+screenshot = "skp_dc_import.png"
+
+[name]
+es = "Componentes paramétricos desde .skp"
+en = "Parametric components from .skp"
+pt = "Componentes paramétricos de .skp"
+
+[summary]
+es = "Abre archivos .skp conservando sus componentes y los atributos, fórmulas y opciones dinámicos de cada pieza, y vuelve a guardar el dibujo en .skp con ellos. Se editan con «Componentes dinámicos: opciones y fórmulas»."
+en = "Open .skp files keeping their components and each part's dynamic attributes, formulas and options, and save the drawing back to .skp with them. Edit them with «Dynamic components: options and formulas»."
+pt = "Abre arquivos .skp mantendo seus componentes e os atributos, fórmulas e opções dinâmicos de cada peça, e salva o desenho de volta em .skp com eles. Edite-os com «Componentes dinâmicos: opções e fórmulas»."
+
+[description]
+en = "Imports a .skp with its component tree: every part becomes a nested IngeTrazo component, repeated parts share their geometry, and each part keeps its dynamic attributes, formulas and options. A dynamic component saved as its own file (a library component) comes in as one component with its top-level options. Every .skp version is read, 2020 and older included (a newer OpenSKP is bundled to read definition and model attributes). Export .skp writes groups, components, materials, textures and that data in the 2017 format, so the components keep working as dynamic components. Options and formulas are edited with the separate «Dynamic components: options and formulas» extension (dc_tools). Note: .skp export uses OpenSKP's blank template, which is not included: the settings window downloads it from OpenSKP (fixed commit, SHA-256 checked) or takes your own copy. Import works without it."
