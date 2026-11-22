@@ -1,15 +1,12 @@
-# Entry for github.com/ingelibre/ingetrazo-extensions → extensions/subdiv.toml
-# Replace the sha256 if the zip was rebuilt
-# (python tools/build_zip.py prints it).
 
 id = "subdiv"
-version = "1.3"
+version = "1.4"
 author = "Nicolas Marc"
 author_url = "https://github.com/nicolasmarc"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/nicolasmarc/ingetrazo-subdiv"
-download = "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-subdiv/v1.3/dist/subdiv-1.3.zip"
-sha256 = "a6b85d7186223141706305fbb37812288d8d72b0d78e99fc51e2bb3a9485db4a"
+download = "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-subdiv/v1.4/dist/subdiv-1.4.zip"
+sha256 = "b18faccd1d6f5a4cb8f9a8cc89a483e361b506b479809595fece01d1d93cb8a2"
 ingetrazo = "0.5.7"
 tags = ["architecture", "drawing"]
 screenshot = "subdiv.png"
@@ -20,6 +17,6 @@ en = "SubD (subdivision modelling)"
 pt = "SubD (modelagem por subdivisão)"
 
 [summary]
-es = "Modela superficies lisas Catmull-Clark desde una jaula de control: crear, pliegues, dividir, puentear, simetría y convertir grupos. Al terminar queda un grupo ordinario o sólido."
-en = "Model smooth Catmull-Clark surfaces from a control cage: create, creases, divide, bridge, symmetry and group conversion. Finish gives an ordinary group or a solid."
-pt = "Modele superfícies lisas Catmull-Clark a partir de uma gaiola de controle: criar, vincos, dividir, ponte, simetria e conversão de grupos. Ao terminar, vira um grupo comum ou sólido."
+es = "Modela superficies lisas Catmull-Clark desde una jaula de control: crear, pliegues, dividir, puentear, loft, barrido y revolución con vista previa, simetría y conversión de grupos. Edición rápida."
+en = "Model smooth Catmull-Clark surfaces from a control cage: create, creases, divide, bridge, loft, sweep and revolve with preview, symmetry and group conversion. Fast editing."
+pt = "Modele superfícies lisas Catmull-Clark a partir de uma gaiola de controle: criar, vincos, dividir, ponte, loft, varredura e revolução com pré-visualização, simetria e conversão. Edição rápida."
