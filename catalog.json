@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-21T18:54Z",
+ "generated": "2026-11-22T00:04Z",
  "tags": [
   "analysis",
   "architecture",
@@ -230,13 +230,13 @@
   },
   {
    "id": "archxq_it_lite",
-   "version": "0.13.0",
+   "version": "0.14.0",
    "author": "Orlando Souza · XQ",
    "author_url": "https://github.com/equipexq",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/equipexq/archxq-it-lite",
-   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.13.0/archxq_it_lite-v0.13.0.zip",
-   "sha256": "1a12b49c81d002e5a5ecafb8cd79bf7eafc4dfa6308d0554f11ef9a16df0fb02",
+   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.14.0/archxq_it_lite-v0.14.0.zip",
+   "sha256": "2e5fd3b40a1d414c721e82174441739310c1d656d071c97b4e1be54ac7bbd268",
    "ingetrazo": "0.5.8",
    "tags": [
     "architecture",
@@ -257,7 +257,7 @@
    },
    "reviewed": false,
    "added_at": "2026-10-04T22:30Z",
-   "updated_at": "2026-11-18T17:36Z",
+   "updated_at": "2026-11-22T00:03Z",
    "screenshot_sha": "14add5f2868a6a03",
    "thumb": "archxq_it.webp"
   },
@@ -1714,6 +1714,38 @@
    "updated_at": "2026-11-19T20:38Z",
    "screenshot_sha": "a8845d282fb397e5",
    "thumb": "blend.webp"
+  },
+  {
+   "id": "asset_manager",
+   "version": "0.3.1",
+   "author": "moominot",
+   "author_url": "https://github.com/moominot",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/moominot/ingetrazo-skp-dc-import",
+   "download": "https://github.com/moominot/ingetrazo-skp-dc-import/releases/download/asset_manager-v0.3.1/asset_manager-0.3.1.zip",
+   "sha256": "0ce7067d8937c7bac219a35639e23f582d9efacde52bee6a001c353aa95058fe",
+   "ingetrazo": "0.6.2.1",
+   "tags": [
+    "productivity",
+    "architecture",
+    "rendering"
+   ],
+   "name": {
+    "es": "Gestor de componentes",
+    "en": "Components manager",
+    "pt": "Gerenciador de componentes"
+   },
+   "summary": {
+    "es": "Los componentes del dibujo, tus carpetas de modelos .igz y .skp vigiladas en tiempo real, HDRI, materiales PBR y modelos 3D gratuitos de Poly Haven y ambientCG, y proxies: los modelos pesados como una envolvente ligera.",
+    "en": "The drawing's components, your folders of .igz and .skp models watched in real time, free HDRIs, full PBR materials and 3-D models from Poly Haven and ambientCG, and proxies: heavy models as a light envelope.",
+    "pt": "Os componentes do desenho, suas pastas de modelos .igz e .skp vigiadas em tempo real, HDRIs, materiais PBR e modelos 3D gratuitos do Poly Haven e ambientCG, e proxies: modelos pesados como uma envoltória leve."
+   },
+   "description": {
+    "en": "A tray tab with three pages. In drawing: every component once, with a preview and a count (dynamic ones marked; the parts inside a dynamic component are not listed); select every instance (also from the view's right-click menu); place a copy, or drag it onto the view. My catalog: folders of your own models, .igz and .skp (also inside .zip files), and material sets downloaded from any site; a .skp shows the preview it carries; each folder is watched in real time or read again with Update; insert by double-click or by dragging onto the view. A .skp comes in keeping its components and dynamic data when the «Parametric components from .skp» extension is installed, also when dragged from the file explorer. «Open a model site» opens, in the browser, the addresses you set. Online: CC0 assets from Poly Haven (HDRIs, materials, glTF models) and ambientCG (materials): an HDRI becomes Render Studio's 360° background, a material loads the paint bucket at its real size with all its maps and a .pbr.json manifest, a model follows the cursor to be placed. Proxies: with «As proxy» a model goes in as a light envelope (its convex hull) while the full model is kept in an .igz of its own next to the drawing; the right-click menu has Make proxy, Show original, Show proxy and Open original in a new tab (saved there, the envelope follows). One undo step each. The data is the «Proxies» extension's, so both work on either's proxies, and Render Studio renders the full models. Requests only reach each site's own servers over https; downloads are checked, cached and reused."
+   },
+   "reviewed": false,
+   "added_at": "2026-11-22T00:04Z",
+   "updated_at": "2026-11-22T00:04Z"
   },
   {
    "id": "go_factory_generator",
@@ -3512,44 +3544,44 @@
   },
   {
    "id": "stepexport",
-   "version": "0.5.1",
+   "version": "0.6.0",
    "author": "Nicolas Marc",
    "author_url": "https://github.com/nicolasmarc",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/nicolasmarc/ingetrazo-step",
-   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-step/c08208aa2899ead46c3c63ae002af72943ebe483/dist/stepexport-0.5.1.zip",
-   "sha256": "e3c2b8c792e4e3ddfbc0c359e529ec0b62c03465a5355720685a6912e443e597",
+   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-step/ada0cb4929336c526455bd06d5d42748a533fcc0/dist/stepexport-0.6.0.zip",
+   "sha256": "ac6c26cea80ffdfd5bae7d1e6e2f7dc3a89ddfa3561d44dee46c08a6b5710c43",
    "ingetrazo": "0.5.8",
    "tags": [
     "import-export",
     "productivity"
    ],
-   "screenshot": "stepexport.png",
+   "screenshot": "stepexport-subd.png",
    "name": {
     "es": "STEP / IGES: exportar, e importar STEP",
     "en": "STEP / IGES export and STEP import",
     "pt": "STEP / IGES: exportar, e importar STEP"
    },
    "summary": {
-    "es": "Exporta los grupos como sólidos STEP o IGES editables (caras planas, agujeros, cilindros reales), convierte un DXF 3D en STEP con cotas exactas e importa ensamblajes STEP: un grupo por pieza, con nombre y color.",
-    "en": "Export groups as editable STEP or IGES solids (planar faces, holes, true cylinders), convert a 3D DXF to STEP with exact sizes, and import STEP assemblies: one group per part, named and coloured.",
-    "pt": "Exporta os grupos como sólidos STEP ou IGES editáveis (faces planas, furos, cilindros reais), converte um DXF 3D em STEP com cotas exatas e importa montagens STEP: um grupo por peça, com nome e cor."
+    "es": "Exporta los grupos como sólidos STEP o IGES editables (caras planas, cilindros reales, SubD en NURBS), convierte un DXF 3D en STEP con cotas exactas e importa ensamblajes STEP: un grupo por pieza, con nombre y color.",
+    "en": "Export groups as editable STEP or IGES solids (planar faces, true cylinders, SubD as NURBS), convert a 3D DXF to STEP with exact sizes, and import STEP assemblies: one group per part, named and coloured.",
+    "pt": "Exporta os grupos como sólidos STEP ou IGES editáveis (faces planas, cilindros reais, SubD em NURBS), converte um DXF 3D em STEP com cotas exatas e importa montagens STEP: um grupo por peça, com nome e cor."
    },
    "reviewed": false,
    "added_at": "2026-10-17T20:47Z",
-   "updated_at": "2026-10-31T23:44Z",
-   "screenshot_sha": "ace049ccbb797f2b",
-   "thumb": "stepexport.webp"
+   "updated_at": "2026-11-22T00:03Z",
+   "screenshot_sha": "cf43810435ca09fa",
+   "thumb": "stepexport-subd.webp"
   },
   {
    "id": "subdiv",
-   "version": "1.3",
+   "version": "1.4",
    "author": "Nicolas Marc",
    "author_url": "https://github.com/nicolasmarc",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/nicolasmarc/ingetrazo-subdiv",
-   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-subdiv/v1.3/dist/subdiv-1.3.zip",
-   "sha256": "a6b85d7186223141706305fbb37812288d8d72b0d78e99fc51e2bb3a9485db4a",
+   "download": "https://raw.githubusercontent.com/nicolasmarc/ingetrazo-subdiv/v1.4/dist/subdiv-1.4.zip",
+   "sha256": "b18faccd1d6f5a4cb8f9a8cc89a483e361b506b479809595fece01d1d93cb8a2",
    "ingetrazo": "0.5.7",
    "tags": [
     "architecture",
@@ -3562,13 +3594,13 @@
     "pt": "SubD (modelagem por subdivisão)"
    },
    "summary": {
-    "es": "Modela superficies lisas Catmull-Clark desde una jaula de control: crear, pliegues, dividir, puentear, simetría y convertir grupos. Al terminar queda un grupo ordinario o sólido.",
-    "en": "Model smooth Catmull-Clark surfaces from a control cage: create, creases, divide, bridge, symmetry and group conversion. Finish gives an ordinary group or a solid.",
-    "pt": "Modele superfícies lisas Catmull-Clark a partir de uma gaiola de controle: criar, vincos, dividir, ponte, simetria e conversão de grupos. Ao terminar, vira um grupo comum ou sólido."
+    "es": "Modela superficies lisas Catmull-Clark desde una jaula de control: crear, pliegues, dividir, puentear, loft, barrido y revolución con vista previa, simetría y conversión de grupos. Edición rápida.",
+    "en": "Model smooth Catmull-Clark surfaces from a control cage: create, creases, divide, bridge, loft, sweep and revolve with preview, symmetry and group conversion. Fast editing.",
+    "pt": "Modele superfícies lisas Catmull-Clark a partir de uma gaiola de controle: criar, vincos, dividir, ponte, loft, varredura e revolução com pré-visualização, simetria e conversão. Edição rápida."
    },
    "reviewed": false,
    "added_at": "2026-10-11T14:25Z",
-   "updated_at": "2026-10-30T20:42Z",
+   "updated_at": "2026-11-22T00:03Z",
    "screenshot_sha": "0cd263d0bf46dbe9",
    "thumb": "subdiv.webp"
   },
