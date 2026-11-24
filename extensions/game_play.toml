@@ -3,7 +3,7 @@ version = "1.0.0"
 author = "aashishzharbade-arch"
 author_url = "https://github.com/aashishzharbade-arch"
 # Draft field: enter the actual distribution license before catalog submission.
-license = ""
+license = "GPL-3.0-or-later"
 repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
 download = "https://github.com/aashishzharbade-arch/ingetrazo-extensions/releases/download/game_play-v1.0.0/Game-Play-1.0.0.zip"
 sha256 = "3c61500f6d8e59dfd2168a734e859206e529bab54879e8de7b3d19cfcb1013ad"
