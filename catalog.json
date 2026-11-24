@@ -561,13 +561,13 @@
   },
   {
    "id": "blackfox_skp_exporter",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "author": "David Mavrov",
    "author_url": "https://github.com/davidsmavrov-debug",
    "license": "GPL-3.0-only",
    "repository": "https://github.com/davidsmavrov-debug/BlackFox-CAD/tree/main/IngeTrazo%20Extensions/SKP%20Exporter",
-   "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/d19567dd8873c49b1a35946f7074defc33910b70/IngeTrazo%20Extensions/SKP%20Exporter/BlackFox_SKP_EXPORTER_1.0.0.py",
-   "sha256": "af223963ec3b2ad570c49dd2b61343ba0645738013e7c7e680aead95396f6b85",
+   "download": "https://raw.githubusercontent.com/davidsmavrov-debug/BlackFox-CAD/23e2414b2fdf47af33fb345f939be4d7cf11f47f/IngeTrazo%20Extensions/SKP%20Exporter/BlackFox_SKP_EXPORTER_1.0.1.py",
+   "sha256": "50ba8e8a1249f24f3ab0892d671c581cb941151aaa83429ac9717223ab21f430",
    "ingetrazo": "0.6.2.1",
    "tags": [
     "import-export",
@@ -592,7 +592,7 @@
    },
    "reviewed": false,
    "added_at": "2026-11-22T23:46Z",
-   "updated_at": "2026-11-22T23:46Z",
+   "updated_at": "2026-11-24T01:02Z",
    "screenshot_sha": "9576763813bcf34c",
    "thumb": "blackfox_skp_exporter.webp"
   },
