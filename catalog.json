@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-11-24T01:05Z",
+ "generated": "2026-11-24T07:22Z",
  "tags": [
   "analysis",
   "architecture",
@@ -1705,6 +1705,7 @@
     "rendering",
     "productivity"
    ],
+   "screenshot": "material_studio.png",
    "name": {
     "en": "Material Studio",
     "es": "Estudio de materiales",
@@ -1717,7 +1718,9 @@
    },
    "reviewed": false,
    "added_at": "2026-11-17T14:22Z",
-   "updated_at": "2026-11-18T04:18Z"
+   "updated_at": "2026-11-18T04:18Z",
+   "screenshot_sha": "af6853d3fa0afd20",
+   "thumb": "material_studio.webp"
   },
   {
    "id": "igz_pdf3d",
