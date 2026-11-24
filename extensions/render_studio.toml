@@ -1,5 +1,5 @@
 id = "render_studio"
-version = "0.26.0"
+version = "0.28.0"
 author = "moominot"
 author_url = "https://github.com/moominot"
 
@@ -8,8 +8,8 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/moominot/ingetrazo-render-studio"
 
 # The release asset, under the release's tag.
-download = "https://github.com/moominot/ingetrazo-render-studio/releases/download/v0.26.0/render_studio-0.26.0.zip"
-sha256 = "673eb32abebfc010a3b4f822ee526682e48e231780970bea48ddf72192a80766"
+download = "https://github.com/moominot/ingetrazo-render-studio/releases/download/v0.28.0/render_studio-0.28.0.zip"
+sha256 = "d7350f5abdc7951d7fda1e3ad1ee26442462fcb74887040a1a2d6785b7b62a65"
 
 ingetrazo = "0.6.2.1"
 
