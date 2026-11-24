@@ -1,12 +1,12 @@
 id = "igz_rosco_lt"
-version = "1.0.0"
+version = "4.0.0"
 author = "Pedro Eugenio Pagán"
 author_url = "https://github.com/PedroE200"
 license = "GPL-3.0-or-later"
 repository = "https://github.com/PedroE200/ingetrazo-rosco-lt"
-download = "https://github.com/PedroE200/ingetrazo-rosco-lt/releases/download/v1.0.0/igz_rosco_lt.zip"
-sha256 = "0ba332eb861b9bcc8ccd00954b3a58986142121ebc3d87a919d2157a6b1759bf"
-ingetrazo = "0.6.0"
+download = "https://github.com/PedroE200/ingetrazo-rosco-lt/releases/download/v4.0.0/igz_rosco_lt.zip"
+sha256 = "18a0d2f3da1ec510614738d790f6af693fbbfa2dde7757e1cca1d6ed8a3b1fac"
+ingetrazo = "0.6.3"
 tags = ["drawing", "productivity"]
 screenshot = "igz_rosco_lt.png"
 
