@@ -1,12 +1,12 @@
 id = "game_play"
-version = "1.0.0"
+version = "1.0.1"
 author = "aashishzharbade-arch"
 author_url = "https://github.com/aashishzharbade-arch"
 # Draft field: enter the actual distribution license before catalog submission.
 license = "GPL-3.0-or-later"
 repository = "https://github.com/aashishzharbade-arch/ingetrazo-extensions"
-download = "https://github.com/aashishzharbade-arch/ingetrazo-extensions/releases/download/game_play-v1.0.0/Game-Play-1.0.0-catalog.zip"
-sha256 = "5312e83f6f2b23749131cb3bd2d260d8a05fa1ee3434fded1b4d7efd6d777afd"
+download = "https://github.com/aashishzharbade-arch/ingetrazo-extensions/releases/download/game_play-v1.0.1/Game-Play-1.0.1-catalog.zip"
+sha256 = "fbe1f01870fbe413d2cc43423b2827aae9722e0fb96ccd65d785c1afe6dc4e27"
 ingetrazo = "0.6.3.2"
 tags = ["architecture", "productivity"]
 screenshot = "game_play.png"
